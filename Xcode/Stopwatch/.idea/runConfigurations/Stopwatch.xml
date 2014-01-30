@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Stopwatch" type="AppleRunConfiguration" factoryName="Application" singleton="true" SCHEME_NAME="Stopwatch" PROJECT_NAME="Stopwatch" TARGET_NAME="Stopwatch" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Stopwatch" RUN_TARGET_NAME="Stopwatch" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <envs />
+    <RunnerSettings RunnerId="AppRunner" />
+    <ConfigurationWrapper RunnerId="AppRunner" />
+    <method />
+  </configuration>
+</component>

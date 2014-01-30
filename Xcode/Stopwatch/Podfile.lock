@@ -1,0 +1,167 @@
+PODS:
+  - AFNetworking/NSURLConnection (2.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.1.0)
+  - AFNetworking/Security (2.1.0)
+  - AFNetworking/Serialization (2.1.0)
+  - AutoCoding (2.1)
+  - BOAPI (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - BOAPI/Operations
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Core (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Operations (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - BOAPI/Operations/account
+    - BOAPI/Operations/base
+    - BOAPI/Operations/logs
+    - BOAPI/Operations/tasks
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Operations/account (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Operations/base (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Operations/logs (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Operations/tasks (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - CALayer-DPUtils (0.1.5):
+    - DPKit/Graphics
+  - DPKit (0.0.10):
+    - DPKit/Graphics
+    - DPKit/iOS
+    - DPKit/Mac OS X
+    - DPKit/Shared
+  - DPKit/Graphics (0.0.10)
+  - DPKit/Mac OS X (0.0.10):
+    - DPKit/Graphics
+    - DPKit/Mac OS X/Custom Views
+    - DPKit/Shared
+  - DPKit/Mac OS X/Custom Views (0.0.10):
+    - DPKit/Graphics
+    - DPKit/Shared
+  - DPKit/Shared (0.0.10):
+    - JMSimpleDate
+    - NSView-DPAutolayout
+  - DPStorage (0.0.2):
+    - AutoCoding
+    - DPKit
+    - NSObject+AutoDescription
+  - DPWindow (0.0.2):
+    - CALayer-DPUtils (~> 0.1.3)
+    - NSColor-BlendingUtils
+    - NSView-DPAutolayout
+  - JMSimpleDate (0.0.5)
+  - NSColor-BlendingUtils (0.0.1)
+  - NSDictionary-Deserialize (0.1.1)
+  - NSObject+AutoDescription (0.1)
+  - NSObject-UserDefaults (0.0.2)
+  - NSView-DPAutolayout (0.0.13)
+  - NSView-DPFrameUtils (0.0.1)
+  - WDCountdownFormatter (0.0.1)
+
+DEPENDENCIES:
+  - BOAPI (from `~/Development/LocalPods/BOAPI`)
+  - DPKit (from `~/Development/LocalPods/DPKit`)
+  - DPStorage
+  - DPWindow (from `~/Development/LocalPods/DPWindow`)
+  - NSObject+AutoDescription
+  - NSView-DPFrameUtils
+  - WDCountdownFormatter
+
+EXTERNAL SOURCES:
+  BOAPI:
+    :path: ~/Development/LocalPods/BOAPI
+  DPKit:
+    :path: ~/Development/LocalPods/DPKit
+  DPWindow:
+    :path: ~/Development/LocalPods/DPWindow
+
+SPEC CHECKSUMS:
+  AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
+  AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
+  BOAPI: 68195003a1b9c348623ddf8057dfde455499b5fe
+  CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
+  DPKit: c80927d46dc0952fecc8a5ed0863ebb1a4fce29d
+  DPStorage: fc841e5353a3f46e474f946204d294f483b55034
+  DPWindow: c51dbd23470aa19f1660f96f931060260ae51729
+  JMSimpleDate: 28598b52a6f7cfbff3dfddcab0eac9a334b6a48a
+  NSColor-BlendingUtils: 66ee9f5a9828f57617c02aa0fe02574a2cf4b4ce
+  NSDictionary-Deserialize: 3e0d0b95ed11381e4b70c86af96950b79e98d22d
+  NSObject+AutoDescription: 95a585c85920551aed4ab18a5b96f62a572e0ef0
+  NSObject-UserDefaults: c5e417375a0ae73c4019e514024664615df989d9
+  NSView-DPAutolayout: 7a69fd0936dc48ef1d5aac22cfc7413c6e3301b8
+  NSView-DPFrameUtils: eb60e9d64449f9420e12286412b95d39ac51c18b
+  WDCountdownFormatter: 6cdb0f88fac7d0f40200dc85b8811404dad09e14
+
+COCOAPODS: 0.29.0

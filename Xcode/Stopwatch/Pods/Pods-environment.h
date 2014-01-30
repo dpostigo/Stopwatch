@@ -1,0 +1,176 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// AFNetworking/NSURLConnection
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_NSURLConnection
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_NSURLConnection 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_NSURLConnection 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_NSURLConnection 0
+
+// AFNetworking/Reachability
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Reachability
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Reachability 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Reachability 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Reachability 0
+
+// AFNetworking/Security
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Security
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Security 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Security 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Security 0
+
+// AFNetworking/Serialization
+#define COCOAPODS_POD_AVAILABLE_AFNetworking_Serialization
+#define COCOAPODS_VERSION_MAJOR_AFNetworking_Serialization 2
+#define COCOAPODS_VERSION_MINOR_AFNetworking_Serialization 1
+#define COCOAPODS_VERSION_PATCH_AFNetworking_Serialization 0
+
+// AutoCoding
+#define COCOAPODS_POD_AVAILABLE_AutoCoding
+#define COCOAPODS_VERSION_MAJOR_AutoCoding 2
+#define COCOAPODS_VERSION_MINOR_AutoCoding 1
+#define COCOAPODS_VERSION_PATCH_AutoCoding 0
+
+// BOAPI
+#define COCOAPODS_POD_AVAILABLE_BOAPI
+#define COCOAPODS_VERSION_MAJOR_BOAPI 0
+#define COCOAPODS_VERSION_MINOR_BOAPI 0
+#define COCOAPODS_VERSION_PATCH_BOAPI 1
+
+// BOAPI/Core
+#define COCOAPODS_POD_AVAILABLE_BOAPI_Core
+#define COCOAPODS_VERSION_MAJOR_BOAPI_Core 0
+#define COCOAPODS_VERSION_MINOR_BOAPI_Core 0
+#define COCOAPODS_VERSION_PATCH_BOAPI_Core 1
+
+// BOAPI/Operations
+#define COCOAPODS_POD_AVAILABLE_BOAPI_Operations
+#define COCOAPODS_VERSION_MAJOR_BOAPI_Operations 0
+#define COCOAPODS_VERSION_MINOR_BOAPI_Operations 0
+#define COCOAPODS_VERSION_PATCH_BOAPI_Operations 1
+
+// BOAPI/Operations/account
+#define COCOAPODS_POD_AVAILABLE_BOAPI_Operations_account
+#define COCOAPODS_VERSION_MAJOR_BOAPI_Operations_account 0
+#define COCOAPODS_VERSION_MINOR_BOAPI_Operations_account 0
+#define COCOAPODS_VERSION_PATCH_BOAPI_Operations_account 1
+
+// BOAPI/Operations/base
+#define COCOAPODS_POD_AVAILABLE_BOAPI_Operations_base
+#define COCOAPODS_VERSION_MAJOR_BOAPI_Operations_base 0
+#define COCOAPODS_VERSION_MINOR_BOAPI_Operations_base 0
+#define COCOAPODS_VERSION_PATCH_BOAPI_Operations_base 1
+
+// BOAPI/Operations/logs
+#define COCOAPODS_POD_AVAILABLE_BOAPI_Operations_logs
+#define COCOAPODS_VERSION_MAJOR_BOAPI_Operations_logs 0
+#define COCOAPODS_VERSION_MINOR_BOAPI_Operations_logs 0
+#define COCOAPODS_VERSION_PATCH_BOAPI_Operations_logs 1
+
+// BOAPI/Operations/tasks
+#define COCOAPODS_POD_AVAILABLE_BOAPI_Operations_tasks
+#define COCOAPODS_VERSION_MAJOR_BOAPI_Operations_tasks 0
+#define COCOAPODS_VERSION_MINOR_BOAPI_Operations_tasks 0
+#define COCOAPODS_VERSION_PATCH_BOAPI_Operations_tasks 1
+
+// CALayer-DPUtils
+#define COCOAPODS_POD_AVAILABLE_CALayer_DPUtils
+#define COCOAPODS_VERSION_MAJOR_CALayer_DPUtils 0
+#define COCOAPODS_VERSION_MINOR_CALayer_DPUtils 1
+#define COCOAPODS_VERSION_PATCH_CALayer_DPUtils 5
+
+// DPKit
+#define COCOAPODS_POD_AVAILABLE_DPKit
+#define COCOAPODS_VERSION_MAJOR_DPKit 0
+#define COCOAPODS_VERSION_MINOR_DPKit 0
+#define COCOAPODS_VERSION_PATCH_DPKit 10
+
+// DPKit/Graphics
+#define COCOAPODS_POD_AVAILABLE_DPKit_Graphics
+#define COCOAPODS_VERSION_MAJOR_DPKit_Graphics 0
+#define COCOAPODS_VERSION_MINOR_DPKit_Graphics 0
+#define COCOAPODS_VERSION_PATCH_DPKit_Graphics 10
+
+// DPKit/Mac OS X
+#define COCOAPODS_POD_AVAILABLE_DPKit_Mac_OS_X
+#define COCOAPODS_VERSION_MAJOR_DPKit_Mac_OS_X 0
+#define COCOAPODS_VERSION_MINOR_DPKit_Mac_OS_X 0
+#define COCOAPODS_VERSION_PATCH_DPKit_Mac_OS_X 10
+
+// DPKit/Mac OS X/Custom Views
+#define COCOAPODS_POD_AVAILABLE_DPKit_Mac_OS_X_Custom_Views
+#define COCOAPODS_VERSION_MAJOR_DPKit_Mac_OS_X_Custom_Views 0
+#define COCOAPODS_VERSION_MINOR_DPKit_Mac_OS_X_Custom_Views 0
+#define COCOAPODS_VERSION_PATCH_DPKit_Mac_OS_X_Custom_Views 10
+
+// DPKit/Shared
+#define COCOAPODS_POD_AVAILABLE_DPKit_Shared
+#define COCOAPODS_VERSION_MAJOR_DPKit_Shared 0
+#define COCOAPODS_VERSION_MINOR_DPKit_Shared 0
+#define COCOAPODS_VERSION_PATCH_DPKit_Shared 10
+
+// DPStorage
+#define COCOAPODS_POD_AVAILABLE_DPStorage
+#define COCOAPODS_VERSION_MAJOR_DPStorage 0
+#define COCOAPODS_VERSION_MINOR_DPStorage 0
+#define COCOAPODS_VERSION_PATCH_DPStorage 2
+
+// DPWindow
+#define COCOAPODS_POD_AVAILABLE_DPWindow
+#define COCOAPODS_VERSION_MAJOR_DPWindow 0
+#define COCOAPODS_VERSION_MINOR_DPWindow 0
+#define COCOAPODS_VERSION_PATCH_DPWindow 2
+
+// JMSimpleDate
+#define COCOAPODS_POD_AVAILABLE_JMSimpleDate
+#define COCOAPODS_VERSION_MAJOR_JMSimpleDate 0
+#define COCOAPODS_VERSION_MINOR_JMSimpleDate 0
+#define COCOAPODS_VERSION_PATCH_JMSimpleDate 5
+
+// NSColor-BlendingUtils
+#define COCOAPODS_POD_AVAILABLE_NSColor_BlendingUtils
+#define COCOAPODS_VERSION_MAJOR_NSColor_BlendingUtils 0
+#define COCOAPODS_VERSION_MINOR_NSColor_BlendingUtils 0
+#define COCOAPODS_VERSION_PATCH_NSColor_BlendingUtils 1
+
+// NSDictionary-Deserialize
+#define COCOAPODS_POD_AVAILABLE_NSDictionary_Deserialize
+#define COCOAPODS_VERSION_MAJOR_NSDictionary_Deserialize 0
+#define COCOAPODS_VERSION_MINOR_NSDictionary_Deserialize 1
+#define COCOAPODS_VERSION_PATCH_NSDictionary_Deserialize 1
+
+// NSObject+AutoDescription
+#define COCOAPODS_POD_AVAILABLE_NSObject_AutoDescription
+#define COCOAPODS_VERSION_MAJOR_NSObject_AutoDescription 0
+#define COCOAPODS_VERSION_MINOR_NSObject_AutoDescription 1
+#define COCOAPODS_VERSION_PATCH_NSObject_AutoDescription 0
+
+// NSObject-UserDefaults
+#define COCOAPODS_POD_AVAILABLE_NSObject_UserDefaults
+#define COCOAPODS_VERSION_MAJOR_NSObject_UserDefaults 0
+#define COCOAPODS_VERSION_MINOR_NSObject_UserDefaults 0
+#define COCOAPODS_VERSION_PATCH_NSObject_UserDefaults 2
+
+// NSView-DPAutolayout
+#define COCOAPODS_POD_AVAILABLE_NSView_DPAutolayout
+#define COCOAPODS_VERSION_MAJOR_NSView_DPAutolayout 0
+#define COCOAPODS_VERSION_MINOR_NSView_DPAutolayout 0
+#define COCOAPODS_VERSION_PATCH_NSView_DPAutolayout 13
+
+// NSView-DPFrameUtils
+#define COCOAPODS_POD_AVAILABLE_NSView_DPFrameUtils
+#define COCOAPODS_VERSION_MAJOR_NSView_DPFrameUtils 0
+#define COCOAPODS_VERSION_MINOR_NSView_DPFrameUtils 0
+#define COCOAPODS_VERSION_PATCH_NSView_DPFrameUtils 1
+
+// WDCountdownFormatter
+#define COCOAPODS_POD_AVAILABLE_WDCountdownFormatter
+#define COCOAPODS_VERSION_MAJOR_WDCountdownFormatter 0
+#define COCOAPODS_VERSION_MINOR_WDCountdownFormatter 0
+#define COCOAPODS_VERSION_PATCH_WDCountdownFormatter 1
+

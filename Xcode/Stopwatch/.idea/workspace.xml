@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd435420-dbd7-4559-8a0b-2d273f732014" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.xcodeproj/project.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.xcodeproj/project.xcworkspace/xcshareddata/BOAPI.xccheckout" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/CreateTaskOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/CreateTaskOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/logs/DeleteLogOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/logs/DeleteLogOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/DeleteTaskOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/DeleteTaskOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/GetAssigneeProcess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/GetAssigneeProcess.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/jobs/GetBudgetCategoriesProcess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/jobs/GetBudgetCategoriesProcess.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/base/GetContactsProcess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/base/GetContactsProcess.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/jobs/GetJobsProcess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/jobs/GetJobsProcess.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/logs/GetLogsOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/logs/GetLogsOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/Localizable.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/uncategorized/PostCommentOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/uncategorized/PostCommentOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/StartupOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/StartupOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/logs/UpdateLogOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/logs/UpdateLogOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/UpdateTaskProcess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/UpdateTaskProcess.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/UpdateTaskProcessOld.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Exclude/tasks/UpdateTaskProcessOld.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.xcodeproj/project.xcworkspace/xcuserdata/danipostigo.xcuserdatad/WorkspaceSettings.xcsettings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.xcodeproj/project.pbxproj" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/BOAPIDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/BOAPIModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/BOAPIModel.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/BOAPIStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/BOAPIStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/DPArrayStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/DPArrayStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/DPStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/DPStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/ArrayController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/ArrayController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/StartupOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/StartupOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/base/GetContactsProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/base/GetContactsProcess.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/jobs/GetBudgetCategoriesProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/jobs/GetBudgetCategoriesProcess.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/jobs/GetJobsProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/jobs/GetJobsProcess.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/logs/DeleteLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/logs/DeleteLogOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/logs/GetLogsOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/logs/GetLogsOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/logs/UpdateLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/logs/UpdateLogOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/CreateTaskOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/CreateTaskOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/DeleteTaskOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/DeleteTaskOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/GetAssigneeProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/GetAssigneeProcess.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/UpdateTaskProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/UpdateTaskProcess.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/UpdateTaskProcessOld.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/tasks/UpdateTaskProcessOld.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/uncategorized/PostCommentOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations-NotReady/uncategorized/PostCommentOperation.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow.xcodeproj/project.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow.xcodeproj/project.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.podspec" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+DictionaryUtils.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+DictionaryUtils.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.h" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow.podspec" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetAssigneeProcess.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetAssigneeProcess.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow.xcodeproj/project.pbxproj" />
+    </list>
+    <ignored path="Stopwatch.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="macos_x86_64" />
+  <component name="FavoritesManager">
+    <favorites_list name="Stopwatch" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DPTimeControlTextField.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimeControlTextField.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="33" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="721">
+              <folding>
+                <marker date="1391094527000" expanded="true" signature="0:101" placeholder="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopwatchWindowController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="78" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="813">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPHeaderedWindow.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="25" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2268">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPHeaderedWindow.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="33" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="633">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPStyledWindow.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pods/BuildHeaders/DPWindow/DPStyledWindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPStyledWindow.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPWindow.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="991">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPShadowView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/DPShadowView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="1" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPShadowView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/DPShadowView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="51" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1413">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopwatchWindowController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="12" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1983">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogsController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../TMTest/Source/TMTest/TMTest/Controllers/Logs/LogsController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="26" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="678">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Podfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Podfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="64" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPIntervalTextField.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/DPIntervalTextField.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="783">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPTimeControlTextField.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimeControlTextField.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="1246">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedButton.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controls/RedButton.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="20" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1291">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedButton.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controls/RedButton.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="23" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPTimerTextField.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="15" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+              <folding>
+                <marker date="1391094657000" expanded="true" signature="180:248" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPTimerTextField.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1666">
+              <folding>
+                <marker date="1391094657000" expanded="true" signature="0:101" placeholder="//..." />
+                <marker date="1391094657000" expanded="true" signature="198:270" placeholder="..." />
+                <marker date="1391094657000" expanded="true" signature="199:222" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPIntervalTextField.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/DPIntervalTextField.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="15" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../LocalPods/DPWindow" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimeControlTextField.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.h" />
+        <option value="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" />
+        <option value="$PROJECT_DIR$/Views/DPShadowView.h" />
+        <option value="$PROJECT_DIR$/Stopwatch/Stopwatch-Prefix.pch" />
+        <option value="$PROJECT_DIR$/Views/DPShadowView.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimeControlTextField.m" />
+        <option value="$PROJECT_DIR$/Controls/RedButton.h" />
+        <option value="$PROJECT_DIR$/Controls/RedButton.m" />
+        <option value="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m" />
+        <option value="$PROJECT_DIR$/Podfile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="796" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controls" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Windows" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stopwatch" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Stopwatch" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Stopwatch">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Stopwatch" TARGET_NAME="Stopwatch" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Stopwatch" RUN_TARGET_NAME="Stopwatch" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PROJECT_NAME="Stopwatch" TARGET_NAME="StopwatchTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PROJECT_NAME="Stopwatch" TARGET_NAME="Stopwatch" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NSObject+AutoDescription" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NSObject+AutoDescription" PROJECT_NAME="Pods" TARGET_NAME="Pods-NSObject+AutoDescription" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-WDCountdownFormatter" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-WDCountdownFormatter" PROJECT_NAME="Pods" TARGET_NAME="Pods-WDCountdownFormatter" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-AFNetworking" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-AFNetworking" PROJECT_NAME="Pods" TARGET_NAME="Pods-AFNetworking" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-AutoCoding" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-AutoCoding" PROJECT_NAME="Pods" TARGET_NAME="Pods-AutoCoding" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-BOAPI" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-BOAPI" PROJECT_NAME="Pods" TARGET_NAME="Pods-BOAPI" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-DPKit" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-DPKit" PROJECT_NAME="Pods" TARGET_NAME="Pods-DPKit" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-DPStorage" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-DPStorage" PROJECT_NAME="Pods" TARGET_NAME="Pods-DPStorage" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-JMSimpleDate" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-JMSimpleDate" PROJECT_NAME="Pods" TARGET_NAME="Pods-JMSimpleDate" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NSDictionary-Deserialize" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NSDictionary-Deserialize" PROJECT_NAME="Pods" TARGET_NAME="Pods-NSDictionary-Deserialize" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NSObject-UserDefaults" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NSObject-UserDefaults" PROJECT_NAME="Pods" TARGET_NAME="Pods-NSObject-UserDefaults" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NSView-DPAutolayout" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NSView-DPAutolayout" PROJECT_NAME="Pods" TARGET_NAME="Pods-NSView-DPAutolayout" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-CALayer-DPUtils" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-CALayer-DPUtils" PROJECT_NAME="Pods" TARGET_NAME="Pods-CALayer-DPUtils" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-DPWindow" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-DPWindow" PROJECT_NAME="Pods" TARGET_NAME="Pods-DPWindow" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NSColor-BlendingUtils" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NSColor-BlendingUtils" PROJECT_NAME="Pods" TARGET_NAME="Pods-NSColor-BlendingUtils" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-NSView-DPFrameUtils" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Pods-NSView-DPFrameUtils" PROJECT_NAME="Pods" TARGET_NAME="Pods-NSView-DPFrameUtils" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <list size="17">
+      <item index="0" class="java.lang.String" itemvalue="Application.Stopwatch" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Pods-NSObject+AutoDescription" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Pods-WDCountdownFormatter" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Pods" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Pods-AFNetworking" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Pods-AutoCoding" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Pods-BOAPI" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Pods-DPKit" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Pods-DPStorage" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Pods-JMSimpleDate" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-NSDictionary-Deserialize" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Pods-NSObject-UserDefaults" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Pods-NSView-DPAutolayout" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Pods-CALayer-DPUtils" />
+      <item index="14" class="java.lang.String" itemvalue="Application.Pods-DPWindow" />
+      <item index="15" class="java.lang.String" itemvalue="Application.Pods-NSColor-BlendingUtils" />
+      <item index="16" class="java.lang.String" itemvalue="Application.Pods-NSView-DPFrameUtils" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd435420-dbd7-4559-8a0b-2d273f732014" name="Default" comment="" />
+      <created>1390939326784</created>
+      <updated>1390939326784</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="796" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18819444" sideWeight="0.6712517" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712517" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Pods/BuildHeaders/DPWindow/DPStyledWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="56" selection-start="709" selection-end="721" vertical-scroll-proportion="0.5106383" vertical-offset="189" max-vertical-offset="3363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="355" selection-end="355" vertical-scroll-proportion="0.3324937" vertical-offset="78" max-vertical-offset="5557">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="991">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stopwatch/Stopwatch-Prefix.pch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="185" selection-end="185" vertical-scroll-proportion="0.28368795" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/DPShadowView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2268">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/DPShadowView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="51" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimeControlTextField.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="1246">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controls/RedButton.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controls/RedButton.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="20" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1291">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="78" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1983">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../TMTest/Source/TMTest/TMTest/Controllers/Logs/LogsController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="64" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
