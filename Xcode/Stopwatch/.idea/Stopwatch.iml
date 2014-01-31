@@ -7,9 +7,6 @@
     <content url="file://$MODULE_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../LocalPods/DPCustomWindow">
-      <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPCustomWindow" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$/../../../LocalPods/DPKit">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPKit" isTestSource="false" />
     </content>

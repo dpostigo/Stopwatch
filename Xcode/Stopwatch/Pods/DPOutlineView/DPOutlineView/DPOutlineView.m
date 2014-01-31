@@ -394,6 +394,11 @@
 }
 
 
+#pragma mark Buttons
+
+- (void) buttonClicked: (NSButton *) button inItem: (NSTableCellView *) item {
+    [self callSelector: @selector(buttonClicked:cellView:) object: button object: item];
+}
 
 
 #pragma mark Sections

@@ -33,4 +33,7 @@
 - (void) outlineViewItemWillExpand: (NSNotification *) notification;
 - (void) outlineViewItemDidExpand: (NSNotification *) notification;
 
+
+- (void) buttonClicked: (NSButton *) button cellView: (NSTableCellView *) cellView;
+
 @end

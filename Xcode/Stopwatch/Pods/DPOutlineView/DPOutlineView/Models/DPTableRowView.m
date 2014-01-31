@@ -38,16 +38,21 @@
         //        NSLog(@"%s, subview = %@", __PRETTY_FUNCTION__, subview);
 
         NSButton *button = (NSButton *) subview;
-        //        button.hidden = YES;
         button.alphaValue = self.showsHideText ? 1 : 0;
 
-        NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString: @"Hello"];
-        button.attributedStringValue = string;
+//        NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString: @"Hello"];
+//        button.attributedStringValue = string;
 
-        [button setImage: [NSImage imageNamed: NSImageNameGoRightTemplate]];
-        [button setAlternateImage: [NSImage imageNamed: NSImageNameGoRightTemplate]];
+//        [button setImage: [NSImage imageNamed: NSImageNameGoRightTemplate]];
+//        [button setAlternateImage: [NSImage imageNamed: NSImageNameGoRightTemplate]];
         //        [(NSButton *) subview setAlternateImage: [NSImage imageNamed: @"disclosure-open"]];
     }
+}
+
+
+
+- (void) drawSelectionInRect: (NSRect) dirtyRect {
+    //    [super drawSelectionInRect: dirtyRect];
 }
 
 

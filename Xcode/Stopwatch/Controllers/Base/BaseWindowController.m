@@ -23,16 +23,6 @@
 }
 
 
-- (void) windowDidLoad {
-    [super windowDidLoad];
-}
-
-
-+ (void) show {
-    BaseWindowController *window = [[[self class] alloc] init];
-    [window showWindow: nil];
-}
-
 - (Model *) model {
     return _model;
 }

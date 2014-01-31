@@ -4,6 +4,7 @@
 //
 
 #import <BOAPI/BOAPIModel.h>
+#import <BOAPI/GetLogsOperation.h>
 #import "Model.h"
 #import "Task.h"
 
@@ -37,10 +38,10 @@
 
 
 - (void) setSelectedTask: (Task *) selectedTask1 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     selectedTask = selectedTask1;
     if (selectedTask) {
         [self notifyDelegates: @selector(modelDidSelectTask:) object: selectedTask];
+        [self.queue addOperation: [[GetLogsOperation alloc] initWithTask: selectedTask]];
     }
 }
 

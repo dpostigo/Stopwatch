@@ -18,6 +18,8 @@
     self = [super initWithNibName: nibNameOrNil bundle: nibBundleOrNil];
     if (self) {
         _model = [Model sharedModel];
+        [_model subscribeDelegate: self];
+        NSLog(@"%s", __PRETTY_FUNCTION__);
     }
 
     return self;

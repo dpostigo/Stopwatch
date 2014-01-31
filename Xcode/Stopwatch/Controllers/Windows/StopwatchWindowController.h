@@ -4,12 +4,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseWindowController.h"
+#import "ProjectWindowController.h"
 
 @class TimeLog;
 @class DPTimeControlTextField;
 
-@interface StopwatchWindowController : BaseWindowController <NSDrawerDelegate> {
+@interface StopwatchWindowController : ProjectWindowController <NSDrawerDelegate> {
 
     IBOutlet NSObjectController *objectController;
     IBOutlet NSTextField *startField;

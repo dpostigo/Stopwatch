@@ -13,6 +13,7 @@
 #import "LoginWindowController.h"
 #import "StopwatchWindowController.h"
 #import "Model.h"
+#import "TreeWindowController.h"
 
 @implementation AppDelegate {
     Model *_model;
@@ -36,6 +37,8 @@
 
 - (void) tasksDidUpdate {
     self.windowController = [[StopwatchWindowController alloc] init];
+
+
 
 }
 

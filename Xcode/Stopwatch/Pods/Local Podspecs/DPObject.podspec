@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.frameworks   = 'QuartzCore'
   s.requires_arc = true
 
+  s.dependency   'DPKit'
   # s.dependency   'NSView-DPAutolayout', :git => '/Users/danipostigo/Development/LocalPods/NSView-DPAutolayout'
   # s.dependency   'NSView-DPAutolayout', :local => '~/Development/LocalPods/NSView-DPAutolayout'
   # s.dependency 'NSView-DPAutolayout', :path =>' /Users/danipostigo/Development/LocalPods/NSView-DPAutolayout/NSView-DPAutolayout.podspec'

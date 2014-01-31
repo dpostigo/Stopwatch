@@ -4,9 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseWindowController.h"
+#import "ProjectWindowController.h"
 
-@interface LoginWindowController : BaseWindowController {
+@interface LoginWindowController : ProjectWindowController {
 
     IBOutlet NSTextField *userField;
     IBOutlet NSTextField *passwordField;

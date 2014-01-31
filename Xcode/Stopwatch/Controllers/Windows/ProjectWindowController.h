@@ -4,9 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ProjectWindowController.h"
+#import "BaseWindowController.h"
 
-@interface LogsWindowController : ProjectWindowController {
+@interface ProjectWindowController : BaseWindowController {
 
 }
 @end

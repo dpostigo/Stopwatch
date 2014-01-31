@@ -24,6 +24,8 @@
 #import "CALayer+FrameUtils.h"
 #import "NSColor+Hex.h"
 #import "GetLogsOperation.h"
+#import "NSButton+DPKit.h"
+#import "DeleteLogOperation.h"
 
 @implementation LogsController
 
@@ -32,8 +34,9 @@
 - (void) awakeFromNib {
     [super awakeFromNib];
 
-    [outline reloadData];
+    [_model.apiModel subscribeDelegate: self];
     [self customizeBackground];
+    [outline reloadData];
 }
 
 
@@ -116,24 +119,6 @@
 
     view.wantsLayer = YES;
 
-    CALayer *layer = view.layer;
-    //    view.shadow = [AppStyles shadowWithColor: [NSColor whiteColor] radius: 0.0 offset: NSMakeSize(0, 1)];
-    //
-    //
-    //
-    //    layer.backgroundColor = [NSColor clearColor].CGColor;
-    //
-    //    CALayer *rule = [CALayer layer];
-    //    rule.backgroundColor = [NSColor crayolaGoldFusionColor].CGColor;
-    //    rule.height = 0.25;
-    //    [layer makeSuperlayer];
-    //    [layer addSublayer: rule];
-    //    [rule superConstrainEdgesH: 0];
-    //    [rule superConstrainBottomEdge: 0];
-    //    rule.opacity = 0.5;
-    //    //    layer.backgroundColor = [NSColor clearColor].CGColor;
-
-
     Log *log = (Log *) [self.task.logs basicObjectForId: item.identifier];
 
     if (log) {
@@ -173,11 +158,17 @@
         }
     }
 
+    NSButton *button = view.button;
+    button.wantsLayer = YES;
+
+    CALayer *layer = button.layer;
+    layer.backgroundColor = [NSColor blueColor].CGColor;
+
 }
 
 
 - (void) willDisplayTableHeader: (DPTableCellView *) cellView forSection: (DPOutlineViewSection *) section {
-    cellView.textLabel.textColor = self.dividerColor;
+    cellView.textLabel.textColor = self.textColor;
 
 }
 
@@ -212,12 +203,9 @@
     [rule superConstrainBottomEdge: 0];
     rule.masksToBounds = NO;
 
-    //    rule.shadowOpacity = 1.0;
-    //    rule.shadowRadius = 1.0;
-    //    rule.shadowOffset = NSMakeSize(0, 1);
-    //    rule.shadowColor = [NSColor whiteColor].CGColor;
     rule.opacity = 0.8;
 
+    ret.selectionHighlightStyle = NSTableViewSelectionHighlightStyleNone;
     return ret;
 }
 
@@ -227,25 +215,31 @@
 }
 
 
+- (void) buttonClicked: (NSButton *) button cellView: (NSTableCellView *) cellView {
+
+    DPOutlineViewItem *item = [outline itemAtRow: [outline rowForView: cellView]];
+    Log *log = [self.task logForId: item.identifier];
+    NSLog(@"log = %@", log);
+    if (log) {
+
+        [self.queue addOperation: [[DeleteLogOperation alloc] initWithTask: self.task log: log]];
+    }
+
+}
+
+
+
 
 #pragma mark BOAPIDelegate
-- (void) modelDidSelectTask: (Task *) task {
-    //    [super modelDidSelectTask: task];
-
-    [outline reloadData];
-
-    NSLog(@"_model.selectedTask = %@", _model.selectedTask);
-    if (_model.selectedTask) {
-        [self.queue addOperation: [[GetLogsOperation alloc] initWithTask: self.task]];
-        //[self.task addObserver: self forKeyPath: @"logs" options: 0 context: NULL];
-    }
-}
-
 
 - (void) timeLogsDidUpdate: (Task *) task {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    NSLog(@"[task.logs count] = %lu", [task.logs count]);
     [outline reloadData];
 }
 
+
+#pragma mark Getters
 
 - (NSColor *) backgroundColor {
     return [NSColor colorWithString: @"fbe37d"];

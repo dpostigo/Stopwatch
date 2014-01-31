@@ -13,8 +13,20 @@ PODS:
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AutoCoding
+    - BOAPI/Constants
     - BOAPI/Core
     - BOAPI/Operations
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Constants (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
     - DPKit (~> 0.0.6)
     - DPStorage
     - NSDictionary-Deserialize
@@ -26,6 +38,7 @@ PODS:
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AutoCoding
+    - BOAPI/Constants
     - DPKit (~> 0.0.6)
     - DPStorage
     - NSDictionary-Deserialize
@@ -97,7 +110,6 @@ PODS:
     - NSObject-UserDefaults
   - CALayer-DPUtils (0.1.5):
     - DPKit/Graphics
-  - DPCustomWindow (0.0.2)
   - DPKit (0.0.10):
     - DPKit/Graphics
     - DPKit/iOS
@@ -114,7 +126,8 @@ PODS:
   - DPKit/Shared (0.0.10):
     - JMSimpleDate
     - NSView-DPAutolayout
-  - DPObject (0.0.2)
+  - DPObject (0.0.2):
+    - DPKit
   - DPOutlineView (0.0.1):
     - DPKit
     - DPOutlineView/Additions
@@ -153,7 +166,6 @@ PODS:
 
 DEPENDENCIES:
   - BOAPI (from `~/Development/LocalPods/BOAPI`)
-  - DPCustomWindow (from `~/Development/LocalPods/DPCustomWindow`)
   - DPKit (from `~/Development/LocalPods/DPKit`)
   - DPObject (from `~/Development/LocalPods/DPObject`)
   - DPOutlineView
@@ -168,8 +180,6 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   BOAPI:
     :path: ~/Development/LocalPods/BOAPI
-  DPCustomWindow:
-    :path: ~/Development/LocalPods/DPCustomWindow
   DPKit:
     :path: ~/Development/LocalPods/DPKit
   DPObject:
@@ -182,11 +192,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
-  BOAPI: 68195003a1b9c348623ddf8057dfde455499b5fe
+  BOAPI: 3853c6fe163233c5a51899c641728a3c2f785da4
   CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
-  DPCustomWindow: 059ac14f7ca7036ec6750e3d1d313fd6c6ce7a54
   DPKit: c80927d46dc0952fecc8a5ed0863ebb1a4fce29d
-  DPObject: 6461cada607ddde5c23c24115ceea7b39e9b37e5
+  DPObject: ab467b33af6114151682b0f742993ae452e886fb
   DPOutlineView: 75478eb80fca5ea7bc23f38f4fcee7c1ddf5edc0
   DPStorage: fc841e5353a3f46e474f946204d294f483b55034
   DPWindow: c51dbd23470aa19f1660f96f931060260ae51729

@@ -12,6 +12,5 @@
     Model *_model;
 }
 
-+ (void) show;
 - (Model *) model;
 @end

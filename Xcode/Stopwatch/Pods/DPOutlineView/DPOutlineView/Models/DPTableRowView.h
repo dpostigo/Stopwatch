@@ -7,6 +7,7 @@
 
 @interface DPTableRowView : NSTableRowView {
 
+    NSColor *selectedColor;
     BOOL showsHideText;
 }
 

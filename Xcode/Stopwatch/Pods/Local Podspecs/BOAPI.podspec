@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
   s.author       = { "Dani Postigo" => "dani@firstperson.is" }
-  s.source       = { :git => "https://github.com/dpostigo/BOAPI.git", :commit => '7619fcc206a73f44c2da8937763a8e80f83e2a51'}
+  s.source       = { :git => "https://github.com/dpostigo/BOAPI.git", :tag => s.version.to_s }
   s.requires_arc = true
 
 
@@ -16,7 +16,13 @@ Pod::Spec.new do |s|
   # s.source_files  = 'BOAPI/*.{h,m}', 'BOAPI/{Models,Utils}/**/*.{h,m}'
 
 
+
+  s.subspec 'Constants' do |constants|
+    constants.source_files = 'BOAPI/Constants/*.{h,m}'
+  end
+
   s.subspec 'Core' do |core|
+    core.dependency    'BOAPI/Constants'
     # core.dependency  'BOAPI/Models'
     # core.source_files = 'BOAPI/*.{h,m}', 'BOAPI/Core/**/*.{h,m}', 'BOAPI/Utils/**/*.{h,m}'
     core.source_files = 'BOAPI/*.{h,m}', 'BOAPI/{Core,Models,Utils}/**/*.{h,m}', 'BOAPI/Operations/*.{h,m}'

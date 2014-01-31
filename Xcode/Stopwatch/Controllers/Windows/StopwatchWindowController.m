@@ -12,6 +12,7 @@
 #import "DPShadowView.h"
 #import "LogsController.h"
 #import "LogsWindowController.h"
+#import "NSWindowController+DPWindow.h"
 
 @implementation StopwatchWindowController
 
@@ -32,9 +33,7 @@
 }
 
 
-- (DPHeaderedWindow *) headeredWindow {
-    return (DPHeaderedWindow *) ([self.window isKindOfClass: [DPHeaderedWindow class]] ? self.window : nil);
-}
+
 
 - (IBAction) showDrawer: (id) sender {
 
