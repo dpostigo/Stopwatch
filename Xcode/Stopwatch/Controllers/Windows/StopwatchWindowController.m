@@ -10,15 +10,17 @@
 #import "NSShadow+DPKit.h"
 #import "DPHeaderedWindow.h"
 #import "DPShadowView.h"
+#import "LogsController.h"
+#import "LogsWindowController.h"
 
 @implementation StopwatchWindowController
 
 - (void) windowDidLoad {
     [super windowDidLoad];
-//    [self.window setHasShadow: NO];
+    //    [self.window setHasShadow: NO];
 
-    NSLog(@"self.window.windowThemeFrame.superview = %@", self.window.windowThemeFrame.superview);
-    NSLog(@"self.window.windowThemeFrame.subviews = %@", self.window.windowThemeFrame.subviews);
+
+
 
     NSView *contentView = self.headeredWindow.contentContentView;
     contentView.wantsLayer = YES;
@@ -27,39 +29,6 @@
     layer.borderColor = [NSColor darkGrayColor].CGColor;
     layer.borderWidth = 1.0;
 
-    //
-    //    NSView *theme = self.window.windowThemeFrame;
-    //    theme.wantsLayer = YES;
-    //    NSLog(@"theme.isOpaque = %d", theme.isOpaque);
-    //
-    //    CALayer *layer = theme.layer;
-    //    layer.masksToBounds = NO;
-    //    layer.shadowColor = [NSColor blackColor].CGColor;
-    //    layer.shadowOpacity = 1.0;
-    //    layer.shadowOffset = NSMakeSize(0, -1);
-    //    layer.shadowRadius = 2.0;
-    //    [layer setOpaque: NO];
-    //
-    //    NSView *contentView = self.headeredWindow.contentContentView;
-    //    contentView.wantsLayer = YES;
-    //
-    //    layer = contentView.layer;
-    //    layer.borderColor = [NSColor blueColor].CGColor;
-    //    layer.borderWidth = 1.0;
-    //    layer.masksToBounds = NO;
-    //
-    //    NSLog(@"theme = %@", theme);
-    //
-    //    contentView.shadow = [NSShadow shadowWithColor: [NSColor blackColor] radius: 1.0 offset: NSMakeSize(0, -1)];
-    //
-    //    NSLog(@"theme.wantsDefaultClipping = %d", theme.wantsDefaultClipping);
-    //
-    //    DPShadowView *shadow = [[DPShadowView alloc] init];
-    //    shadow.width = 100;
-    //    shadow.height = 100;
-    //    [self.headeredWindow.contentContentView addSubview: shadow];
-    //    NSLog(@"shadow.wantsDefaultClipping = %d", shadow.wantsDefaultClipping);
-    //    //    theme.shadow
 }
 
 
@@ -69,7 +38,19 @@
 
 - (IBAction) showDrawer: (id) sender {
 
-    [drawer openOnEdge: NSMaxXEdge];
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    LogsWindowController *controller = [[LogsWindowController alloc] init];
+    NSWindow *window = controller.window;
+
+    NSRect frame = window.frame;
+    frame.origin.x = NSMaxX(self.window.frame) + 20;
+    frame.origin.y = NSMinY(self.window.frame);
+
+    [window setFrame: frame display: YES];
+    [window setMovable: NO];
+    [self.window addChildWindow: controller.window ordered: NSWindowAbove];
+
+    //    [drawer openOnEdge: NSMaxXEdge];
 }
 
 - (IBAction) toggle: (id) sender {

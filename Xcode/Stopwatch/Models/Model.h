@@ -4,14 +4,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BasicDelegater.h"
 
 @class BOAPIModel;
+@class Task;
 
-@interface Model : NSObject {
+@interface Model : BasicDelegater {
     NSOperationQueue *queue;
+
+    Task *selectedTask;
 }
 
 @property(nonatomic, strong) NSOperationQueue *queue;
+@property(nonatomic, strong) Task *selectedTask;
 
 + (Model *) sharedModel;
 - (BOAPIModel *) apiModel;

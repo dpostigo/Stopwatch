@@ -5,10 +5,12 @@
 
 #import <BOAPI/BOAPIModel.h>
 #import "Model.h"
+#import "Task.h"
 
 @implementation Model
 
 @synthesize queue;
+@synthesize selectedTask;
 
 + (Model *) sharedModel {
     static Model *_instance = nil;
@@ -32,4 +34,14 @@
 - (BOAPIModel *) apiModel {
     return [BOAPIModel sharedModel];
 }
+
+
+- (void) setSelectedTask: (Task *) selectedTask1 {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    selectedTask = selectedTask1;
+    if (selectedTask) {
+        [self notifyDelegates: @selector(modelDidSelectTask:) object: selectedTask];
+    }
+}
+
 @end

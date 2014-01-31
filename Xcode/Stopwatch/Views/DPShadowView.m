@@ -16,7 +16,7 @@
 
         CALayer *layer = self.layer;
         layer.masksToBounds = NO;
-        self.shadow = [NSShadow shadowWithColor: [NSColor blackColor] radius: 5.0 offset: NSMakeSize(0, -1)];
+        self.shadow = [NSShadow shadowWithColor: [NSColor blackColor] radius: 5.0 offset: NSMakeSize(0, 1)];
     }
 
     return self;
@@ -25,10 +25,24 @@
 - (void) drawRect: (NSRect) dirtyRect {
 
     NSRect bounds = self.bounds;
+    bounds = NSInsetRect(bounds, 10, 10);
 
     NSBezierPath *path = [NSBezierPath bezierPathWithRect: bounds];
 
+//    [NSGraphicsContext saveGraphicsState];
+    //    [[NSColor blackColor] set];
+    //    NSRectFillUsingOperation(bounds, NSCompositeSourceOver);
+    //    //    NSFrameRectWithWidthUsingOperation(bounds, 1, NSCompositeSourceOver);
+
+
+    [[NSColor whiteColor] set];
+    NSRectFill(bounds);
+//    [NSGraphicsContext restoreGraphicsState];
+
+    /*
     NSShadow *shadow = [[NSShadow alloc] init];
+
+
     [shadow setShadowBlurRadius: 3.0];
     [shadow setShadowOffset: NSMakeSize(0, -1)];
     [shadow setShadowColor: [NSColor blackColor]];
@@ -54,6 +68,8 @@
     NSFrameRectWithWidthUsingOperation(bounds, 1, NSCompositeSourceOver);
 
     [NSGraphicsContext restoreGraphicsState];
+
+    */
 }
 
 - (BOOL) isOpaque {

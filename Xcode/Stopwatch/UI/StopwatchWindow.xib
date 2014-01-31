@@ -110,7 +110,12 @@
                         </popUpButtonCell>
                         <connections>
                             <binding destination="dZ6-oR-efI" name="content" keyPath="arrangedObjects" id="gsK-EY-ygq"/>
-                            <binding destination="dZ6-oR-efI" name="contentValues" keyPath="arrangedObjects.title" previousBinding="gsK-EY-ygq" id="t5y-gd-HUh"/>
+                            <binding destination="dZ6-oR-efI" name="contentValues" keyPath="arrangedObjects.title" previousBinding="gsK-EY-ygq" id="MZP-sl-x8t">
+                                <dictionary key="options">
+                                    <string key="NSNullPlaceholder">Select a task</string>
+                                </dictionary>
+                            </binding>
+                            <binding destination="-2" name="selectedObject" keyPath="self.model.selectedTask" previousBinding="MZP-sl-x8t" id="PLk-u4-XRb"/>
                         </connections>
                     </popUpButton>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="t0A-XT-pmM">

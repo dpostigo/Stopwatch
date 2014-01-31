@@ -10,4 +10,6 @@
 @interface BaseController : NSViewController {
     Model *_model;
 }
+
+- (NSOperationQueue *) queue;
 @end

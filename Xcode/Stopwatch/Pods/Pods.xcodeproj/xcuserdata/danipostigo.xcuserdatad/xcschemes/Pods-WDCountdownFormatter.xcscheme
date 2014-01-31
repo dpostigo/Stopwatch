@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D88A2A791014916A852CD1A"
+               BlueprintIdentifier = "35C7221BDDB246C7AD20D324"
                BuildableName = "libPods-WDCountdownFormatter.a"
                BlueprintName = "Pods-WDCountdownFormatter"
                ReferencedContainer = "container:Pods.xcodeproj">

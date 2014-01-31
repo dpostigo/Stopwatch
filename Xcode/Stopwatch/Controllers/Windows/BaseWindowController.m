@@ -16,7 +16,6 @@
 - (id) initWithWindowNibName: (NSString *) windowNibName {
     self = [super initWithWindowNibName: windowNibName];
     if (self) {
-
         _model = [Model sharedModel];
     }
 

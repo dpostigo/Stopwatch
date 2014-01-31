@@ -8,10 +8,16 @@
 
 @implementation BaseController
 
+- (id) init {
+    NSString *nibName = NSStringFromClass([self class]);
+    return [self initWithNibName: nibName bundle: nil];
+}
+
+
 - (id) initWithNibName: (NSString *) nibNameOrNil bundle: (NSBundle *) nibBundleOrNil {
     self = [super initWithNibName: nibNameOrNil bundle: nibBundleOrNil];
     if (self) {
-        [self setup];
+        _model = [Model sharedModel];
     }
 
     return self;
@@ -30,5 +36,9 @@
 - (void) setup {
     _model = [Model sharedModel];
 
+}
+
+- (NSOperationQueue *) queue {
+    return _model.queue;
 }
 @end

@@ -84,6 +84,12 @@
 #define COCOAPODS_VERSION_MINOR_CALayer_DPUtils 1
 #define COCOAPODS_VERSION_PATCH_CALayer_DPUtils 5
 
+// DPCustomWindow
+#define COCOAPODS_POD_AVAILABLE_DPCustomWindow
+#define COCOAPODS_VERSION_MAJOR_DPCustomWindow 0
+#define COCOAPODS_VERSION_MINOR_DPCustomWindow 0
+#define COCOAPODS_VERSION_PATCH_DPCustomWindow 2
+
 // DPKit
 #define COCOAPODS_POD_AVAILABLE_DPKit
 #define COCOAPODS_VERSION_MAJOR_DPKit 0
@@ -114,6 +120,36 @@
 #define COCOAPODS_VERSION_MINOR_DPKit_Shared 0
 #define COCOAPODS_VERSION_PATCH_DPKit_Shared 10
 
+// DPObject
+#define COCOAPODS_POD_AVAILABLE_DPObject
+#define COCOAPODS_VERSION_MAJOR_DPObject 0
+#define COCOAPODS_VERSION_MINOR_DPObject 0
+#define COCOAPODS_VERSION_PATCH_DPObject 2
+
+// DPOutlineView
+#define COCOAPODS_POD_AVAILABLE_DPOutlineView
+#define COCOAPODS_VERSION_MAJOR_DPOutlineView 0
+#define COCOAPODS_VERSION_MINOR_DPOutlineView 0
+#define COCOAPODS_VERSION_PATCH_DPOutlineView 1
+
+// DPOutlineView/Additions
+#define COCOAPODS_POD_AVAILABLE_DPOutlineView_Additions
+#define COCOAPODS_VERSION_MAJOR_DPOutlineView_Additions 0
+#define COCOAPODS_VERSION_MINOR_DPOutlineView_Additions 0
+#define COCOAPODS_VERSION_PATCH_DPOutlineView_Additions 1
+
+// DPOutlineView/Core
+#define COCOAPODS_POD_AVAILABLE_DPOutlineView_Core
+#define COCOAPODS_VERSION_MAJOR_DPOutlineView_Core 0
+#define COCOAPODS_VERSION_MINOR_DPOutlineView_Core 0
+#define COCOAPODS_VERSION_PATCH_DPOutlineView_Core 1
+
+// DPOutlineView/Models
+#define COCOAPODS_POD_AVAILABLE_DPOutlineView_Models
+#define COCOAPODS_VERSION_MAJOR_DPOutlineView_Models 0
+#define COCOAPODS_VERSION_MINOR_DPOutlineView_Models 0
+#define COCOAPODS_VERSION_PATCH_DPOutlineView_Models 1
+
 // DPStorage
 #define COCOAPODS_POD_AVAILABLE_DPStorage
 #define COCOAPODS_VERSION_MAJOR_DPStorage 0
@@ -136,7 +172,13 @@
 #define COCOAPODS_POD_AVAILABLE_NSColor_BlendingUtils
 #define COCOAPODS_VERSION_MAJOR_NSColor_BlendingUtils 0
 #define COCOAPODS_VERSION_MINOR_NSColor_BlendingUtils 0
-#define COCOAPODS_VERSION_PATCH_NSColor_BlendingUtils 1
+#define COCOAPODS_VERSION_PATCH_NSColor_BlendingUtils 2
+
+// NSColor-Crayola
+#define COCOAPODS_POD_AVAILABLE_NSColor_Crayola
+#define COCOAPODS_VERSION_MAJOR_NSColor_Crayola 1
+#define COCOAPODS_VERSION_MINOR_NSColor_Crayola 0
+#define COCOAPODS_VERSION_PATCH_NSColor_Crayola 0
 
 // NSDictionary-Deserialize
 #define COCOAPODS_POD_AVAILABLE_NSDictionary_Deserialize
