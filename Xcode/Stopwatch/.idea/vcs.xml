@@ -3,7 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/BOAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/DPKit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../LocalPods/DPObject" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/DPStorage" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/DPWindow" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/Forked/NSColor-Crayola" vcs="Git" />

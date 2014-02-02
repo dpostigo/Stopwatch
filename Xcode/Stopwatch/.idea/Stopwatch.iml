@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$/../../../LocalPods/BOAPI">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/BOAPI" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../../LocalPods/Controls/DPOutlineView">
+      <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/Controls/DPOutlineView" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls" isTestSource="false" />
     </content>
@@ -12,6 +15,9 @@
     </content>
     <content url="file://$MODULE_DIR$/../../../LocalPods/DPObject">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPObject" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../LocalPods/DPStorage">
+      <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPStorage" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../../LocalPods/DPWindow">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPWindow" isTestSource="false" />

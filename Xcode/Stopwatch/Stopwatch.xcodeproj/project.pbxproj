@@ -29,9 +29,13 @@
 		33B32D8D1898436F002E2FC2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B32D6C1898436F002E2FC2 /* Cocoa.framework */; };
 		33B32D951898436F002E2FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B32D931898436F002E2FC2 /* InfoPlist.strings */; };
 		33B32D971898436F002E2FC2 /* StopwatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B32D961898436F002E2FC2 /* StopwatchTests.m */; };
+		33B8AAB4189C7A8000786C7A /* LogsDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B8AAB3189C7A8000786C7A /* LogsDetailController.xib */; };
+		33B8AAB6189C7FAC00786C7A /* EmptyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B8AAB5189C7FAC00786C7A /* EmptyWindow.xib */; };
 		BF8D13A20EE34D78A3AACE62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A482A3748F8D4846A1CEFE3B /* libPods.a */; };
 		F29B818EA97B95EDFD4F3205 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81F3AAB73EDDD629E0DC /* LoginController.m */; };
 		F29B83B95027DE0ADA8C81B9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8E19A6E829AC78FDF076 /* Model.m */; };
+		F29B856CD1D4467A71F2B2C5 /* LogsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B800057A0AD7F88365E2C /* LogsDetailController.m */; };
+		F29B85EF320D28EBDA589FFB /* DPLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */; };
 		F29B87E5FCAFA2D423D10BD7 /* TreeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8380EF194DB0173E060E /* TreeWindowController.m */; };
 		F29B88B975ACD3FB86373D22 /* DPTimeControlTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81AF97C4B935D18B9FDF /* DPTimeControlTextField.m */; };
 		F29B8A37C54AF208576170A6 /* LogsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B88E457D441617CF4C34F /* LogsWindowController.m */; };
@@ -39,7 +43,9 @@
 		F29B8B31CCBA4AAC962E2716 /* StopwatchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84EDCA2AD2D9980C81C9 /* StopwatchWindowController.m */; };
 		F29B8BDE8E62C84FFB592C69 /* DPIntervalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8B377FC13EC53132673D /* DPIntervalTextField.m */; };
 		F29B8C8ED574584A18C6CF6E /* ProjectWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81AC2CC58C89B2484BE2 /* ProjectWindowController.m */; };
+		F29B8CDA1971B8A3D2BBF3FD /* EmptyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */; };
 		F29B8D05CBC822CAA449B692 /* DPTimerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B85B1763C7E61E9776A41 /* DPTimerTextField.m */; };
+		F29B8D18C80122803D7280A8 /* UnderlineTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B829D10AD39E95F9888CF /* UnderlineTextFieldCell.m */; };
 		F29B8FEC286E82E098A1FCDB /* RedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */; };
 /* End PBXBuildFile section */
 
@@ -90,14 +96,20 @@
 		33B32D921898436F002E2FC2 /* StopwatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StopwatchTests-Info.plist"; sourceTree = "<group>"; };
 		33B32D941898436F002E2FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33B32D961898436F002E2FC2 /* StopwatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchTests.m; sourceTree = "<group>"; };
+		33B8AAB3189C7A8000786C7A /* LogsDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogsDetailController.xib; sourceTree = "<group>"; };
+		33B8AAB5189C7FAC00786C7A /* EmptyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyWindow.xib; sourceTree = "<group>"; };
 		812DCD75301A43809FBC4726 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A482A3748F8D4846A1CEFE3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29B800057A0AD7F88365E2C /* LogsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsDetailController.m; sourceTree = "<group>"; };
 		F29B81581C191690DBD1A3C9 /* TreeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeWindowController.h; sourceTree = "<group>"; };
 		F29B81AC2CC58C89B2484BE2 /* ProjectWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectWindowController.m; sourceTree = "<group>"; };
 		F29B81AF97C4B935D18B9FDF /* DPTimeControlTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTimeControlTextField.m; sourceTree = "<group>"; };
 		F29B81F3AAB73EDDD629E0DC /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		F29B82282425F7BE56BFB76C /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		F29B82303777C883AAFFE7E5 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		F29B8264ADEEA211FD82429F /* LogsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsDetailController.h; sourceTree = "<group>"; };
+		F29B829D10AD39E95F9888CF /* UnderlineTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderlineTextFieldCell.m; sourceTree = "<group>"; };
+		F29B82AC4FF2250E2079469D /* UnderlineTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderlineTextFieldCell.h; sourceTree = "<group>"; };
 		F29B83138F270307C13ABA17 /* ProjectWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectWindowController.h; sourceTree = "<group>"; };
 		F29B8380EF194DB0173E060E /* TreeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeWindowController.m; sourceTree = "<group>"; };
 		F29B83DE00D1192223D3D417 /* LogsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsWindowController.h; sourceTree = "<group>"; };
@@ -105,15 +117,19 @@
 		F29B84D723A5FC80C06476E0 /* DPShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPShadowView.m; sourceTree = "<group>"; };
 		F29B84EDCA2AD2D9980C81C9 /* StopwatchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopwatchWindowController.m; sourceTree = "<group>"; };
 		F29B85B1763C7E61E9776A41 /* DPTimerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTimerTextField.m; sourceTree = "<group>"; };
+		F29B87A83D9239FA1CB7F927 /* DPLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLabeledTextField.h; sourceTree = "<group>"; };
 		F29B88E457D441617CF4C34F /* LogsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsWindowController.m; sourceTree = "<group>"; };
 		F29B88FC56416C0C7A26ECDC /* DPTimerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimerTextField.h; sourceTree = "<group>"; };
+		F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLabeledTextField.m; sourceTree = "<group>"; };
 		F29B8A5860DD3057CAE318A0 /* DPIntervalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPIntervalTextField.h; sourceTree = "<group>"; };
 		F29B8B377FC13EC53132673D /* DPIntervalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPIntervalTextField.m; sourceTree = "<group>"; };
 		F29B8BF168B1C4D65CF74829 /* DPTimeControlTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimeControlTextField.h; sourceTree = "<group>"; };
 		F29B8C2711FC33B3B624DE5B /* StopwatchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopwatchWindowController.h; sourceTree = "<group>"; };
 		F29B8C7642A240036BB44F87 /* DPShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPShadowView.h; sourceTree = "<group>"; };
+		F29B8C83E002C5AD85029BA6 /* EmptyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyWindowController.h; sourceTree = "<group>"; };
 		F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
 		F29B8E19A6E829AC78FDF076 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +163,8 @@
 				336A3C3C189B03CD0098C979 /* LogsController.m */,
 				F29B81F3AAB73EDDD629E0DC /* LoginController.m */,
 				F29B82303777C883AAFFE7E5 /* LoginController.h */,
+				F29B800057A0AD7F88365E2C /* LogsDetailController.m */,
+				F29B8264ADEEA211FD82429F /* LogsDetailController.h */,
 			);
 			path = Controllers;
 			sourceTree = SOURCE_ROOT;
@@ -159,6 +177,8 @@
 				336A3C1F189A9B020098C979 /* StopwatchWindow.xib */,
 				336A3C3E189B1A3D0098C979 /* LogsWindow.xib */,
 				336A3C40189BE0AE0098C979 /* TreeWindow.xib */,
+				33B8AAB3189C7A8000786C7A /* LogsDetailController.xib */,
+				33B8AAB5189C7FAC00786C7A /* EmptyWindow.xib */,
 			);
 			path = UI;
 			sourceTree = SOURCE_ROOT;
@@ -176,6 +196,8 @@
 				F29B83138F270307C13ABA17 /* ProjectWindowController.h */,
 				F29B8380EF194DB0173E060E /* TreeWindowController.m */,
 				F29B81581C191690DBD1A3C9 /* TreeWindowController.h */,
+				F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */,
+				F29B8C83E002C5AD85029BA6 /* EmptyWindowController.h */,
 			);
 			path = Windows;
 			sourceTree = "<group>";
@@ -185,6 +207,10 @@
 			children = (
 				F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */,
 				F29B842EC72B2B672BAFE836 /* RedButton.h */,
+				F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */,
+				F29B87A83D9239FA1CB7F927 /* DPLabeledTextField.h */,
+				F29B829D10AD39E95F9888CF /* UnderlineTextFieldCell.m */,
+				F29B82AC4FF2250E2079469D /* UnderlineTextFieldCell.h */,
 			);
 			path = Controls;
 			sourceTree = SOURCE_ROOT;
@@ -404,10 +430,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B32D771898436F002E2FC2 /* InfoPlist.strings in Resources */,
+				33B8AAB4189C7A8000786C7A /* LogsDetailController.xib in Resources */,
 				336A3C17189A975B0098C979 /* LoginWindow.xib in Resources */,
 				33B32D851898436F002E2FC2 /* Images.xcassets in Resources */,
 				336A3C20189A9B020098C979 /* StopwatchWindow.xib in Resources */,
 				336A3C3F189B1A3D0098C979 /* LogsWindow.xib in Resources */,
+				33B8AAB6189C7FAC00786C7A /* EmptyWindow.xib in Resources */,
 				336A3C41189BE0AE0098C979 /* TreeWindow.xib in Resources */,
 				336A3C37189AFEC20098C979 /* LogsController.xib in Resources */,
 				33B32D7D1898436F002E2FC2 /* Credits.rtf in Resources */,
@@ -482,6 +510,10 @@
 				F29B8A37C54AF208576170A6 /* LogsWindowController.m in Sources */,
 				F29B8C8ED574584A18C6CF6E /* ProjectWindowController.m in Sources */,
 				F29B87E5FCAFA2D423D10BD7 /* TreeWindowController.m in Sources */,
+				F29B856CD1D4467A71F2B2C5 /* LogsDetailController.m in Sources */,
+				F29B8CDA1971B8A3D2BBF3FD /* EmptyWindowController.m in Sources */,
+				F29B85EF320D28EBDA589FFB /* DPLabeledTextField.m in Sources */,
+				F29B8D18C80122803D7280A8 /* UnderlineTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +687,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "StopwatchTests/StopwatchTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -673,6 +706,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stopwatch/Stopwatch-Prefix.pch";
 				INFOPLIST_FILE = "StopwatchTests/StopwatchTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

@@ -12,4 +12,5 @@
 }
 
 @property(nonatomic) BOOL showsHideText;
+@property(nonatomic, strong) NSColor *selectedColor;
 @end

@@ -21,11 +21,18 @@ Pod::Spec.new do |s|
     constants.source_files = 'BOAPI/Constants/*.{h,m}'
   end
 
+
+  s.subspec 'Additions' do |additions|
+    additions.dependency    'BOAPI/Core'
+    additions.source_files = 'BOAPI/Additions/*.{h,m}'
+  end
+
   s.subspec 'Core' do |core|
     core.dependency    'BOAPI/Constants'
+    core.dependency    'BOAPI/Additions'
     # core.dependency  'BOAPI/Models'
     # core.source_files = 'BOAPI/*.{h,m}', 'BOAPI/Core/**/*.{h,m}', 'BOAPI/Utils/**/*.{h,m}'
-    core.source_files = 'BOAPI/*.{h,m}', 'BOAPI/{Core,Models,Utils}/**/*.{h,m}', 'BOAPI/Operations/*.{h,m}'
+    core.source_files = 'BOAPI/*.{h,m}', 'BOAPI/{Core,Models}/**/*.{h,m}', 'BOAPI/Operations/*.{h,m}'
   end
 
 

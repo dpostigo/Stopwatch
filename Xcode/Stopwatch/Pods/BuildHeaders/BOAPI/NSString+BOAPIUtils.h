@@ -1,1 +1,1 @@
-../../../../../../LocalPods/BOAPI/BOAPI/Utils/NSString+BOAPIUtils.h
+../../../../../../LocalPods/BOAPI/BOAPI/Additions/NSString+BOAPIUtils.h

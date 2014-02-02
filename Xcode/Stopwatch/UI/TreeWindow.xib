@@ -91,14 +91,6 @@
                                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
-                                                            <connections>
-                                                                <action selector="helloFunction:" target="-2" id="kXF-jP-EE4"/>
-                                                                <binding destination="-2" name="target" keyPath="self" id="8LJ-7p-fDz">
-                                                                    <dictionary key="options">
-                                                                        <string key="NSSelectorName">helloFunction:</string>
-                                                                    </dictionary>
-                                                                </binding>
-                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <constraints>
@@ -136,12 +128,6 @@
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
                                                             <connections>
-                                                                <action selector="remove:" target="mUa-hh-j53" id="NNv-mk-E8s"/>
-                                                                <binding destination="mUa-hh-j53" name="target" keyPath="selection" id="8rX-Ys-z7d">
-                                                                    <dictionary key="options">
-                                                                        <string key="NSSelectorName">remove:</string>
-                                                                    </dictionary>
-                                                                </binding>
                                                                 <binding destination="xAN-0W-GNn" name="title" keyPath="objectValue.title" id="kau-vE-iRg"/>
                                                             </connections>
                                                         </button>

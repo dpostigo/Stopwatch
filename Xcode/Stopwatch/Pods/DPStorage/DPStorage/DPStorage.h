@@ -4,7 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DPStorage : BasicDelegater {
+@interface DPStorage : NSObject {
 
     NSString *storageName;
     NSString *storageLocation;

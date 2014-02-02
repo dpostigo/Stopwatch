@@ -13,9 +13,22 @@ PODS:
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AutoCoding
+    - BOAPI/Additions
     - BOAPI/Constants
     - BOAPI/Core
     - BOAPI/Operations
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Additions (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
     - DPKit (~> 0.0.6)
     - DPStorage
     - NSDictionary-Deserialize
@@ -38,6 +51,7 @@ PODS:
     - AFNetworking/Security
     - AFNetworking/Serialization
     - AutoCoding
+    - BOAPI/Additions
     - BOAPI/Constants
     - DPKit (~> 0.0.6)
     - DPStorage
@@ -126,7 +140,7 @@ PODS:
   - DPKit/Shared (0.0.10):
     - JMSimpleDate
     - NSView-DPAutolayout
-  - DPObject (0.0.2):
+  - DPObject (0.0.1):
     - DPKit
   - DPOutlineView (0.0.1):
     - DPKit
@@ -146,9 +160,10 @@ PODS:
   - DPOutlineView/Models (0.0.1):
     - DPKit
     - NSView-DPFrameUtils
-  - DPStorage (0.0.2):
+  - DPStorage (0.0.3):
     - AutoCoding
     - DPKit
+    - DPObject
     - NSObject+AutoDescription
   - DPWindow (0.0.2):
     - CALayer-DPUtils (~> 0.1.3)
@@ -168,8 +183,9 @@ DEPENDENCIES:
   - BOAPI (from `~/Development/LocalPods/BOAPI`)
   - DPKit (from `~/Development/LocalPods/DPKit`)
   - DPObject (from `~/Development/LocalPods/DPObject`)
-  - DPOutlineView
+  - DPOutlineView (from `~/Development/LocalPods/Controls/DPOutlineView`)
   - DPStorage
+  - DPStorage (from `~/Development/LocalPods/DPStorage`)
   - DPWindow (from `~/Development/LocalPods/DPWindow`)
   - NSColor-BlendingUtils
   - NSColor-Crayola (from `~/Development/LocalPods/Forked/NSColor-Crayola`)
@@ -184,6 +200,10 @@ EXTERNAL SOURCES:
     :path: ~/Development/LocalPods/DPKit
   DPObject:
     :path: ~/Development/LocalPods/DPObject
+  DPOutlineView:
+    :path: ~/Development/LocalPods/Controls/DPOutlineView
+  DPStorage:
+    :path: ~/Development/LocalPods/DPStorage
   DPWindow:
     :path: ~/Development/LocalPods/DPWindow
   NSColor-Crayola:
@@ -192,12 +212,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
-  BOAPI: 3853c6fe163233c5a51899c641728a3c2f785da4
+  BOAPI: 1720f381fabcd2cf1a200f11e53604ce64fce59c
   CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
   DPKit: c80927d46dc0952fecc8a5ed0863ebb1a4fce29d
-  DPObject: ab467b33af6114151682b0f742993ae452e886fb
+  DPObject: ffde29503d7b2f169691b7dc5f5d5a7307fcd891
   DPOutlineView: 75478eb80fca5ea7bc23f38f4fcee7c1ddf5edc0
-  DPStorage: fc841e5353a3f46e474f946204d294f483b55034
+  DPStorage: a8cee274c6c7e86b83fc8e6d488db5e01b08c182
   DPWindow: c51dbd23470aa19f1660f96f931060260ae51729
   JMSimpleDate: 28598b52a6f7cfbff3dfddcab0eac9a334b6a48a
   NSColor-BlendingUtils: ea681628f698c3c40586a87b518b6264efde5e9e

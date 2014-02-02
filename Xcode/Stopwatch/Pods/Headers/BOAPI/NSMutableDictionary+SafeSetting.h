@@ -1,1 +1,1 @@
-../../../../../../LocalPods/BOAPI/BOAPI/Utils/NSMutableDictionary+SafeSetting.h
+../../../../../../LocalPods/BOAPI/BOAPI/Additions/NSMutableDictionary+SafeSetting.h

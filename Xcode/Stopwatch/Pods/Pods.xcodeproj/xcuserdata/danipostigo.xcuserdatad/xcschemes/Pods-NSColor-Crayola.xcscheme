@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D9AD6C7233E492D9C530DE0"
+               BlueprintIdentifier = "41CF8C66BA6641CA8F7DBF43"
                BuildableName = "libPods-NSColor-Crayola.a"
                BlueprintName = "Pods-NSColor-Crayola"
                ReferencedContainer = "container:Pods.xcodeproj">

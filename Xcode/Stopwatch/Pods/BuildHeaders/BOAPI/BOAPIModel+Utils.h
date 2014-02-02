@@ -1,1 +1,1 @@
-../../../../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+Utils.h
+../../../../../../LocalPods/BOAPI/BOAPI/Additions/BOAPIModel+Utils.h

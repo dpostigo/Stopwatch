@@ -92,6 +92,7 @@
 
 
 - (void) prepareDatasource {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     [outline clearSections];
 
     if ([self.task.logs count] > 0) {
@@ -159,10 +160,10 @@
     }
 
     NSButton *button = view.button;
-    button.wantsLayer = YES;
-
-    CALayer *layer = button.layer;
-    layer.backgroundColor = [NSColor blueColor].CGColor;
+//    button.wantsLayer = YES;
+//
+//    CALayer *layer = button.layer;
+//    layer.backgroundColor = [NSColor blueColor].CGColor;
 
 }
 
@@ -233,11 +234,14 @@
 #pragma mark BOAPIDelegate
 
 - (void) timeLogsDidUpdate: (Task *) task {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-    NSLog(@"[task.logs count] = %lu", [task.logs count]);
     [outline reloadData];
 }
 
+
+- (void) timeLogsDidRemove: (Log *) log1 {
+    [outline reloadData];
+
+}
 
 #pragma mark Getters
 

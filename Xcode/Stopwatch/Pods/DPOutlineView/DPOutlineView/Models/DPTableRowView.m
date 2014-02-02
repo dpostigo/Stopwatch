@@ -8,6 +8,7 @@
 @implementation DPTableRowView
 
 @synthesize showsHideText;
+@synthesize selectedColor;
 
 - (id) initWithFrame: (NSRect) frameRect {
     self = [super initWithFrame: frameRect];

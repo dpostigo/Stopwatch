@@ -7,6 +7,7 @@
 //
 
 #import <BOAPI/GetTasksOperation.h>
+#import <BOAPI/Task.h>
 #import "AppDelegate.h"
 #import "User.h"
 #import "BOAPIModel.h"
@@ -14,9 +15,13 @@
 #import "StopwatchWindowController.h"
 #import "Model.h"
 #import "TreeWindowController.h"
+#import "LogsWindowController.h"
+#import "LogsDetailController.h"
+#import "EmptyWindowController.h"
 
 @implementation AppDelegate {
     Model *_model;
+    EmptyWindowController *testController;
 }
 
 @synthesize windowController;
@@ -24,6 +29,10 @@
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
     _model = [Model sharedModel];
     [_model.apiModel subscribeDelegate: self];
+
+
+    Task *task = [_model.apiModel.tasks objectAtIndex: 0];
+    NSLog(@"task = %@", task);
     self.windowController = [[LoginWindowController alloc] init];
 }
 
@@ -38,7 +47,8 @@
 - (void) tasksDidUpdate {
     self.windowController = [[StopwatchWindowController alloc] init];
 
-
+    testController = [[EmptyWindowController alloc] init];
+    [testController.window makeKeyAndOrderFront: nil];
 
 }
 
