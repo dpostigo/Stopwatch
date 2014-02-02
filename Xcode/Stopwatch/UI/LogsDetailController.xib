@@ -81,7 +81,7 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Mi-ST-FRX">
-                                                        <rect key="frame" x="6" y="140" width="40" height="13"/>
+                                                        <rect key="frame" x="6" y="141" width="40" height="13"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="SERVICE" id="uwp-T7-mbp">
                                                             <font key="font" size="8" name="ArialRoundedMTBold"/>
@@ -90,18 +90,21 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JCj-fm-j3L">
-                                                        <rect key="frame" x="8" y="158" width="245" height="24"/>
+                                                        <rect key="frame" x="8" y="159" width="245" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Log note" drawsBackground="YES" usesSingleLineMode="YES" id="Ql0-XE-mnK" customClass="UnderlineTextFieldCell">
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" placeholderString="Log note" usesSingleLineMode="YES" id="Ql0-XE-mnK" customClass="DPUnderlineTextFieldCell">
                                                             <font key="font" size="13" name="HelveticaNeue"/>
                                                             <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
+                                                        <connections>
+                                                            <binding destination="6m0-eV-8y1" name="value" keyPath="objectValue.objectValue.title" id="uyA-KT-U9i"/>
+                                                        </connections>
                                                     </textField>
                                                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aVP-TO-25I">
-                                                        <rect key="frame" x="8" y="117" width="245" height="23"/>
+                                                        <rect key="frame" x="8" y="118" width="245" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="Service Item" usesSingleLineMode="YES" id="bs9-9A-yFe" customClass="UnderlineTextFieldCell">
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="Service Item" usesSingleLineMode="YES" id="bs9-9A-yFe" customClass="DPUnderlineTextFieldCell">
                                                             <font key="font" size="13" name="HelveticaNeue"/>
                                                             <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -111,7 +114,7 @@
                                                         </connections>
                                                     </textField>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0An-ZD-heY">
-                                                        <rect key="frame" x="8" y="59" width="40" height="13"/>
+                                                        <rect key="frame" x="8" y="60" width="40" height="13"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="SERVICE" id="Ltt-Iw-zlr">
                                                             <font key="font" size="8" name="ArialRoundedMTBold"/>
@@ -119,26 +122,26 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
-                                                    <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zb3-sK-LVp">
-                                                        <rect key="frame" x="8" y="80" width="118" height="19"/>
+                                                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zb3-sK-LVp">
+                                                        <rect key="frame" x="8" y="81" width="118" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="00:00" id="ubj-Yp-efF" customClass="UnderlineTextFieldCell">
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="00:00" id="ubj-Yp-efF" customClass="DPUnderlineTextFieldCell">
                                                             <font key="font" size="11" name="HelveticaNeue"/>
                                                             <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
-                                                    <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lQD-eR-qSO">
-                                                        <rect key="frame" x="136" y="80" width="117" height="19"/>
+                                                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lQD-eR-qSO">
+                                                        <rect key="frame" x="136" y="81" width="117" height="19"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="00:00" drawsBackground="YES" id="qkb-Hx-3sW" customClass="UnderlineTextFieldCell">
+                                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" placeholderString="00:00" id="qkb-Hx-3sW" customClass="DPUnderlineTextFieldCell">
                                                             <font key="font" size="11" name="HelveticaNeue"/>
                                                             <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gDY-0z-x9H">
-                                                        <rect key="frame" x="8" y="99" width="52" height="12"/>
+                                                        <rect key="frame" x="8" y="100" width="52" height="12"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="START TIME" id="2sZ-Am-RrB">
                                                             <font key="font" size="8" name="Arial-BoldMT"/>
@@ -146,8 +149,8 @@
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
-                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RhD-kV-zfB">
-                                                        <rect key="frame" x="134" y="99" width="43" height="12"/>
+                                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RhD-kV-zfB">
+                                                        <rect key="frame" x="134" y="100" width="43" height="12"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="END TIME" id="TzK-fb-kpk">
                                                             <font key="font" size="8" name="Arial-BoldMT"/>
@@ -156,7 +159,7 @@
                                                         </textFieldCell>
                                                     </textField>
                                                     <tokenField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NCR-dj-JRP">
-                                                        <rect key="frame" x="8" y="34" width="245" height="17"/>
+                                                        <rect key="frame" x="8" y="35" width="245" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <tokenFieldCell key="cell" selectable="YES" editable="YES" focusRingType="none" alignment="left" drawsBackground="YES" allowsEditingTextAttributes="YES" usesSingleLineMode="YES" tokenStyle="rounded" id="WQT-NE-giD">
                                                             <font key="font" size="11" name="HelveticaNeue-Medium"/>
@@ -227,7 +230,7 @@
                 <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jmd-I5-ehz">
                     <rect key="frame" x="43" y="224" width="243" height="23"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" placeholderString="Log note" usesSingleLineMode="YES" id="N77-m9-xgh" customClass="UnderlineTextFieldCell">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" placeholderString="Log note" usesSingleLineMode="YES" id="N77-m9-xgh" customClass="DPInsetTextFieldCell">
                         <font key="font" size="13" name="HelveticaNeue"/>
                         <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

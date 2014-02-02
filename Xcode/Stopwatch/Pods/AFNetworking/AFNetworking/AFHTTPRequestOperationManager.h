@@ -113,7 +113,7 @@
 ///-------------------------------
 
 /**
- Whether request operations should consult the credential storage for authenticating the connection. `YES` by default.
+ Whether request operations should consult the credential logsStorage for authenticating the connection. `YES` by default.
 
  @see AFURLConnectionOperation -shouldUseCredentialStorage
  */

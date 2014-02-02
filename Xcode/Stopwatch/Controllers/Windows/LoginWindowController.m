@@ -19,8 +19,6 @@
 
 
 - (IBAction) submit: (id) sender {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-    NSLog(@"_model = %@", _model);
     [_model.queue addOperation: [[BOLoginOperation alloc] initWithUsername: self.userValue password: self.passwordValue]];
 }
 

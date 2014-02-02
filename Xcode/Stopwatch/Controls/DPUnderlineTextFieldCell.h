@@ -4,11 +4,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DPInsetTextFieldCell.h"
 
-@interface UnderlineTextFieldCell : NSTextFieldCell {
+@interface DPUnderlineTextFieldCell : DPInsetTextFieldCell {
 
-    NSArray *sides;
 }
 
-@property(nonatomic, strong) NSArray *sides;
+
 @end

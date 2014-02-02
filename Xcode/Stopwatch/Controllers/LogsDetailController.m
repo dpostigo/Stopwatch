@@ -16,12 +16,13 @@
 #import "NSArray+DPKit.h"
 #import "DPOutlineViewItem.h"
 #import "NSColor+Crayola.h"
+#import "AutoCoding.h"
+#import "Task.h"
 
 @implementation LogsDetailController
 
 - (void) awakeFromNib {
     [super awakeFromNib];
-
 
     self.view.wantsLayer = YES;
 
@@ -29,7 +30,7 @@
     layer.backgroundColor = [NSColor controlColor].CGColor;
     outline.rowViewClass = [DPTableRowView class];
     outline.outlineDelegate = self;
-//    outline.allowsSelection = NO;
+    //    outline.allowsSelection = NO;
     [outline reloadData];
 }
 
@@ -37,7 +38,6 @@
 - (void) prepareDatasource {
     [outline clearSections];
 
-    NSLog(@"outline.rowHeight = %f", outline.rowHeight);
     NSArray *allLogs = [_model.apiModel.tasks valueForKeyPath: @"@distinctUnionOfArrays.logs"];
     NSArray *dates = [[Log datesForLogs: allLogs] sortedArrayUsingDescriptor: [[NSSortDescriptor alloc] initWithKey: @"self" ascending: NO]];
 
@@ -50,8 +50,20 @@
         [outline addSection: section];
     }
 
+    NSLog(@"Setting title.");
+
+    //    Log *log = [allLogs objectAtIndex: 0];
+    //        [log addObserver: self forKeyPath: @"title" options: (NSKeyValueObservingOptionOld | NSKeyValueObservingOptionPrior | NSKeyValueObservingOptionNew) context: NULL];
+    //    log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
+
+    //    NSLog(@"[Task codableProperties] = %@", [Task codableProperties]);
 }
 
+- (void) observeValueForKeyPath: (NSString *) keyPath ofObject: (id) object change: (NSDictionary *) change context: (void *) context {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+    //    [super observeValueForKeyPath: keyPath ofObject: object change: change context: context];
+}
 
 #pragma mark Cells
 

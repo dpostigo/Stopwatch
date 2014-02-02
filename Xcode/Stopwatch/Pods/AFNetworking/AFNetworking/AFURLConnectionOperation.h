@@ -136,7 +136,7 @@
 ///-------------------------------
 
 /**
- Whether the URL connection should consult the credential storage for authenticating the connection. `YES` by default.
+ Whether the URL connection should consult the credential logsStorage for authenticating the connection. `YES` by default.
 
  This is the value that is returned in the `NSURLConnectionDelegate` method `-connectionShouldUseCredentialStorage:`.
  */

@@ -11,5 +11,6 @@ pod 'DPKit', :path => '~/Development/LocalPods/DPKit'
 pod 'DPStorage', :path => '~/Development/LocalPods/DPStorage'
 pod 'DPOutlineView', :path => '~/Development/LocalPods/Controls/DPOutlineView'
 pod 'NSView-DPFrameUtils'
+pod 'NSView-NewConstraints'
 
 pod 'NSColor-BlendingUtils'

@@ -53,6 +53,7 @@
     if (selectedTask) {
         [selectedTask subscribeDelegate: self];
         [self notifyDelegates: @selector(modelDidSelectTask:) object: selectedTask];
+        NSLog(@"%s, starting GetLogsOperation.", __PRETTY_FUNCTION__);
         [self.queue addOperation: [[GetLogsOperation alloc] initWithTask: selectedTask]];
     }
 }

@@ -19,6 +19,7 @@
 
     IBOutlet NSDrawer *drawer;
 
+    IBOutlet NSView *logsView;
 }
 
 @property(nonatomic, strong) TimeLog *currentLog;

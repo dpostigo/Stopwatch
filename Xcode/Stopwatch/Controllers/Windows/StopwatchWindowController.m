@@ -13,6 +13,8 @@
 #import "LogsController.h"
 #import "LogsWindowController.h"
 #import "NSWindowController+DPWindow.h"
+#import "LogsDetailController.h"
+#import "NSView+SuperConstraints.h"
 
 @implementation StopwatchWindowController
 
@@ -29,6 +31,11 @@
     CALayer *layer = contentView.layer;
     layer.borderColor = [NSColor darkGrayColor].CGColor;
     layer.borderWidth = 1.0;
+
+    LogsDetailController *controller = [[LogsDetailController alloc] init];
+    controller.view.frame = logsView.bounds;
+    [logsView addSubview: controller.view];
+    [controller.view superConstrain: <#(NSLayoutAttribute)attribute#> constant: <#(CGFloat)constant#>]
 
 }
 

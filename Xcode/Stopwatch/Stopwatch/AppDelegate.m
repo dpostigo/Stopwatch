@@ -8,6 +8,7 @@
 
 #import <BOAPI/GetTasksOperation.h>
 #import <BOAPI/Task.h>
+#import <BOAPI/Log.h>
 #import "AppDelegate.h"
 #import "User.h"
 #import "BOAPIModel.h"
@@ -18,6 +19,8 @@
 #import "LogsWindowController.h"
 #import "LogsDetailController.h"
 #import "EmptyWindowController.h"
+#import "AutoCoding.h"
+#import "BOAPIStorage.h"
 
 @implementation AppDelegate {
     Model *_model;
@@ -31,9 +34,18 @@
     [_model.apiModel subscribeDelegate: self];
 
 
-    Task *task = [_model.apiModel.tasks objectAtIndex: 0];
-    NSLog(@"task = %@", task);
+//    NSLog(@"[_model.apiModel.storage dictionaryRepresentation] = %@", [_model.apiModel.storage dictionaryRepresentation]);
+
     self.windowController = [[LoginWindowController alloc] init];
+
+    NSArray *allLogs = [_model.apiModel.tasks valueForKeyPath: @"@distinctUnionOfArrays.logs"];
+
+    if ([allLogs count] > 0) {
+        Log *log = [allLogs objectAtIndex: 0];
+        NSLog(@"setting title");
+        log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
+    }
+
 }
 
 
@@ -47,8 +59,8 @@
 - (void) tasksDidUpdate {
     self.windowController = [[StopwatchWindowController alloc] init];
 
-    testController = [[EmptyWindowController alloc] init];
-    [testController.window makeKeyAndOrderFront: nil];
+//    testController = [[EmptyWindowController alloc] init];
+//    [testController.window makeKeyAndOrderFront: nil];
 
 }
 
