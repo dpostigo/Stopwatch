@@ -177,6 +177,7 @@ PODS:
   - NSObject-UserDefaults (0.0.2)
   - NSView-DPAutolayout (0.0.13)
   - NSView-DPFrameUtils (0.0.1)
+  - NSView-NewConstraints (0.0.3)
   - WDCountdownFormatter (0.0.1)
 
 DEPENDENCIES:
@@ -191,6 +192,7 @@ DEPENDENCIES:
   - NSColor-Crayola (from `~/Development/LocalPods/Forked/NSColor-Crayola`)
   - NSObject+AutoDescription
   - NSView-DPFrameUtils
+  - NSView-NewConstraints
   - WDCountdownFormatter
 
 EXTERNAL SOURCES:
@@ -227,6 +229,7 @@ SPEC CHECKSUMS:
   NSObject-UserDefaults: c5e417375a0ae73c4019e514024664615df989d9
   NSView-DPAutolayout: 7a69fd0936dc48ef1d5aac22cfc7413c6e3301b8
   NSView-DPFrameUtils: eb60e9d64449f9420e12286412b95d39ac51c18b
+  NSView-NewConstraints: ae1c4a6fa57413f4177a11ad039ebc89fa8b46c6
   WDCountdownFormatter: 6cdb0f88fac7d0f40200dc85b8811404dad09e14
 
 COCOAPODS: 0.29.0

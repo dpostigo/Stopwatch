@@ -14,7 +14,6 @@
 #import "LogsWindowController.h"
 #import "NSWindowController+DPWindow.h"
 #import "LogsDetailController.h"
-#import "NSView+SuperConstraints.h"
 
 @implementation StopwatchWindowController
 
@@ -35,7 +34,7 @@
     LogsDetailController *controller = [[LogsDetailController alloc] init];
     controller.view.frame = logsView.bounds;
     [logsView addSubview: controller.view];
-    [controller.view superConstrain: <#(NSLayoutAttribute)attribute#> constant: <#(CGFloat)constant#>]
+    controller.view superconstrain
 
 }
 

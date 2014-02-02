@@ -216,6 +216,12 @@
 #define COCOAPODS_VERSION_MINOR_NSView_DPFrameUtils 0
 #define COCOAPODS_VERSION_PATCH_NSView_DPFrameUtils 1
 
+// NSView-NewConstraints
+#define COCOAPODS_POD_AVAILABLE_NSView_NewConstraints
+#define COCOAPODS_VERSION_MAJOR_NSView_NewConstraints 0
+#define COCOAPODS_VERSION_MINOR_NSView_NewConstraints 0
+#define COCOAPODS_VERSION_PATCH_NSView_NewConstraints 3
+
 // WDCountdownFormatter
 #define COCOAPODS_POD_AVAILABLE_WDCountdownFormatter
 #define COCOAPODS_VERSION_MAJOR_WDCountdownFormatter 0
