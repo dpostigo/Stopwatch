@@ -160,10 +160,10 @@
     }
 
     NSButton *button = view.button;
-//    button.wantsLayer = YES;
-//
-//    CALayer *layer = button.layer;
-//    layer.backgroundColor = [NSColor blueColor].CGColor;
+    //    button.wantsLayer = YES;
+    //
+    //    CALayer *layer = button.layer;
+    //    layer.backgroundColor = [NSColor blueColor].CGColor;
 
 }
 

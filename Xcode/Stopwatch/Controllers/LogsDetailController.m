@@ -52,7 +52,10 @@
         [outline addSection: section];
     }
 
-    NSLog(@"Setting title.");
+    [_model.selectedTask.logs addObject: [[Log alloc] initWithTitle: @"Title"]];
+
+    
+
 
     //    Log *log = [allLogs objectAtIndex: 0];
     //        [log addObserver: self forKeyPath: @"title" options: (NSKeyValueObservingOptionOld | NSKeyValueObservingOptionPrior | NSKeyValueObservingOptionNew) context: NULL];

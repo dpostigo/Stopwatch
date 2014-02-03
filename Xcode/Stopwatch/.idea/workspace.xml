@@ -2,84 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd435420-dbd7-4559-8a0b-2d273f732014" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Additions/BOBasicObject+Additions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Additions/BOBasicObject+Additions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOTaskTypes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Constants/BOTaskTypes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOTaskTypes.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Constants/BOTaskTypes.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/LogStorage.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/LogStorage.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSTableCellView+DPKit.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSTableCellView+DPKit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSTextFieldCell+DPKit.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSTextFieldCell+DPKit.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.m" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/NSWindowController+DPWindow.h" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/NSWindowController+DPWindow.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOFocusTypes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOFocusTypes.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+DataObjects.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+DataObjects.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+DictionaryUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+DictionaryUtils.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+Utils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/BOAPIModel+Utils.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+BOBasicObject.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+BOBasicObject.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+JobUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+JobUtils.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+Task.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+Task.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+User.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSArray+User.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSMutableDictionary+SafeSetting.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSMutableDictionary+SafeSetting.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSString+BOAPIUtils.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Utils/NSString+BOAPIUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewCore.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewCore.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableRowView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableRowView.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stopwatch.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Stopwatch.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stopwatch/AppDelegate.m" afterPath="$PROJECT_DIR$/Stopwatch/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/ArrayController.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/ArrayController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/ArrayController.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/ArrayController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.podspec" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIDelegate.h" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIDelegate.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.h" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.h" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPObject/DPObject/BasicDelegater.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPObject/DPObject/BasicDelegater.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/logs/CreateLogOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/logs/CreateLogOperation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPArrayStorage.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPArrayStorage.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPArrayStorage.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPArrayStorage.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPKit.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPKit.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPObject.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPObject.podspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewCore.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewCore.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView.podspec" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPOutlineView.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPOutlineView.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewCore.h" afterPath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewCore.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewCore.h" afterPath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewCore.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewDelegate.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewDelegate.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPStorage.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPStorage.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableRowView.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableRowView.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetAssigneeProcess.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetAssigneeProcess.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/logs/GetLogsOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/logs/GetLogsOperation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Log.h" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Log.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Log.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Log.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LogsDetailController.h" afterPath="$PROJECT_DIR$/Controllers/LogsDetailController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPStorage.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPStorage.podspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableCellView.h" afterPath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableCellView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableCellView.h" afterPath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableCellView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableRowView.h" afterPath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableRowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableRowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableRowView.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LogsController.m" afterPath="$PROJECT_DIR$/Controllers/LogsController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LogsDetailController.m" afterPath="$PROJECT_DIR$/Controllers/LogsDetailController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/LogsDetailController.xib" afterPath="$PROJECT_DIR$/UI/LogsDetailController.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSArray+DPKit.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSArray+DPKit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSArray+DPKit.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSArray+DPKit.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Forked/NSColor-Crayola/Source/NSColor+Crayola.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Forked/NSColor-Crayola/Source/NSColor+Crayola.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSObject+CallSelector.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSObject+CallSelector.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSObject+CallSelector.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/shared/NSObject+CallSelector.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.h" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/NSWindow+DPKit.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AutoCoding.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AutoCoding.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-BOAPI.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-BOAPI.xcscheme" />
@@ -99,11 +59,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPFrameUtils.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPFrameUtils.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-NewConstraints.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-NewConstraints.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-WDCountdownFormatter.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-WDCountdownFormatter.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-environment.h" afterPath="$PROJECT_DIR$/Pods/Pods-environment.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UI/StopwatchWindow.xib" afterPath="$PROJECT_DIR$/UI/StopwatchWindow.xib" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m" afterPath="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.h" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/xcschememanagement.plist" />
@@ -129,100 +87,147 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.m">
+      <file leaf-file-name="GetTasksOperation.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="11" selection-start="6463" selection-end="6463" vertical-scroll-proportion="0.37333333" vertical-offset="3835" max-vertical-offset="4755">
+            <state line="38" column="42" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogStorage.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/LogStorage.h">
+      <file leaf-file-name="BOAPIStorage.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="195">
+            <state line="149" column="17" selection-start="3315" selection-end="3315" vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="2385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopwatchWindowController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m">
+      <file leaf-file-name="BaseWindowController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/Base/BaseWindowController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="28" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1933">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogStorage.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/LogStorage.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1530">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Podfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Podfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogsDetailController.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/LogsDetailController.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="37" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2205">
+            <state line="10" column="0" selection-start="193" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="465">
               <folding>
-                <marker date="1391394631000" expanded="true" signature="640:3758" placeholder="..." />
-                <marker date="1391394631000" expanded="true" signature="664:1045" placeholder="{...}" />
-                <marker date="1391394631000" expanded="true" signature="1075:2207" placeholder="{...}" />
-                <marker date="1391394631000" expanded="true" signature="2343:2486" placeholder="{...}" />
-                <marker date="1391394631000" expanded="true" signature="2572:2590" placeholder="{...}" />
-                <marker date="1391394631000" expanded="true" signature="2775:3532" placeholder="{...}" />
-                <marker date="1391394631000" expanded="true" signature="3568:3613" placeholder="{...}" />
-                <marker date="1391394631000" expanded="true" signature="3686:3755" placeholder="{...}" />
+                <marker date="1391134350000" expanded="true" signature="0:101" placeholder="//..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetLogsOperation.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/logs/GetLogsOperation.m">
+      <file leaf-file-name="DPWindowController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="47" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+            <state line="9" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopwatchWindowController.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.h">
+      <file leaf-file-name="ProjectWindowController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/Windows/ProjectWindowController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="450">
+            <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOBasicObject.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.m">
+      <file leaf-file-name="ProjectWindowController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/Windows/ProjectWindowController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="4" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0" vertical-offset="2085" max-vertical-offset="2685">
+            <state line="8" column="11" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOBasicObject+Additions.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Additions/BOBasicObject+Additions.m">
+      <file leaf-file-name="BOAPIModel.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="15" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1515">
+            <state line="99" column="61" selection-start="2821" selection-end="2821" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="5160">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/User.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOAPIModel.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIModel.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="45" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1110">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stopwatch/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="26" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="2078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.24793388" vertical-offset="0" max-vertical-offset="1131">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stopwatch/AppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPItemsStorage.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsStorage.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stopwatch/main.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOLoginOperation.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="22" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -231,7 +236,7 @@
       <file leaf-file-name="DPShadowView.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Views/DPShadowView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="22" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1605">
+            <state line="58" column="22" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -240,7 +245,7 @@
       <file leaf-file-name="DPInnerShadowView.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1238">
+            <state line="16" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -249,7 +254,7 @@
       <file leaf-file-name="DPInnerShadowView.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="508">
+            <state line="9" column="4" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -264,7 +269,7 @@
   </component>
   <component name="Git.Settings">
     <option name="SYNC_SETTING" value="SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../LocalPods/BOAPI" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../LocalPods/DPKit" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -274,22 +279,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsStorage.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPStorage.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsController.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIDelegate.h" />
+        <option value="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/User.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIModel.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsStorage.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsController.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" />
         <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.m" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/LogStorage.m" />
-        <option value="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.h" />
-        <option value="$PROJECT_DIR$/Podfile" />
-        <option value="$PROJECT_DIR$/Controllers/LogsDetailController.h" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.h" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.m" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Log.m" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.m" />
-        <option value="$PROJECT_DIR$/Controllers/LogsDetailController.m" />
-        <option value="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/Log.h" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.m" />
         <option value="$PROJECT_DIR$/Stopwatch/AppDelegate.m" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.h" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.m" />
-        <option value="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m" />
-        <option value="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.m" />
+        <option value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.h" />
       </list>
     </option>
   </component>
@@ -324,6 +329,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,7 +468,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,7 +475,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Pods-DPKit" />
@@ -621,16 +626,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="796" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="796" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33700138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277777" sideWeight="0.53507566" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16736111" sideWeight="0.53507566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16736111" sideWeight="0.5502063" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46492434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.43603852" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16736111" sideWeight="0.44841817" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -676,123 +681,112 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Controllers/Base/BaseController.m">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="165" selection-end="165" vertical-scroll-proportion="-0.16" vertical-offset="180" max-vertical-offset="1020">
+        <state line="50" column="64" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.2805049" vertical-offset="550" max-vertical-offset="3293" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsStorage.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Base/BaseController.h">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="164" selection-end="164" vertical-scroll-proportion="0.33247423" vertical-offset="6" max-vertical-offset="583">
+        <state line="38" column="42" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/LogsDetailController.h">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/Custom Views/DPInnerShadowView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="287" selection-end="287" vertical-scroll-proportion="0.33333334" vertical-offset="55" max-vertical-offset="585">
+        <state line="9" column="4" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/LogsDetailController.m">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Core/BOAPIStorage.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="2205">
+        <state line="149" column="17" selection-start="3315" selection-end="3315" vertical-scroll-proportion="0.0" vertical-offset="1886" max-vertical-offset="3053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Windows/ProjectWindowController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Windows/ProjectWindowController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/Base/BaseWindowController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="193" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1133">
           <folding>
-            <marker date="1391394631000" expanded="true" signature="640:3758" placeholder="..." />
-            <marker date="1391394631000" expanded="true" signature="664:1045" placeholder="{...}" />
-            <marker date="1391394631000" expanded="true" signature="1075:2207" placeholder="{...}" />
-            <marker date="1391394631000" expanded="true" signature="2343:2486" placeholder="{...}" />
-            <marker date="1391394631000" expanded="true" signature="2572:2590" placeholder="{...}" />
-            <marker date="1391394631000" expanded="true" signature="2775:3532" placeholder="{...}" />
-            <marker date="1391394631000" expanded="true" signature="3568:3613" placeholder="{...}" />
-            <marker date="1391394631000" expanded="true" signature="3686:3755" placeholder="{...}" />
+            <marker date="1391134350000" expanded="true" signature="0:101" placeholder="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/Log.h">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="331" selection-end="331" vertical-scroll-proportion="0.6572165" vertical-offset="0" max-vertical-offset="868">
+        <state line="8" column="10" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Log.m">
+    <entry file="file://$PROJECT_DIR$/Stopwatch/AppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="327" selection-end="327" vertical-scroll-proportion="0.33333334" vertical-offset="85" max-vertical-offset="2850">
+        <state line="15" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Stopwatch/AppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="30" selection-start="1196" selection-end="1196" vertical-scroll-proportion="0.56" vertical-offset="435" max-vertical-offset="1590">
+        <state line="55" column="26" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="2078">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/LogStorage.m">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1530">
+        <state line="155" column="4" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0" vertical-offset="2325" max-vertical-offset="2355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/logs/GetLogsOperation.m">
+    <entry file="file://$PROJECT_DIR$/Controllers/Base/BaseController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="47" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+        <state line="36" column="34" selection-start="761" selection-end="761" vertical-scroll-proportion="0.6100982" vertical-offset="105" max-vertical-offset="1358">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.m">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="284" selection-end="284" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="2685">
+        <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/BOOperation.h">
+    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="231" selection-end="320" vertical-scroll-proportion="-0.06666667" vertical-offset="205" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="422" selection-end="422" vertical-scroll-proportion="0.61333334" vertical-offset="115" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/Controls/DPTimeControls/DPTimeControls/DPTimerTextField.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="244" selection-end="244" vertical-scroll-proportion="-0.0927835" vertical-offset="216" max-vertical-offset="883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="28" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1933">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPObject/DPObject/BasicDelegater.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="43" selection-start="561" selection-end="561" vertical-scroll-proportion="0.44" vertical-offset="225" max-vertical-offset="1065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/Task.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="11" selection-start="6463" selection-end="6463" vertical-scroll-proportion="0.37333333" vertical-offset="3835" max-vertical-offset="4755">
+        <state line="12" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.24793388" vertical-offset="0" max-vertical-offset="1131">
           <folding />
         </state>
       </provider>

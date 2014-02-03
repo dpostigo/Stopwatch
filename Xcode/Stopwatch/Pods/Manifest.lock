@@ -124,43 +124,43 @@ PODS:
     - NSObject-UserDefaults
   - CALayer-DPUtils (0.1.5):
     - DPKit/Graphics
-  - DPKit (0.0.10):
+  - DPKit (0.0.12):
     - DPKit/Graphics
     - DPKit/iOS
     - DPKit/Mac OS X
     - DPKit/Shared
-  - DPKit/Graphics (0.0.10)
-  - DPKit/Mac OS X (0.0.10):
+  - DPKit/Graphics (0.0.12)
+  - DPKit/Mac OS X (0.0.12):
     - DPKit/Graphics
     - DPKit/Mac OS X/Custom Views
     - DPKit/Shared
-  - DPKit/Mac OS X/Custom Views (0.0.10):
+  - DPKit/Mac OS X/Custom Views (0.0.12):
     - DPKit/Graphics
     - DPKit/Shared
-  - DPKit/Shared (0.0.10):
+  - DPKit/Shared (0.0.12):
     - JMSimpleDate
     - NSView-DPAutolayout
-  - DPObject (0.0.1):
+  - DPObject (0.0.2):
     - DPKit
-  - DPOutlineView (0.0.1):
+  - DPOutlineView (0.0.2):
     - DPKit
     - DPOutlineView/Additions
     - DPOutlineView/Core
     - DPOutlineView/Models
     - NSView-DPFrameUtils
-  - DPOutlineView/Additions (0.0.1):
+  - DPOutlineView/Additions (0.0.2):
     - DPKit
     - DPOutlineView/Core
     - NSView-DPFrameUtils
-  - DPOutlineView/Core (0.0.1):
+  - DPOutlineView/Core (0.0.2):
     - DPKit
     - DPOutlineView/Additions
     - DPOutlineView/Models
     - NSView-DPFrameUtils
-  - DPOutlineView/Models (0.0.1):
+  - DPOutlineView/Models (0.0.2):
     - DPKit
     - NSView-DPFrameUtils
-  - DPStorage (0.0.3):
+  - DPStorage (0.0.5):
     - AutoCoding
     - DPKit
     - DPObject
@@ -216,10 +216,10 @@ SPEC CHECKSUMS:
   AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
   BOAPI: 1720f381fabcd2cf1a200f11e53604ce64fce59c
   CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
-  DPKit: c80927d46dc0952fecc8a5ed0863ebb1a4fce29d
-  DPObject: ffde29503d7b2f169691b7dc5f5d5a7307fcd891
-  DPOutlineView: 75478eb80fca5ea7bc23f38f4fcee7c1ddf5edc0
-  DPStorage: a8cee274c6c7e86b83fc8e6d488db5e01b08c182
+  DPKit: 402a057fdb919bf86cb3d8144e95b403503bdfc0
+  DPObject: 37eccca94d2615bada72cc93723a63a41239acb8
+  DPOutlineView: 71bb862b36bc686dd66e79717e3ad963fcb2436a
+  DPStorage: 024e22af510a1db7e4481d6a80c8eb136259caf1
   DPWindow: c51dbd23470aa19f1660f96f931060260ae51729
   JMSimpleDate: 28598b52a6f7cfbff3dfddcab0eac9a334b6a48a
   NSColor-BlendingUtils: ea681628f698c3c40586a87b518b6264efde5e9e

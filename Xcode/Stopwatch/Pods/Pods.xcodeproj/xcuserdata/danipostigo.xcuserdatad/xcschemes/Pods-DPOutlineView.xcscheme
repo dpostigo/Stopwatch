@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2EFD236FA74415E81A34E29"
+               BlueprintIdentifier = "D1D1F61B26FC4F2A8A58D9D3"
                BuildableName = "libPods-DPOutlineView.a"
                BlueprintName = "Pods-DPOutlineView"
                ReferencedContainer = "container:Pods.xcodeproj">

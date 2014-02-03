@@ -21,6 +21,7 @@
 #import "EmptyWindowController.h"
 #import "AutoCoding.h"
 #import "BOAPIStorage.h"
+#import "BOLogsController.h"
 
 @implementation AppDelegate {
     Model *_model;
@@ -30,21 +31,30 @@
 @synthesize windowController;
 
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
+
+    //    [self testLogs];
+    //
     _model = [Model sharedModel];
+    [_model.apiModel cleanCache];
     [_model.apiModel subscribeDelegate: self];
-
-
-    //    NSLog(@"[_model.apiModel.storage dictionaryRepresentation] = %@", [_model.apiModel.storage dictionaryRepresentation]);
 
     self.windowController = [[LoginWindowController alloc] init];
 
-    NSArray *allLogs = [_model.apiModel.tasks valueForKeyPath: @"@distinctUnionOfArrays.logs"];
+}
 
-    if ([allLogs count] > 0) {
-        Log *log = [allLogs objectAtIndex: 0];
-        //        NSLog(@"setting title");
-        //        log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
-    }
+- (void) testLogs {
+
+    BOLogsController *controller = [[BOLogsController alloc] init];
+    [controller.items addObject: [[Log alloc] initWithTitle: @"Log"]];
+
+
+    //    NSArray *allLogs = [_model.apiModel.tasks valueForKeyPath: @"@distinctUnionOfArrays.logs"];
+    //
+    //    if ([allLogs count] > 0) {
+    //        Log *log = [allLogs objectAtIndex: 0];
+    //        //        NSLog(@"setting title");
+    //        //        log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
+    //    }
 
 }
 
@@ -64,7 +74,7 @@
 
 }
 
-
+c
 #pragma mark Window controller
 
 

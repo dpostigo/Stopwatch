@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DPOutlineView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "DPOutlineView."
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |core|
     core.dependency 'DPOutlineView/Models'
     core.dependency 'DPOutlineView/Additions'
-    core.source_files = 'DPOutlineView/*.{h,m}'
+    core.source_files = 'DPOutlineView/*.{h,m}', 'DPOutlineView/Core/**/*.{h,m}'
   end
 
   s.subspec 'Additions' do |additions|

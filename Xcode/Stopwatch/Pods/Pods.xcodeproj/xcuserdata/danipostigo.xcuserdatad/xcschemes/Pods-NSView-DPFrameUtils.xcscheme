@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37083662FCEA45EDBA18D7BF"
+               BlueprintIdentifier = "315627100D3B4C429D3FD71C"
                BuildableName = "libPods-NSView-DPFrameUtils.a"
                BlueprintName = "Pods-NSView-DPFrameUtils"
                ReferencedContainer = "container:Pods.xcodeproj">
