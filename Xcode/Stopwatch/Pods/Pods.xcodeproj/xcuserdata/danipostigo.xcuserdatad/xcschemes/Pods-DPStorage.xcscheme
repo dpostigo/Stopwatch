@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "298000016C354E7C97E2A627"
+               BlueprintIdentifier = "8AD7AD19360344E3BE8F0AC9"
                BuildableName = "libPods-DPStorage.a"
                BlueprintName = "Pods-DPStorage"
                ReferencedContainer = "container:Pods.xcodeproj">

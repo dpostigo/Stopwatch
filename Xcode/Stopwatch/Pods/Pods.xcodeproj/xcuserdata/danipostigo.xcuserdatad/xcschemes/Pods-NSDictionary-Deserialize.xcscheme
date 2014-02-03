@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65ADA0CF962E48CAAE0ADBBF"
+               BlueprintIdentifier = "61F938A8C07D48C09E72A30C"
                BuildableName = "libPods-NSDictionary-Deserialize.a"
                BlueprintName = "Pods-NSDictionary-Deserialize"
                ReferencedContainer = "container:Pods.xcodeproj">

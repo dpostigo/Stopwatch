@@ -48,6 +48,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="toggle:" target="2q1-j5-HEO" id="xxa-Dp-63E"/>
+                        </connections>
                     </button>
                     <popUpButton verticalHuggingPriority="750" horizontalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="bcf-ad-7ZM">
                         <rect key="frame" x="18" y="404" width="231" height="26"/>
@@ -93,7 +96,7 @@
                             <action selector="showDrawer:" target="-2" id="nhg-k5-3PE"/>
                         </connections>
                     </button>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="HGo-h9-Ax4">
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="HGo-h9-Ax4" customClass="DPInnerShadowView">
                         <rect key="frame" x="0.0" y="0.0" width="266" height="263"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </customView>

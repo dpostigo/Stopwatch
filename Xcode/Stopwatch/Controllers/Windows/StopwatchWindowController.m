@@ -3,6 +3,7 @@
 // Copyright (c) 2014 Dani Postigo. All rights reserved.
 //
 
+#import <BOAPI/Task.h>
 #import "StopwatchWindowController.h"
 #import "TimeLog.h"
 #import "DPTimeControlTextField.h"
@@ -14,6 +15,9 @@
 #import "LogsWindowController.h"
 #import "NSWindowController+DPWindow.h"
 #import "LogsDetailController.h"
+#import "NSView+NewConstraint.h"
+#import "Log.h"
+#import "Model.h"
 
 @implementation StopwatchWindowController
 
@@ -21,8 +25,26 @@
     [super windowDidLoad];
     //    [self.window setHasShadow: NO];
 
+    [self customizeBackground];
 
+    LogsDetailController *controller = [[LogsDetailController alloc] init];
+    controller.view.frame = logsView.bounds;
+    [logsView addSubview: controller.view];
+    [controller.view superConstrainCenterX];
+    [controller.view superConstrainCenterY];
+    [controller.view superConstrainWidth];
+    [controller.view superConstrainHeight];
 
+    counterField.stopBlock = ^(DPTimerTextField *textField){
+        Log *log = [[Log alloc] initWithTitle: @""];
+        log.startDate = textField.startDate;
+        log.endDate = textField.stopDate;
+        [[Model sharedModel].selectedTask.logs addObject: log];
+    };
+
+}
+
+- (void) customizeBackground {
 
     NSView *contentView = self.headeredWindow.contentContentView;
     contentView.wantsLayer = YES;
@@ -31,15 +53,7 @@
     layer.borderColor = [NSColor darkGrayColor].CGColor;
     layer.borderWidth = 1.0;
 
-    LogsDetailController *controller = [[LogsDetailController alloc] init];
-    controller.view.frame = logsView.bounds;
-    [logsView addSubview: controller.view];
-    controller.view superconstrain
-
 }
-
-
-
 
 - (IBAction) showDrawer: (id) sender {
 
@@ -59,7 +73,6 @@
 }
 
 - (IBAction) toggle: (id) sender {
-
     if (counterField.isRunning) {
         [self stop: nil];
     } else {

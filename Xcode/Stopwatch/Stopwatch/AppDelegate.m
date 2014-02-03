@@ -34,7 +34,7 @@
     [_model.apiModel subscribeDelegate: self];
 
 
-//    NSLog(@"[_model.apiModel.storage dictionaryRepresentation] = %@", [_model.apiModel.storage dictionaryRepresentation]);
+    //    NSLog(@"[_model.apiModel.storage dictionaryRepresentation] = %@", [_model.apiModel.storage dictionaryRepresentation]);
 
     self.windowController = [[LoginWindowController alloc] init];
 
@@ -42,8 +42,8 @@
 
     if ([allLogs count] > 0) {
         Log *log = [allLogs objectAtIndex: 0];
-        NSLog(@"setting title");
-        log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
+        //        NSLog(@"setting title");
+        //        log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
     }
 
 }
@@ -59,8 +59,8 @@
 - (void) tasksDidUpdate {
     self.windowController = [[StopwatchWindowController alloc] init];
 
-//    testController = [[EmptyWindowController alloc] init];
-//    [testController.window makeKeyAndOrderFront: nil];
+    //    testController = [[EmptyWindowController alloc] init];
+    //    [testController.window makeKeyAndOrderFront: nil];
 
 }
 
