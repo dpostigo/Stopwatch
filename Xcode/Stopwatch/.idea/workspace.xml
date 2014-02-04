@@ -12,59 +12,548 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableCellView.m" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableRowView.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPTableRowView.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stopwatch.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Stopwatch.xcworkspace/xcuserdata/danipostigo.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stopwatch/AppDelegate.m" afterPath="$PROJECT_DIR$/Stopwatch/AppDelegate.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AFNetworking/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AutoCoding/AutoCoding/AutoCoding.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AutoCoding/AutoCoding/AutoCoding.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AutoCoding/LICENCE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/AutoCoding/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFHTTPRequestOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFHTTPRequestOperationManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFNetworkReachabilityManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFSecurityPolicy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFURLConnectionOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFURLRequestSerialization.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AFNetworking/AFURLResponseSerialization.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/AutoCoding/AutoCoding.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIModel+DataObjects.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIModel+DictionaryUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIModel+Utils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOAPIStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOBasicObject+Additions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOBasicObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOFocusTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOLoginOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOLogsController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BOTaskTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/BudgetCategory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/CreateLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/DeleteLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/GetAssigneeProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/GetLogsOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/GetServiceItemsOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/GetTasksOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/Job.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/Log.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/LogStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/LogoutOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/NSArray+BOBasicObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/NSArray+JobUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/NSArray+Task.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/NSArray+User.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/NSMutableDictionary+SafeSetting.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/NSString+BOAPIUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/ServiceItem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/Task.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/UpdateLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/BOAPI/User.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/CALayer-DPUtils/CALayer+ConstraintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/CALayer-DPUtils/CALayer+ConstraintUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/CALayer-DPUtils/CALayer+FrameUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/CALayer-DPUtils/CALayer+SublayerUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/CALayer-DPUtils/CARoundedShapeLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/CALayer-DPUtils/DPLayerDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/DPInnerShadowView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/DPInsetTextFieldCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/DPLinedView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/DPViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/DPWindowController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSArray+DPDictionary.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSArray+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSArray+DPStringSearch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSArray+DateUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSAttributedString+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSBezierPath+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSBezierPath+RoundedCorners.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSBundle+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSButton+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSDate+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSDictionary+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSFileManager+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSMutableArray+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSMutableAttributedString+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSObject+CallSelector.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSObject+DPKitObservation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSOutlineView+ItemUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSShadow+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSString+DPKitUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSTableCellView+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSTextFieldCell+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPKit/NSWindow+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPObject/BasicDelegater.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPObject/BasicModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineView+ItemUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineView+Methods.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineView+SectionMethods.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineView+Selection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewCore.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewItem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewSection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableCellView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableRowView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/NSOutlineView+Insertion.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/NSOutlineView+Selection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPStorage/ArrayController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPStorage/DPArrayStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPStorage/DPItemsController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPStorage/DPItemsControllerDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPStorage/DPItemsStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPStorage/DPStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPWindow/DPHeaderedWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPWindow/DPStyledWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPWindow/DPWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPWindow/NSWindowController+DPWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/JMSimpleDate/JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/JMSimpleDate/JMSimpleDateConstants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/JMSimpleDate/NSDate+JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/JMSimpleDate/NSDateFormatter+JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSColor-BlendingUtils/NSColor+BlendingUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSColor-BlendingUtils/NSColor+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSColor-BlendingUtils/NSColor+Hex.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSColor-Crayola/NSColor+Crayola.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSDictionary-Deserialize/NSDictionary+Deserialize.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSObject+AutoDescription/NSObject+AutoDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSObject+AutoDescription/NSObject+CleanDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSObject-UserDefaults/NSObject+UserDefaults.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-DPAutolayout/NSView+ConstraintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-DPAutolayout/NSView+ConstraintModifiers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-DPAutolayout/NSView+SiblingConstraints.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-DPAutolayout/NSView+SuperConstaintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-DPAutolayout/NSView+SuperConstraints.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-DPFrameUtils/NSView+DPFrameUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-NewConstraints/NSLayoutConstraint+DPUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-NewConstraints/NSView+ConstraintBased.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-NewConstraints/NSView+ConstraintFinders.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/NSView-NewConstraints/NSView+NewConstraint.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/WDCountdownFormatter/WDCountdownFormatter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/CALayer+ConstraintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/CALayer+ConstraintGetters.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/CALayer+ConstraintUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/CALayer+ConstraintUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/CARoundedShapeLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/CARoundedShapeLayer.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/DPLayerDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils-OSX/DPLayerDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils/CALayer+FrameUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils/CALayer+FrameUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils/CALayer+SublayerUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/CALayer-DPUtils/CALayer+SublayerUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/CALayer-DPUtils/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Custom Views/DPLinedView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Custom Views/DPLinedView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Graphics/NSBezierPath+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Graphics/NSBezierPath+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Graphics/NSBezierPath+RoundedCorners.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Graphics/NSBezierPath+RoundedCorners.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Graphics/NSShadow+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/Graphics/NSShadow+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/NSButton+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/NSButton+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/NSOutlineView+ItemUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/NSOutlineView+ItemUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/NSWindow+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/osx/NSWindow+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DPDictionary.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DPDictionary.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DPStringSearch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DPStringSearch.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DateUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSArray+DateUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSAttributedString+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSAttributedString+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSBundle+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSBundle+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSDate+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSDate+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSDictionary+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSDictionary+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSFileManager+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSFileManager+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSMutableArray+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSMutableArray+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSMutableAttributedString+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSMutableAttributedString+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSObject+CallSelector.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSObject+CallSelector.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSString+DPKitUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/DPKit/shared/NSString+DPKitUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPKit/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+ItemUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+ItemUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+Methods.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+Methods.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+SectionMethods.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+SectionMethods.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+Selection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/DPOutlineView+Selection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/NSOutlineView+Insertion.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/NSOutlineView+Insertion.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/NSOutlineView+Selection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Additions/NSOutlineView+Selection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/DPOutlineView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/DPOutlineView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/DPOutlineViewCore.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/DPOutlineViewCore.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/DPOutlineViewDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPOutlineViewSection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPOutlineViewSection.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPTableCellView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPTableCellView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPTableRowView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/DPOutlineView/Models/DPTableRowView.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPOutlineView/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/DPStorage/ArrayController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/DPStorage/ArrayController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/DPStorage/DPArrayStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/DPStorage/DPArrayStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/DPStorage/DPStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/DPStorage/DPStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/DPStorage/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFHTTPRequestOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFHTTPRequestOperationManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFNetworkReachabilityManager.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFSecurityPolicy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFURLConnectionOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFURLRequestSerialization.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AFNetworking/AFURLResponseSerialization.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/AutoCoding/AutoCoding.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOAPIDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOAPIModel+DataObjects.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOAPIModel+DictionaryUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOAPIModel+Utils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOAPIModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOAPIStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOBasicObject+Additions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOBasicObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOFocusTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOLoginOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOLogsController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BOTaskTypes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/BudgetCategory.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/CreateLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/DeleteLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/GetAssigneeProcess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/GetLogsOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/GetServiceItemsOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/GetTasksOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/Job.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/Log.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/LogStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/LogoutOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/NSArray+BOBasicObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/NSArray+JobUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/NSArray+Task.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/NSArray+User.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/NSMutableDictionary+SafeSetting.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/NSString+BOAPIUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/ServiceItem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/Task.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/UpdateLogOperation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/BOAPI/User.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/CALayer-DPUtils/CALayer+ConstraintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/CALayer-DPUtils/CALayer+ConstraintUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/CALayer-DPUtils/CALayer+FrameUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/CALayer-DPUtils/CALayer+SublayerUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/CALayer-DPUtils/CARoundedShapeLayer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/CALayer-DPUtils/DPLayerDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/DPInnerShadowView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/DPInsetTextFieldCell.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/DPLinedView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/DPViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/DPWindowController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSArray+DPDictionary.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSArray+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSArray+DPStringSearch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSArray+DateUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSAttributedString+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSBezierPath+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSBezierPath+RoundedCorners.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSBundle+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSButton+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSDate+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSDictionary+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSFileManager+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSMutableArray+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSMutableAttributedString+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSObject+CallSelector.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSObject+DPKitObservation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSOutlineView+ItemUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSShadow+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSString+DPKitUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSTableCellView+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSTextFieldCell+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPKit/NSWindow+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPObject/BasicDelegater.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPObject/BasicModel.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineView+ItemUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineView+Methods.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineView+SectionMethods.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineView+Selection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewCore.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewItem.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewSection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableCellView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableRowView.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/NSOutlineView+Insertion.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/NSOutlineView+Selection.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPStorage/ArrayController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPStorage/DPArrayStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPStorage/DPItemsController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPStorage/DPItemsControllerDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPStorage/DPItemsStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPStorage/DPStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPWindow/DPHeaderedWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPWindow/DPStyledWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPWindow/DPWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/DPWindow/NSWindowController+DPWindow.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/JMSimpleDate/JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/JMSimpleDate/JMSimpleDateConstants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/JMSimpleDate/NSDate+JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/JMSimpleDate/NSDateFormatter+JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSColor-BlendingUtils/NSColor+BlendingUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSColor-BlendingUtils/NSColor+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSColor-BlendingUtils/NSColor+Hex.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSColor-Crayola/NSColor+Crayola.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSDictionary-Deserialize/NSDictionary+Deserialize.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSObject+AutoDescription/NSObject+AutoDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSObject+AutoDescription/NSObject+CleanDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSObject-UserDefaults/NSObject+UserDefaults.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-DPAutolayout/NSView+ConstraintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-DPAutolayout/NSView+ConstraintModifiers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-DPAutolayout/NSView+SiblingConstraints.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-DPAutolayout/NSView+SuperConstaintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-DPAutolayout/NSView+SuperConstraints.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-DPFrameUtils/NSView+DPFrameUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-NewConstraints/NSLayoutConstraint+DPUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-NewConstraints/NSView+ConstraintBased.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-NewConstraints/NSView+ConstraintFinders.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/NSView-NewConstraints/NSView+NewConstraint.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/WDCountdownFormatter/WDCountdownFormatter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/JMSimpleDate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/JMSimpleDateConstants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/JMSimpleDateConstants.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/NSDate+JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/NSDate+JMSimpleDate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/NSDateFormatter+JMSimpleDate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/JMSimpleDate/NSDateFormatter+JMSimpleDate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/JMSimpleDate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/BOAPI.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPCustomWindow.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPKit.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPObject.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPOutlineView.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPStorage.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPWindow.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/NSColor-Crayola.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/WDCountdownFormatter.podspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/NSColor-BlendingUtils/NSColor+BlendingUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/NSColor-BlendingUtils/NSColor+BlendingUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/NSColor-BlendingUtils/NSColor+DPKit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/NSColor-BlendingUtils/NSColor+DPKit.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/NSColor-BlendingUtils/NSColor+Hex.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSColor-BlendingUtils/NSColor-BlendingUtils/NSColor+Hex.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSDictionary-Deserialize/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSDictionary-Deserialize/NSDictionary-Deserialize/NSDictionary+Deserialize.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSDictionary-Deserialize/NSDictionary-Deserialize/NSDictionary+Deserialize.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject+AutoDescription/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject+AutoDescription/NSObject+AutoDescription/NSObject+AutoDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject+AutoDescription/NSObject+AutoDescription/NSObject+AutoDescription.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject+AutoDescription/NSObject+AutoDescription/NSObject+CleanDescription.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject+AutoDescription/NSObject+AutoDescription/NSObject+CleanDescription.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject+AutoDescription/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject-UserDefaults/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject-UserDefaults/NSObject-UserDefaults/NSObject+UserDefaults.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSObject-UserDefaults/NSObject-UserDefaults/NSObject+UserDefaults.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+ConstraintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+ConstraintGetters.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+ConstraintModifiers.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+ConstraintModifiers.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+SiblingConstraints.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+SiblingConstraints.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+SuperConstaintGetters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+SuperConstaintGetters.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+SuperConstraints.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPAutolayout/NSView-DPAutolayout/NSView+SuperConstraints.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPFrameUtils/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPFrameUtils/NSView-DPFrameUtils/NSView+DPFrameUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-DPFrameUtils/NSView-DPFrameUtils/NSView+DPFrameUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSLayoutConstraint+DPUtils.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSLayoutConstraint+DPUtils.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSView+ConstraintBased.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSView+ConstraintBased.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSView+ConstraintFinders.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSView+ConstraintFinders.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSView+NewConstraint.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/NSView-NewConstraints/NSView-NewConstraints/NSView+NewConstraint.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AFNetworking-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AFNetworking-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AFNetworking-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AFNetworking.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AutoCoding-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AutoCoding-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AutoCoding-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-AutoCoding.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-BOAPI-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-BOAPI-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-BOAPI-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-BOAPI.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-CALayer-DPUtils-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-CALayer-DPUtils-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-CALayer-DPUtils-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-CALayer-DPUtils.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPCustomWindow-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPCustomWindow-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPCustomWindow-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPCustomWindow.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPKit-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPKit-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPKit-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPKit.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPObject-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPObject-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPObject-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPObject.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPOutlineView-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPOutlineView-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPOutlineView-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPOutlineView.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPStorage-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPStorage-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPStorage-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPStorage.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPWindow-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPWindow-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPWindow-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-DPWindow.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-JMSimpleDate-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-JMSimpleDate-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-JMSimpleDate-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-JMSimpleDate.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-BlendingUtils-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-BlendingUtils-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-BlendingUtils-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-BlendingUtils.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-Crayola-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-Crayola-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-Crayola-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSColor-Crayola.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSDictionary-Deserialize-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSDictionary-Deserialize-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSDictionary-Deserialize-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSDictionary-Deserialize.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject+AutoDescription-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject+AutoDescription-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject+AutoDescription-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject+AutoDescription.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject-UserDefaults-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject-UserDefaults-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject-UserDefaults-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSObject-UserDefaults.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPAutolayout-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPAutolayout-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPAutolayout-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPAutolayout.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPFrameUtils-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPFrameUtils-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPFrameUtils-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-DPFrameUtils.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-NewConstraints-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-NewConstraints-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-NewConstraints-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-NSView-NewConstraints.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-WDCountdownFormatter-Private.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-WDCountdownFormatter-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-WDCountdownFormatter-prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-WDCountdownFormatter.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-acknowledgements.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-acknowledgements.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-dummy.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-environment.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods-resources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AutoCoding.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-BOAPI.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-CALayer-DPUtils.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPKit.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPObject.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPOutlineView.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPStorage.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPWindow.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-JMSimpleDate.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSColor-BlendingUtils.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSColor-Crayola.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSDictionary-Deserialize.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSObject+AutoDescription.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSObject-UserDefaults.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPAutolayout.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPFrameUtils.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-NewConstraints.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-WDCountdownFormatter.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/WDCountdownFormatter/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/WDCountdownFormatter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/WDCountdownFormatter/WDCountdownFormatter/WDCountdownFormatter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/WDCountdownFormatter/WDCountdownFormatter/WDCountdownFormatter.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/account/BOLoginOperation.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPHeaderedWindow.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPKit.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPKit.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPObject.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPObject.podspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineView.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView.podspec" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPOutlineView.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPOutlineView.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewCore.h" afterPath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPOutlineViewCore.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewCore.h" afterPath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPOutlineViewCore.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewDelegate.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/DPOutlineViewDelegate.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.h" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView/DPOutlineView/Models/DPOutlineViewItem.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Local Podspecs/DPStorage.podspec" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DPStorage.podspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPStyledWindow.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableCellView.h" afterPath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableCellView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableCellView.h" afterPath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableCellView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableRowView.h" afterPath="$PROJECT_DIR$/Pods/BuildHeaders/DPOutlineView/DPTableRowView.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableRowView.h" afterPath="$PROJECT_DIR$/Pods/Headers/DPOutlineView/DPTableRowView.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPWindow/DPWindow/DPWindow.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.m" afterPath="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPWindowController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LogsController.m" afterPath="$PROJECT_DIR$/Controllers/LogsController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/LogsDetailController.m" afterPath="$PROJECT_DIR$/Controllers/LogsDetailController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" afterPath="$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../LocalPods/Forked/NSColor-Crayola/Source/NSColor+Crayola.m" afterPath="$PROJECT_DIR$/../../../LocalPods/Forked/NSColor-Crayola/Source/NSColor+Crayola.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AutoCoding.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-AutoCoding.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-BOAPI.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-BOAPI.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-CALayer-DPUtils.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-CALayer-DPUtils.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPKit.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPObject.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPObject.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPOutlineView.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPOutlineView.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPStorage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPStorage.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPWindow.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-DPWindow.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-JMSimpleDate.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-JMSimpleDate.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSColor-BlendingUtils.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSColor-BlendingUtils.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSColor-Crayola.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSColor-Crayola.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSDictionary-Deserialize.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSDictionary-Deserialize.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSObject+AutoDescription.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSObject+AutoDescription.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSObject-UserDefaults.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSObject-UserDefaults.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPAutolayout.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPAutolayout.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPFrameUtils.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-DPFrameUtils.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-NewConstraints.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-NSView-NewConstraints.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-WDCountdownFormatter.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods-WDCountdownFormatter.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods-environment.h" afterPath="$PROJECT_DIR$/Pods/Pods-environment.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/Pods.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m" afterPath="$PROJECT_DIR$/Controllers/Windows/StopwatchWindowController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/danipostigo.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="Stopwatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +579,7 @@
       <file leaf-file-name="GetTasksOperation.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Operations/tasks/GetTasksOperation.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="42" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1350">
+            <state line="38" column="42" selection-start="985" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -173,7 +662,7 @@
       <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stopwatch/AppDelegate.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="26" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="2078">
+            <state line="55" column="26" selection-start="1444" selection-end="1444" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -182,7 +671,7 @@
       <file leaf-file-name="DPViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.24793388" vertical-offset="0" max-vertical-offset="1131">
+            <state line="20" column="42" selection-start="446" selection-end="446" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -191,7 +680,7 @@
       <file leaf-file-name="DPViewController.h" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="876">
+            <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -473,14 +962,14 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Pods-DPKit" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Stopwatch">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Stopwatch" TARGET_NAME="Stopwatch" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Stopwatch" RUN_TARGET_NAME="Stopwatch" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -626,16 +1115,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="796" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33700138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277777" sideWeight="0.53507566" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16736111" sideWeight="0.5502063" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20229556" sideWeight="0.53507566" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16714491" sideWeight="0.54971594" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46492434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16736111" sideWeight="0.44841817" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16714491" sideWeight="0.44886363" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -643,6 +1131,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33700138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -662,9 +1151,9 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20277777" sideWeight="0.6464924" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6464924" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -681,11 +1170,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="64" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.2805049" vertical-offset="550" max-vertical-offset="3293" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPStorage/DPStorage/DPItemsStorage.m">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1320">
@@ -765,16 +1249,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../LocalPods/BOAPI/BOAPI/Models/BOBasicObject.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="4" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0" vertical-offset="2325" max-vertical-offset="2355">
-          <folding />
-        </state>
+        <state line="155" column="4" selection-start="4011" selection-end="4011" vertical-scroll-proportion="0.0" vertical-offset="2325" max-vertical-offset="2355" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controllers/Base/BaseController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="761" selection-end="761" vertical-scroll-proportion="0.6100982" vertical-offset="105" max-vertical-offset="1358">
-          <folding />
-        </state>
+        <state line="36" column="34" selection-start="761" selection-end="761" vertical-scroll-proportion="0.6100982" vertical-offset="105" max-vertical-offset="1358" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.h">
@@ -784,9 +1264,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/LogsDetailController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="48" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.5072464" vertical-offset="355" max-vertical-offset="2565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../LocalPods/DPKit/DPKit/osx/DPViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.24793388" vertical-offset="0" max-vertical-offset="1131">
+        <state line="20" column="42" selection-start="446" selection-end="446" vertical-scroll-proportion="0.4347826" vertical-offset="0" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>

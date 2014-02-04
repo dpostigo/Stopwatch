@@ -1,1 +1,0 @@
-../../WDCountdownFormatter/WDCountdownFormatter/WDCountdownFormatter.h
