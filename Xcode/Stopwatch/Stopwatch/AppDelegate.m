@@ -32,11 +32,11 @@
 
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
 
-    //    [self testLogs];
     //
     _model = [Model sharedModel];
-    [_model.apiModel cleanCache];
+//    [_model.apiModel cleanCache];
     [_model.apiModel subscribeDelegate: self];
+    _model.apiModel.restrictLogsFetching = NO;
 
     self.windowController = [[LoginWindowController alloc] init];
 
@@ -74,7 +74,7 @@
 
 }
 
-c
+
 #pragma mark Window controller
 
 

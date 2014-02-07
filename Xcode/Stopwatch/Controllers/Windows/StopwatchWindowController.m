@@ -18,22 +18,19 @@
 #import "NSView+NewConstraint.h"
 #import "Log.h"
 #import "Model.h"
+#import "NSView+TMUtils.h"
+#import "NSView+SuperConstraints.h"
+#import "NSButton+DPViewButtonCell.h"
 
 @implementation StopwatchWindowController
 
 - (void) windowDidLoad {
     [super windowDidLoad];
-    //    [self.window setHasShadow: NO];
 
-    [self customizeBackground];
+    [self setupBackground];
+    [self setupLogDetailsView];
 
-    LogsDetailController *controller = [[LogsDetailController alloc] init];
-    controller.view.frame = logsView.bounds;
-    [logsView addSubview: controller.view];
-    [controller.view superConstrainCenterX];
-    [controller.view superConstrainCenterY];
-    [controller.view superConstrainWidth];
-    [controller.view superConstrainHeight];
+    [self setupTitleView];
 
     counterField.stopBlock = ^(DPTimerTextField *textField) {
         NSLog(@"%s", __PRETTY_FUNCTION__);
@@ -46,7 +43,31 @@
 
 }
 
-- (void) customizeBackground {
+- (void) setupTitleView {
+
+    NSView *view = [[NSView alloc] initWithFrame: titleBarButton.bounds];
+    view.translatesAutoresizingMaskIntoConstraints = NO;
+    [view styleAsLogsView];
+    [titleBarButton addSubview: view];
+    [view superConstrainEdges: 0];
+
+//    if (titleBarButton.viewButtonCell) {
+    //        [titleBarButton viewDidChangeBackingProperties];
+    //    }
+
+}
+
+- (void) setupLogDetailsView {
+    LogsDetailController *controller = [[LogsDetailController alloc] init];
+    controller.view.frame = logsView.bounds;
+    [logsView addSubview: controller.view];
+    [controller.view superConstrainCenterX];
+    [controller.view superConstrainCenterY];
+    [controller.view superConstrainWidth];
+    [controller.view superConstrainHeight];
+}
+
+- (void) setupBackground {
 
     NSView *contentView = self.headeredWindow.contentContentView;
     contentView.wantsLayer = YES;
@@ -57,9 +78,7 @@
 
 }
 
-- (IBAction) showDrawer: (id) sender {
-
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+- (IBAction) showLogs: (id) sender {
     LogsWindowController *controller = [[LogsWindowController alloc] init];
     NSWindow *window = controller.window;
 
@@ -68,10 +87,11 @@
     frame.origin.y = NSMinY(self.window.frame);
 
     [window setFrame: frame display: YES];
-    [window setMovable: NO];
     [self.window addChildWindow: controller.window ordered: NSWindowAbove];
+}
 
-    //    [drawer openOnEdge: NSMaxXEdge];
+- (IBAction) showDrawer: (id) sender {
+
 }
 
 - (IBAction) toggle: (id) sender {

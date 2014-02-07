@@ -26,6 +26,7 @@
 #import "GetLogsOperation.h"
 #import "NSButton+DPKit.h"
 #import "DeleteLogOperation.h"
+#import "NSView+TMUtils.h"
 
 @implementation LogsController
 
@@ -35,7 +36,7 @@
     [super awakeFromNib];
 
     [_model.apiModel subscribeDelegate: self];
-    [self customizeBackground];
+    [self setupBackground];
     [outline reloadData];
 }
 
@@ -47,48 +48,12 @@
 }
 
 
-- (void) customizeBackground {
-
-
-    //    DPLinedView *linedView = [[DPLinedView alloc] init];
-    //    linedView.spacing = outline.rowHeight;
-    //    linedView.lineColor = [NSColor crayolaDeepSpaceSparkleColor];
-    //    linedView.shadow = [AppStyles shadowWithColor: [NSColor whiteColor] radius: 0.0 offset: NSMakeSize(0, 1)];
-    //    [self.view addSubview: linedView];
-    //
-    //    linedView.translatesAutoresizingMaskIntoConstraints = NO;
-    //    linedView.frame = outline.bounds;
-    //    linedView.hidden = YES;
-    //    [linedView superConstrainWithInsets: NSEdgeInsetsMake(outline.top, 10, 10, 10)];
-
-    self.view.wantsLayer = YES;
-    CALayer *layer = self.view.layer;
-
-    //    bgColor = [NSColor crayolaOrangeYellowColor];
-    //    bgColor = [NSColor crayolaDandelionColor];
-    //    bgColor = [NSColor crayolaYellowColor];
-
-    layer.backgroundColor = self.backgroundColor.CGColor;
-    layer.cornerRadius = 3.0;
-    layer.borderColor = [NSColor lighten: self.backgroundColor amount: 0.5].CGColor;
-    layer.borderWidth = 0.5;
-    layer.masksToBounds = YES;
-
-    layer.shadowColor = [NSColor crayolaMummysTombColor].CGColor;
-    layer.shadowColor = [NSColor crayolaOuterSpaceColor].CGColor;
-    layer.shadowOpacity = 1.0;
-    layer.shadowRadius = 1.0;
-    layer.shadowOffset = CGSizeMake(0, -1);
-
-}
-
 - (Task *) task {
     return _model.selectedTask;
 }
 
-
-
 #pragma mark DPOutlineView delegate
+
 
 
 - (void) prepareDatasource {
@@ -110,11 +75,10 @@
 
 }
 
+
 //}
 
 #pragma mark Cells
-
-
 
 - (void) willDisplayTableCellView: (DPTableCellView *) view forItem: (DPOutlineViewItem *) item {
 
@@ -229,17 +193,23 @@
 }
 
 
-
-
 #pragma mark BOAPIDelegate
+
+
+
 
 - (void) timeLogsDidUpdate: (Task *) task {
     [outline reloadData];
 }
 
-
 - (void) timeLogsDidRemove: (Log *) log1 {
     [outline reloadData];
+
+}
+
+
+- (void) setupBackground {
+    [self.view styleAsLogsView];
 
 }
 

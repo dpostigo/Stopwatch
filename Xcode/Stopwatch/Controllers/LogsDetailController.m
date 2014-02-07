@@ -54,7 +54,7 @@
 
     [_model.selectedTask.logs addObject: [[Log alloc] initWithTitle: @"Title"]];
 
-    
+
 
 
     //    Log *log = [allLogs objectAtIndex: 0];
@@ -64,11 +64,7 @@
     //    NSLog(@"[Task codableProperties] = %@", [Task codableProperties]);
 }
 
-- (void) observeValueForKeyPath: (NSString *) keyPath ofObject: (id) object change: (NSDictionary *) change context: (void *) context {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
 
-    //    [super observeValueForKeyPath: keyPath ofObject: object change: change context: context];
-}
 
 #pragma mark Cells
 

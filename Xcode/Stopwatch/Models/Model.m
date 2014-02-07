@@ -46,14 +46,16 @@
 
 
 - (void) setSelectedTask: (Task *) selectedTask1 {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     if (selectedTask) {
         [selectedTask unsubscribeDelegate: self];
     }
     selectedTask = selectedTask1;
+
     if (selectedTask) {
         [selectedTask subscribeDelegate: self];
         [self notifyDelegates: @selector(modelDidSelectTask:) object: selectedTask];
-        NSLog(@"%s, starting GetLogsOperation.", __PRETTY_FUNCTION__);
+        //        NSLog(@"%s, starting GetLogsOperation.", __PRETTY_FUNCTION__);
         [self.queue addOperation: [[GetLogsOperation alloc] initWithTask: selectedTask]];
     }
 }

@@ -13,6 +13,7 @@
                 <outlet property="objectController" destination="CZR-jf-zYl" id="jUz-bG-AeT"/>
                 <outlet property="startField" destination="cZo-QX-PRg" id="MPA-zx-bAb"/>
                 <outlet property="stopField" destination="7ff-t2-5yE" id="JMb-GK-4rk"/>
+                <outlet property="titleBarButton" destination="77W-vh-6aA" id="Kal-Sn-2ZP"/>
                 <outlet property="window" destination="ZyX-CP-ke1" id="PFR-os-MdP"/>
             </connections>
         </customObject>
@@ -122,6 +123,7 @@
                 </constraints>
             </view>
             <connections>
+                <outlet property="titleBarView" destination="k37-Un-9tS" id="44V-JY-r0S"/>
                 <outlet property="windowView" destination="P4d-iO-Zkp" id="Ajj-wt-K3r"/>
             </connections>
         </window>
@@ -190,5 +192,23 @@
                 <outlet property="parentWindow" destination="ZyX-CP-ke1" id="t2y-uu-oLb"/>
             </connections>
         </drawer>
+        <customView id="k37-Un-9tS">
+            <rect key="frame" x="0.0" y="0.0" width="266" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="77W-vh-6aA" customClass="DPViewButton">
+                    <rect key="frame" x="222" y="-2" width="40" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="asdfas" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9cN-nT-8PI" customClass="DPViewButtonCell">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="77W-vh-6aA" secondAttribute="trailing" constant="10" id="Nop-Wj-RoS"/>
+                <constraint firstAttribute="centerY" secondItem="77W-vh-6aA" secondAttribute="centerY" constant="0.5" id="sAv-gN-LUj"/>
+            </constraints>
+        </customView>
     </objects>
 </document>

@@ -67,6 +67,7 @@ PODS:
     - BOAPI/Core
     - BOAPI/Operations/account
     - BOAPI/Operations/base
+    - BOAPI/Operations/jobs
     - BOAPI/Operations/logs
     - BOAPI/Operations/tasks
     - DPKit (~> 0.0.6)
@@ -87,6 +88,18 @@ PODS:
     - NSObject+AutoDescription
     - NSObject-UserDefaults
   - BOAPI/Operations/base (0.0.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AutoCoding
+    - BOAPI/Core
+    - DPKit (~> 0.0.6)
+    - DPStorage
+    - NSDictionary-Deserialize
+    - NSObject+AutoDescription
+    - NSObject-UserDefaults
+  - BOAPI/Operations/jobs (0.0.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -124,29 +137,60 @@ PODS:
     - NSObject-UserDefaults
   - CALayer-DPUtils (0.1.5):
     - DPKit/Graphics
-  - DPKit (0.0.12):
+  - DPKit (0.0.15):
     - DPKit/Graphics
     - DPKit/iOS
     - DPKit/Mac OS X
     - DPKit/Shared
-  - DPKit/Graphics (0.0.12)
-  - DPKit/Mac OS X (0.0.12):
+  - DPKit/Graphics (0.0.15)
+  - DPKit/Mac OS X (0.0.15):
     - DPKit/Graphics
     - DPKit/Mac OS X/Custom Views
+    - DPKit/Mac OS X/NSCell
     - DPKit/Shared
-  - DPKit/Mac OS X/Custom Views (0.0.12):
+    - NSColor-BlendingUtils
+  - DPKit/Mac OS X/Custom Views (0.0.15):
     - DPKit/Graphics
     - DPKit/Shared
-  - DPKit/Shared (0.0.12):
+    - NSColor-BlendingUtils
+  - DPKit/Mac OS X/NSCell (0.0.15):
+    - DPKit/Graphics
+    - DPKit/Mac OS X/NSCell/NSCell-Core
+    - DPKit/Mac OS X/NSCell/NSComboBoxCell
+    - DPKit/Mac OS X/NSCell/NSTextFieldCell
+    - DPKit/Mac OS X/NSCell/NSTokenFieldCell
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+  - DPKit/Mac OS X/NSCell/NSCell-Core (0.0.15):
+    - DPKit/Graphics
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+  - DPKit/Mac OS X/NSCell/NSComboBoxCell (0.0.15):
+    - DPKit/Graphics
+    - DPKit/Mac OS X/NSCell/NSCell-Core
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+  - DPKit/Mac OS X/NSCell/NSTextFieldCell (0.0.15):
+    - DPKit/Graphics
+    - DPKit/Mac OS X/NSCell/NSCell-Core
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+  - DPKit/Mac OS X/NSCell/NSTokenFieldCell (0.0.15):
+    - DPKit/Graphics
+    - DPKit/Mac OS X/NSCell/NSCell-Core
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+  - DPKit/Shared (0.0.15):
     - JMSimpleDate
     - NSView-DPAutolayout
-  - DPObject (0.0.2):
+  - DPObject (0.0.3):
     - DPKit
   - DPOutlineView (0.0.2):
     - DPKit
     - DPOutlineView/Additions
     - DPOutlineView/Core
     - DPOutlineView/Models
+    - DPOutlineView/UI
     - NSView-DPFrameUtils
   - DPOutlineView/Additions (0.0.2):
     - DPKit
@@ -156,11 +200,16 @@ PODS:
     - DPKit
     - DPOutlineView/Additions
     - DPOutlineView/Models
+    - DPOutlineView/UI
     - NSView-DPFrameUtils
   - DPOutlineView/Models (0.0.2):
     - DPKit
+    - DPOutlineView/UI
     - NSView-DPFrameUtils
-  - DPStorage (0.0.5):
+  - DPOutlineView/UI (0.0.2):
+    - DPKit
+    - NSView-DPFrameUtils
+  - DPStorage (0.0.6):
     - AutoCoding
     - DPKit
     - DPObject
@@ -214,12 +263,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
-  BOAPI: 1720f381fabcd2cf1a200f11e53604ce64fce59c
+  BOAPI: a99271f9888194f7a78f184219862c1e4bb4cbb2
   CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
-  DPKit: 402a057fdb919bf86cb3d8144e95b403503bdfc0
-  DPObject: 37eccca94d2615bada72cc93723a63a41239acb8
-  DPOutlineView: 71bb862b36bc686dd66e79717e3ad963fcb2436a
-  DPStorage: 024e22af510a1db7e4481d6a80c8eb136259caf1
+  DPKit: 27fdb54bf17917ab3d153144db5c22d21afce23f
+  DPObject: 0467a11bd1b899b91da9a48ed3eb3199dc5a72b0
+  DPOutlineView: 4e813898eb97b36762190fe3c268bc6fb0e922ab
+  DPStorage: 72cd5c486d636d14e2bb4cee9a8d4e0d43806e18
   DPWindow: c51dbd23470aa19f1660f96f931060260ae51729
   JMSimpleDate: 28598b52a6f7cfbff3dfddcab0eac9a334b6a48a
   NSColor-BlendingUtils: ea681628f698c3c40586a87b518b6264efde5e9e

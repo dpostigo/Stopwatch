@@ -18,8 +18,9 @@
     TimeLog *currentLog;
 
     IBOutlet NSDrawer *drawer;
-
     IBOutlet NSView *logsView;
+
+    IBOutlet NSButton *titleBarButton;
 }
 
 @property(nonatomic, strong) TimeLog *currentLog;
