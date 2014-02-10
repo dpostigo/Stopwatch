@@ -11,9 +11,13 @@
 
 @implementation ProjectWindowController
 
+- (void) loadWindow {
+    [super loadWindow];
+    [self stylize];
+}
+
 - (void) windowDidLoad {
     [super windowDidLoad];
-    [self stylize];
 }
 
 
@@ -24,6 +28,9 @@
     }
 }
 
+- (void) stylizeFooter {
 
+
+}
 
 @end

@@ -35,7 +35,6 @@
 - (void) awakeFromNib {
     [super awakeFromNib];
 
-    [_model.apiModel subscribeDelegate: self];
     [self setupBackground];
     [outline reloadData];
 }
@@ -57,7 +56,6 @@
 
 
 - (void) prepareDatasource {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     [outline clearSections];
 
     if ([self.task.logs count] > 0) {

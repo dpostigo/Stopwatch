@@ -10,7 +10,7 @@
 #import <DPOutlineView/DPTableCellView.h>
 #import <NSColor-BlendingUtils/NSColor+BlendingUtils.h>
 #import <DPOutlineView/DPTableRowView.h>
-#import "LogsDetailController.h"
+#import "LogDetailsController.h"
 #import "Model.h"
 #import "BOAPIModel.h"
 #import "NSArray+DPKit.h"
@@ -18,29 +18,50 @@
 #import "NSColor+Crayola.h"
 #import "AutoCoding.h"
 #import "Task.h"
+#import "NSOutlineView+DPKitNibRegistration.h"
+#import "NSObject+DPObjectObserver.h"
+#import "DPObjectObserver.h"
 
-@implementation LogsDetailController
+@implementation LogDetailsController
+
+@synthesize outline;
+
+- (void) setup {
+    [super setup];
+    [self observeObject: _model key: @"selectedTask"];
+}
 
 - (void) awakeFromNib {
     [super awakeFromNib];
 
-    [_model.apiModel subscribeDelegate: self];
-
-    //    self.view.wantsLayer = YES;
-    //    CALayer *layer = self.view.layer;
-    //    layer.backgroundColor = [NSColor darkGrayColor].CGColor;
-
+    NSLog(@"%s", __PRETTY_FUNCTION__);
     outline.rowViewClass = [DPTableRowView class];
     outline.outlineDelegate = self;
-    //    outline.allowsSelection = NO;
     [outline reloadData];
+
+    [self setupView];
+
 }
 
+
+- (void) setupView {
+
+    self.view.wantsLayer = YES;
+    self.view.layer.backgroundColor = [NSColor controlColor].CGColor;
+}
+
+- (void) setOutline: (DPOutlineView *) outline1 {
+    outline = outline1;
+    [outline registerNibName: @"LogDetailCardCellView" forIdentifier: @"DataCell"];
+
+}
 
 - (void) prepareDatasource {
     [outline clearSections];
 
     NSArray *allLogs = [_model.apiModel.tasks valueForKeyPath: @"@distinctUnionOfArrays.logs"];
+
+    allLogs = _model.selectedTask.logs;
     NSArray *dates = [[Log datesForLogs: allLogs] sortedArrayUsingDescriptor: [[NSSortDescriptor alloc] initWithKey: @"self" ascending: NO]];
 
     for (NSDate *date in dates) {
@@ -51,17 +72,6 @@
         }
         [outline addSection: section];
     }
-
-    [_model.selectedTask.logs addObject: [[Log alloc] initWithTitle: @"Title"]];
-
-
-
-
-    //    Log *log = [allLogs objectAtIndex: 0];
-    //        [log addObserver: self forKeyPath: @"title" options: (NSKeyValueObservingOptionOld | NSKeyValueObservingOptionPrior | NSKeyValueObservingOptionNew) context: NULL];
-    //    log.title = [NSString stringWithFormat: @"%@%@", log.title, log.title];
-
-    //    NSLog(@"[Task codableProperties] = %@", [Task codableProperties]);
 }
 
 
@@ -74,13 +84,15 @@
 }
 
 
-//- (CGFloat) heightForItem: (DPOutlineViewItem *) item {
-//    return 120;
-//}
+- (CGFloat) heightForItem: (DPOutlineViewItem *) item {
+    CGFloat ret = 0;
+    NSTableCellView *prototype = [outline.cellStorage objectForKey: @"dataCell"];
+    ret = prototype.height;
+    return ret;
+}
 
 
 - (void) willDisplayTableCellView: (DPTableCellView *) cellView forItem: (DPOutlineViewItem *) item {
-
     cellView.wantsLayer = YES;
 
     CALayer *layer = cellView.layer;
@@ -114,9 +126,16 @@
 #pragma mark BOAPIDelegate
 
 - (void) timeLogsDidUpdate: (Task *) task {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
     [outline reloadData];
 
+}
+
+
+#pragma mark Model Delegate
+
+- (void) modelDidUpdate: (Model *) model withSelectedTask: (Task *) task {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    [outline reloadData];
 }
 
 

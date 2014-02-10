@@ -4,13 +4,15 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseController.h"
+#import "SPViewController.h"
 #import "DPOutlineViewDelegate.h"
 #import "BOAPIDelegate.h"
 
 @class DPOutlineView;
 
-@interface LogsDetailController : BaseController <DPOutlineViewDelegate, BOAPIDelegate> {
+@interface LogDetailsController : SPViewController <DPOutlineViewDelegate, BOAPIDelegate> {
     IBOutlet DPOutlineView *outline;
 }
+
+@property(nonatomic, strong) DPOutlineView *outline;
 @end

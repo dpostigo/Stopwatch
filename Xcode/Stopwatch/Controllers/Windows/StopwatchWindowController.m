@@ -7,30 +7,32 @@
 #import "StopwatchWindowController.h"
 #import "TimeLog.h"
 #import "DPTimeControlTextField.h"
-#import "NSWindow+DPKit.h"
-#import "NSShadow+DPKit.h"
 #import "DPHeaderedWindow.h"
-#import "DPShadowView.h"
 #import "LogsController.h"
 #import "LogsWindowController.h"
 #import "NSWindowController+DPWindow.h"
-#import "LogsDetailController.h"
 #import "NSView+NewConstraint.h"
 #import "Log.h"
 #import "Model.h"
 #import "NSView+TMUtils.h"
-#import "NSView+SuperConstraints.h"
-#import "NSButton+DPViewButtonCell.h"
+#import "StreamWindowController.h"
 
 @implementation StopwatchWindowController
 
 - (void) windowDidLoad {
     [super windowDidLoad];
 
+    //    self.headeredWindow.footerBarHeight = 60;
+    //    self.headeredWindow.footerBarColor = [NSColor crayolaOnyxColor];
+    //    self.headeredWindow.shineColor = [[NSColor whiteColor] mix: [NSColor crayolaOnyxColor] fraction: 0.8];
+
     [self setupBackground];
     [self setupLogDetailsView];
 
     [self setupTitleView];
+
+    [self showLogPad: nil];
+    [self showLogStream: nil];
 
     counterField.stopBlock = ^(DPTimerTextField *textField) {
         NSLog(@"%s", __PRETTY_FUNCTION__);
@@ -51,20 +53,20 @@
     [titleBarButton addSubview: view];
     [view superConstrainEdges: 0];
 
-//    if (titleBarButton.viewButtonCell) {
+    //    if (titleBarButton.viewButtonCell) {
     //        [titleBarButton viewDidChangeBackingProperties];
     //    }
 
 }
 
 - (void) setupLogDetailsView {
-    LogsDetailController *controller = [[LogsDetailController alloc] init];
-    controller.view.frame = logsView.bounds;
-    [logsView addSubview: controller.view];
-    [controller.view superConstrainCenterX];
-    [controller.view superConstrainCenterY];
-    [controller.view superConstrainWidth];
-    [controller.view superConstrainHeight];
+    //    LogDetailsController *controller = [[LogDetailsController alloc] init];
+    //    controller.view.frame = logsView.bounds;
+    //    [logsView addSubview: controller.view];
+    //    [controller.view superConstrainCenterX];
+    //    [controller.view superConstrainCenterY];
+    //    [controller.view superConstrainWidth];
+    //    [controller.view superConstrainHeight];
 }
 
 - (void) setupBackground {
@@ -78,13 +80,26 @@
 
 }
 
-- (IBAction) showLogs: (id) sender {
+- (IBAction) showLogPad: (id) sender {
     LogsWindowController *controller = [[LogsWindowController alloc] init];
     NSWindow *window = controller.window;
 
     NSRect frame = window.frame;
-    frame.origin.x = NSMaxX(self.window.frame) + 20;
+    frame.origin.x = NSMinX(self.window.frame) - window.frame.size.width - 20;
     frame.origin.y = NSMinY(self.window.frame);
+    [window setFrame: frame display: YES];
+    [window setViewsNeedDisplay: YES];
+    [self.window addChildWindow: controller.window ordered: NSWindowAbove];
+}
+
+
+- (IBAction) showLogStream: (id) sender {
+    StreamWindowController *controller = [[StreamWindowController alloc] init];
+    NSWindow *window = controller.window;
+
+    NSRect frame = window.frame;
+    frame.origin.x = NSMaxX(self.window.frame) + 20;
+    frame.origin.y = NSMaxY(self.window.frame) - (window.frame.size.height);
 
     [window setFrame: frame display: YES];
     [self.window addChildWindow: controller.window ordered: NSWindowAbove];

@@ -4,9 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseController.h"
+#import "SPViewController.h"
 
-@interface LoginController : BaseController {
+@interface LoginController : SPViewController {
 
     IBOutlet NSTextField *userField;
     IBOutlet NSTextField *passwordField;

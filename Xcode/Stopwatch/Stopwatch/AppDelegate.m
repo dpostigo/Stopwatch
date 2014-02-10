@@ -17,11 +17,13 @@
 #import "Model.h"
 #import "TreeWindowController.h"
 #import "LogsWindowController.h"
-#import "LogsDetailController.h"
+#import "LogDetailsController.h"
 #import "EmptyWindowController.h"
 #import "AutoCoding.h"
+#import "DPArrayStorageObject.h"
 #import "BOAPIStorage.h"
 #import "BOLogsController.h"
+#import "TextViewWindowController.h"
 
 @implementation AppDelegate {
     Model *_model;
@@ -32,14 +34,20 @@
 
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
 
-    //
     _model = [Model sharedModel];
-//    [_model.apiModel cleanCache];
+    //    [_model.apiModel cleanApplicationSupportFolder];
+    //    [_model.apiModel cleanCache];
     [_model.apiModel subscribeDelegate: self];
     _model.apiModel.restrictLogsFetching = NO;
+    //    _model.apiModel.loggingEnabled = NO;
 
+
+    NSLog(@"[_model.apiModel.tasks count] = %lu", [_model.apiModel.tasks count]);
     self.windowController = [[LoginWindowController alloc] init];
+}
 
+- (void) testTextView {
+    self.windowController = [[TextViewWindowController alloc] init];
 }
 
 - (void) testLogs {

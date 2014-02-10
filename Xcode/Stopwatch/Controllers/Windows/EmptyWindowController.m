@@ -6,14 +6,14 @@
 #import <DPWindow/NSWindowController+DPWindow.h>
 #import <DPWindow/DPHeaderedWindow.h>
 #import "EmptyWindowController.h"
-#import "LogsDetailController.h"
+#import "LogDetailsController.h"
 
 @implementation EmptyWindowController
 
 - (void) windowDidLoad {
     [super windowDidLoad];
 
-    self.headeredWindow.contentContentView = [[LogsDetailController alloc] init].view;
+  //  self.headeredWindow.contentContentView = [[LogDetailsController alloc] init].view;
 
 }
 

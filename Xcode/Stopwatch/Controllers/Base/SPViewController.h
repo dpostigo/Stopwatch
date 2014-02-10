@@ -4,12 +4,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ModelDelegate.h"
 
 @class Model;
 
-@interface BaseController : NSViewController {
+@interface SPViewController : NSViewController <ModelDelegate> {
     Model *_model;
 }
 
+- (void) setup;
 - (NSOperationQueue *) queue;
 @end

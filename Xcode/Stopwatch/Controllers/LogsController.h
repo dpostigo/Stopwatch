@@ -7,11 +7,11 @@
 #import <BOAPI/BOAPIDelegate.h>
 #import "DPOutlineView.h"
 #import "DPOutlineViewDelegate.h"
-#import "BaseController.h"
+#import "SPViewController.h"
 
 @class DPOutlineView;
 
-@interface LogsController : BaseController <BOAPIDelegate, DPOutlineViewDelegate> {
+@interface LogsController : SPViewController <BOAPIDelegate, DPOutlineViewDelegate> {
     IBOutlet DPOutlineView *outline;
 }
 

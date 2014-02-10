@@ -3,10 +3,11 @@
 // Copyright (c) 2014 Dani Postigo. All rights reserved.
 //
 
-#import "BaseController.h"
+#import "SPViewController.h"
 #import "Model.h"
+#import "BOAPIModel.h"
 
-@implementation BaseController
+@implementation SPViewController
 
 - (id) init {
     NSString *nibName = NSStringFromClass([self class]);
@@ -17,8 +18,7 @@
 - (id) initWithNibName: (NSString *) nibNameOrNil bundle: (NSBundle *) nibBundleOrNil {
     self = [super initWithNibName: nibNameOrNil bundle: nibBundleOrNil];
     if (self) {
-        _model = [Model sharedModel];
-        [_model subscribeDelegate: self];
+        [self setup];
     }
 
     return self;
@@ -36,6 +36,8 @@
 
 - (void) setup {
     _model = [Model sharedModel];
+    [_model subscribeDelegate: self];
+    [_model.apiModel subscribeDelegate: self];
 
 }
 

@@ -9,7 +9,6 @@
             <connections>
                 <outlet property="counterField" destination="2q1-j5-HEO" id="jhk-KA-aFA"/>
                 <outlet property="drawer" destination="lA6-JV-c5g" id="ZaH-gY-G9n"/>
-                <outlet property="logsView" destination="HGo-h9-Ax4" id="x7O-oh-Qcf"/>
                 <outlet property="objectController" destination="CZR-jf-zYl" id="jUz-bG-AeT"/>
                 <outlet property="startField" destination="cZo-QX-PRg" id="MPA-zx-bAb"/>
                 <outlet property="stopField" destination="7ff-t2-5yE" id="JMb-GK-4rk"/>
@@ -24,7 +23,6 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <rect key="contentRect" x="335" y="390" width="266" height="463"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
-            <value key="maxSize" type="size" width="200" height="250"/>
             <view key="contentView" wantsLayer="YES" id="P4d-iO-Zkp">
                 <rect key="frame" x="0.0" y="0.0" width="266" height="463"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -97,23 +95,26 @@
                             <action selector="showDrawer:" target="-2" id="nhg-k5-3PE"/>
                         </connections>
                     </button>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="HGo-h9-Ax4" customClass="DPInnerShadowView">
-                        <rect key="frame" x="0.0" y="0.0" width="266" height="263"/>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcG-jg-Y1a">
+                        <rect key="frame" x="14" y="269" width="91" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    </customView>
+                        <buttonCell key="cell" type="push" title="VIEW LOGS" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="28E-LY-5rp">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="miniSystemBold"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showDrawer:" target="-2" id="M4D-56-bfH"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="2q1-j5-HEO" secondAttribute="trailing" constant="20" id="4Ca-kF-43z"/>
-                    <constraint firstItem="HGo-h9-Ax4" firstAttribute="leading" secondItem="P4d-iO-Zkp" secondAttribute="leading" id="4gK-2A-Kzc"/>
                     <constraint firstItem="bcf-ad-7ZM" firstAttribute="top" secondItem="t0A-XT-pmM" secondAttribute="bottom" constant="8" id="7IY-3C-J6h"/>
                     <constraint firstItem="cOI-PR-lWJ" firstAttribute="top" secondItem="ZdY-bd-075" secondAttribute="bottom" constant="20" id="Bki-wf-8Ow"/>
                     <constraint firstItem="2q1-j5-HEO" firstAttribute="width" secondItem="ZdY-bd-075" secondAttribute="width" id="DPR-sL-pUc"/>
                     <constraint firstItem="ZdY-bd-075" firstAttribute="top" secondItem="2q1-j5-HEO" secondAttribute="bottom" constant="8" id="Dcr-o3-zWr"/>
-                    <constraint firstAttribute="bottom" secondItem="HGo-h9-Ax4" secondAttribute="bottom" id="EEy-0h-g5D"/>
-                    <constraint firstAttribute="trailing" secondItem="HGo-h9-Ax4" secondAttribute="trailing" id="Mb0-tc-hbj"/>
                     <constraint firstItem="cOI-PR-lWJ" firstAttribute="trailing" secondItem="ZdY-bd-075" secondAttribute="trailing" id="MyV-so-9d0"/>
                     <constraint firstAttribute="centerX" secondItem="ZdY-bd-075" secondAttribute="centerX" id="O4g-y5-BDn"/>
-                    <constraint firstItem="HGo-h9-Ax4" firstAttribute="top" secondItem="cOI-PR-lWJ" secondAttribute="bottom" constant="13" id="Ova-B3-hYn"/>
                     <constraint firstItem="bcf-ad-7ZM" firstAttribute="leading" secondItem="2q1-j5-HEO" secondAttribute="leading" id="XML-TE-cZe"/>
                     <constraint firstItem="bcf-ad-7ZM" firstAttribute="trailing" secondItem="2q1-j5-HEO" secondAttribute="trailing" id="bn8-6M-1kE"/>
                     <constraint firstItem="bcf-ad-7ZM" firstAttribute="leading" secondItem="t0A-XT-pmM" secondAttribute="leading" id="cwJ-PQ-W9E"/>
@@ -123,7 +124,7 @@
                 </constraints>
             </view>
             <connections>
-                <outlet property="titleBarView" destination="k37-Un-9tS" id="44V-JY-r0S"/>
+                <outlet property="footerBarView" destination="k37-Un-9tS" id="HSo-XU-pAV"/>
                 <outlet property="windowView" destination="P4d-iO-Zkp" id="Ajj-wt-K3r"/>
             </connections>
         </window>
@@ -196,7 +197,7 @@
             <rect key="frame" x="0.0" y="0.0" width="266" height="30"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="77W-vh-6aA" customClass="DPViewButton">
+                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="77W-vh-6aA" customClass="DPViewButton">
                     <rect key="frame" x="222" y="-2" width="40" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="push" title="asdfas" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9cN-nT-8PI" customClass="DPViewButtonCell">
