@@ -18,6 +18,7 @@ PODS:
     - BOAPI/Core
     - BOAPI/Operations
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -30,6 +31,7 @@ PODS:
     - AutoCoding
     - BOAPI/Core
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -41,6 +43,7 @@ PODS:
     - AFNetworking/Serialization
     - AutoCoding
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -54,6 +57,7 @@ PODS:
     - BOAPI/Additions
     - BOAPI/Constants
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -71,6 +75,7 @@ PODS:
     - BOAPI/Operations/logs
     - BOAPI/Operations/tasks
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -83,6 +88,7 @@ PODS:
     - AutoCoding
     - BOAPI/Core
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -95,6 +101,7 @@ PODS:
     - AutoCoding
     - BOAPI/Core
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -107,6 +114,7 @@ PODS:
     - AutoCoding
     - BOAPI/Core
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -119,6 +127,7 @@ PODS:
     - AutoCoding
     - BOAPI/Core
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -131,6 +140,7 @@ PODS:
     - AutoCoding
     - BOAPI/Core
     - DPKit (~> 0.0.6)
+    - DPObject
     - DPStorage
     - NSDictionary-Deserialize
     - NSObject+AutoDescription
@@ -293,7 +303,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
-  BOAPI: a99271f9888194f7a78f184219862c1e4bb4cbb2
+  BOAPI: 2575540074448f0c245bffa202e3d16065ebb7d7
   CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
   DPKit: b345043ccf180000808c8869e664ba243af72ee1
   DPObject: 0467a11bd1b899b91da9a48ed3eb3199dc5a72b0

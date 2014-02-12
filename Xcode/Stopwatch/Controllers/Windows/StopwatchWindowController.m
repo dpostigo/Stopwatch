@@ -39,7 +39,6 @@
         Log *log = [[Log alloc] initWithTitle: @""];
         log.startDate = textField.startDate;
         log.endDate = textField.stopDate;
-        NSLog(@"[Model sharedModel].selectedTask = %@", [Model sharedModel].selectedTask);
         [[Model sharedModel].selectedTask.logs addObject: log];
     };
 

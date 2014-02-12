@@ -35,14 +35,13 @@
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
 
     _model = [Model sharedModel];
-    //    [_model.apiModel cleanApplicationSupportFolder];
+    [_model.apiModel cleanApplicationSupportFolder];
     //    [_model.apiModel cleanCache];
     [_model.apiModel subscribeDelegate: self];
     _model.apiModel.restrictLogsFetching = NO;
     //    _model.apiModel.loggingEnabled = NO;
 
 
-    NSLog(@"[_model.apiModel.tasks count] = %lu", [_model.apiModel.tasks count]);
     self.windowController = [[LoginWindowController alloc] init];
 }
 

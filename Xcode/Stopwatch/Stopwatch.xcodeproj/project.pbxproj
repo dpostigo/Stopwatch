@@ -16,7 +16,6 @@
 		33598C1018A6C4BA007DEC73 /* StreamWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0F18A6C4BA007DEC73 /* StreamWindow.xib */; };
 		3366103B18A6E28A005D2FE8 /* LogDetailCardCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */; };
 		336A3C1E189A9A030098C979 /* LoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C1C189A9A020098C979 /* LoginWindowController.m */; };
-		336A3C37189AFEC20098C979 /* LogsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336A3C36189AFEC20098C979 /* LogsController.xib */; };
 		336A3C3D189B03CD0098C979 /* LogsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C3C189B03CD0098C979 /* LogsController.m */; };
 		336A3C47189BE0D80098C979 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C44189BE0D80098C979 /* SPViewController.m */; };
 		336A3C48189BE0D80098C979 /* BaseWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C46189BE0D80098C979 /* BaseWindowController.m */; };
@@ -77,7 +76,6 @@
 		3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogDetailCardCellView.xib; sourceTree = "<group>"; };
 		336A3C1B189A9A020098C979 /* LoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindowController.h; sourceTree = "<group>"; };
 		336A3C1C189A9A020098C979 /* LoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindowController.m; sourceTree = "<group>"; };
-		336A3C36189AFEC20098C979 /* LogsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogsController.xib; path = ../../../../TMTest/Source/TMTest/TMTest/UI/LogsController.xib; sourceTree = "<group>"; };
 		336A3C3B189B03CD0098C979 /* LogsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogsController.h; path = Controllers/LogsController.h; sourceTree = SOURCE_ROOT; };
 		336A3C3C189B03CD0098C979 /* LogsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogsController.m; path = Controllers/LogsController.m; sourceTree = SOURCE_ROOT; };
 		336A3C43189BE0D80098C979 /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
@@ -224,7 +222,6 @@
 			children = (
 				3366103918A6E277005D2FE8 /* Controls */,
 				33598BFF18A56ED7007DEC73 /* Windows */,
-				336A3C36189AFEC20098C979 /* LogsController.xib */,
 				33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */,
 			);
 			path = UI;
@@ -491,7 +488,6 @@
 				33598C0618A56ED7007DEC73 /* LoginWindow.xib in Resources */,
 				33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */,
 				33B32D851898436F002E2FC2 /* Images.xcassets in Resources */,
-				336A3C37189AFEC20098C979 /* LogsController.xib in Resources */,
 				33598C0718A56ED7007DEC73 /* LogsWindow.xib in Resources */,
 				33598C0518A56ED7007DEC73 /* EmptyWindow.xib in Resources */,
 				33598C1018A6C4BA007DEC73 /* StreamWindow.xib in Resources */,

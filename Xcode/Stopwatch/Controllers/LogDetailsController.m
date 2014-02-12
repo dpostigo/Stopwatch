@@ -131,6 +131,12 @@
 }
 
 
+- (void) tasksDidAdd: (Task *) task {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+}
+
+
 #pragma mark Model Delegate
 
 - (void) modelDidUpdate: (Model *) model withSelectedTask: (Task *) task {
