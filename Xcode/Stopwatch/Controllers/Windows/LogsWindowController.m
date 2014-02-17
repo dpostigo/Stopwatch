@@ -16,9 +16,9 @@
 - (void) windowDidLoad {
     [super windowDidLoad];
 
-    LogsController *controller = [[LogsController alloc] init];
-    self.headeredWindow.contentContentView = controller.view;
-    [controller.outline reloadData];
+//    LogsController *controller = [[LogsController alloc] init];
+//    self.headeredWindow.contentContentView = controller.view;
+//    [controller.outline reloadData];
 }
 
 @end

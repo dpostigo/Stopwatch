@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CounterWindowController">
+            <connections>
+                <outlet property="window" destination="1" id="JyT-qJ-JNH"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" wantsToBeColor="NO" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="461" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <view key="contentView" wantsLayer="YES" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="461" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView identifier="CardView" wantsLayer="YES" placeholderIntrinsicWidth="263" placeholderIntrinsicHeight="163" translatesAutoresizingMaskIntoConstraints="NO" id="ebs-4a-xWh" customClass="LogDetailCardCellView">
+                        <rect key="frame" x="15" y="15" width="263" height="240"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    </customView>
+                    <textField horizontalHuggingPriority="248" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AY4-Gu-DJY" customClass="DPTimeControlTextField">
+                        <rect key="frame" x="286" y="229" width="160" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="00:01:20" drawsBackground="YES" id="2nE-j4-R7A">
+                            <customFormatter key="formatter" id="njr-eB-AiI" customClass="WDCountdownFormatter"/>
+                            <font key="font" size="15" name="HelveticaNeue"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ebs-4a-xWh" secondAttribute="bottom" constant="15" id="Uw6-Le-cV3"/>
+                    <constraint firstItem="ebs-4a-xWh" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="15" id="VGr-bT-2Ja"/>
+                    <constraint firstItem="AY4-Gu-DJY" firstAttribute="leading" secondItem="ebs-4a-xWh" secondAttribute="trailing" constant="8" id="hdL-sD-AZE"/>
+                    <constraint firstItem="AY4-Gu-DJY" firstAttribute="top" secondItem="2" secondAttribute="top" constant="15" id="s1c-VH-HNt"/>
+                    <constraint firstItem="ebs-4a-xWh" firstAttribute="top" secondItem="2" secondAttribute="top" constant="15" id="thS-dv-YKf"/>
+                    <constraint firstAttribute="trailing" secondItem="AY4-Gu-DJY" secondAttribute="trailing" constant="15" id="vXP-9r-z2v"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>

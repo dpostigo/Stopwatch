@@ -10,4 +10,5 @@
 
 }
 
++ (NSColor *) cellBackgroundColor;
 @end

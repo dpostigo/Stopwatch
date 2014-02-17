@@ -24,6 +24,8 @@
 #import "BOAPIStorage.h"
 #import "BOLogsController.h"
 #import "TextViewWindowController.h"
+#import "CounterWindowController.h"
+#import "TableWindowController.h"
 
 @implementation AppDelegate {
     Model *_model;
@@ -42,6 +44,7 @@
     //    _model.apiModel.loggingEnabled = NO;
 
 
+    [self setupDeveloperItems];
     self.windowController = [[LoginWindowController alloc] init];
 }
 
@@ -74,7 +77,8 @@
 }
 
 - (void) tasksDidUpdate {
-    self.windowController = [[StopwatchWindowController alloc] init];
+    self.windowController = [[TableWindowController alloc] init];
+    //    self.windowController = [[CounterWindowController alloc] init];
 
     //    testController = [[EmptyWindowController alloc] init];
     //    [testController.window makeKeyAndOrderFront: nil];
@@ -93,6 +97,13 @@
     if (windowController) {
         [windowController showWindow: nil];
     }
+
+}
+
+- (void) setupDeveloperItems {
+    NSMenu *menu = [NSApplication sharedApplication].menu;
+    NSMenuItem *developerItem = [menu itemWithTitle: @"Developer"];
+    NSLog(@"developerItem = %@", developerItem);
 }
 
 

@@ -21,14 +21,14 @@
         <objectController objectClassName="TimeLog" id="CZR-jf-zYl"/>
         <window title="Stopwatch" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="ZyX-CP-ke1" customClass="DPHeaderedWindow">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <rect key="contentRect" x="335" y="390" width="266" height="463"/>
+            <rect key="contentRect" x="335" y="390" width="359" height="463"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <view key="contentView" wantsLayer="YES" id="P4d-iO-Zkp">
-                <rect key="frame" x="0.0" y="0.0" width="266" height="463"/>
+                <rect key="frame" x="0.0" y="0.0" width="359" height="463"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2q1-j5-HEO" customClass="DPTimeControlTextField">
-                        <rect key="frame" x="20" y="346" width="226" height="26"/>
+                        <rect key="frame" x="20" y="346" width="279" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="00:01:20" drawsBackground="YES" id="FVu-gT-Ir6">
                             <customFormatter key="formatter" id="mbB-ns-NxV" customClass="WDCountdownFormatter"/>
@@ -41,7 +41,7 @@
                         </connections>
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZdY-bd-075">
-                        <rect key="frame" x="14" y="310" width="238" height="32"/>
+                        <rect key="frame" x="34" y="310" width="291" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ruA-0W-YBZ">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
@@ -52,7 +52,7 @@
                         </connections>
                     </button>
                     <popUpButton verticalHuggingPriority="750" horizontalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="bcf-ad-7ZM">
-                        <rect key="frame" x="18" y="404" width="231" height="26"/>
+                        <rect key="frame" x="18" y="404" width="284" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="RUI-SU-8jV" id="GOK-T6-IZw">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
@@ -85,7 +85,7 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cOI-PR-lWJ">
-                        <rect key="frame" x="161" y="269" width="91" height="32"/>
+                        <rect key="frame" x="234" y="269" width="91" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="VIEW LOGS" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1os-ve-9EC">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -108,7 +108,7 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="2q1-j5-HEO" secondAttribute="trailing" constant="20" id="4Ca-kF-43z"/>
+                    <constraint firstAttribute="trailing" secondItem="2q1-j5-HEO" secondAttribute="trailing" constant="60" id="4Ca-kF-43z"/>
                     <constraint firstItem="bcf-ad-7ZM" firstAttribute="top" secondItem="t0A-XT-pmM" secondAttribute="bottom" constant="8" id="7IY-3C-J6h"/>
                     <constraint firstItem="cOI-PR-lWJ" firstAttribute="top" secondItem="ZdY-bd-075" secondAttribute="bottom" constant="20" id="Bki-wf-8Ow"/>
                     <constraint firstItem="2q1-j5-HEO" firstAttribute="width" secondItem="ZdY-bd-075" secondAttribute="width" id="DPR-sL-pUc"/>

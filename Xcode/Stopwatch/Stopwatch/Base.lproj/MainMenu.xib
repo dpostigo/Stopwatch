@@ -592,6 +592,22 @@
                         </items>
                     </menu>
                 </menuItem>
+                <menuItem title="Developer" id="NVN-W8-ihd">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Developer" id="Dqj-qz-gfs">
+                        <items>
+                            <menuItem title="Item 1" id="74x-NE-E8U">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem title="Item 2" id="J18-5P-h2q">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                            <menuItem title="Item 3" id="rjd-0o-03T">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
                 <menuItem title="View" id="295">
                     <menu key="submenu" title="View" id="296">
                         <items>

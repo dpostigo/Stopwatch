@@ -93,20 +93,7 @@
 
 
 - (void) willDisplayTableCellView: (DPTableCellView *) cellView forItem: (DPOutlineViewItem *) item {
-    cellView.wantsLayer = YES;
 
-    CALayer *layer = cellView.layer;
-    layer.backgroundColor = self.cellBackgroundColor.CGColor;
-    layer.masksToBounds = NO;
-
-    layer.shadowColor = [NSColor blackColor].CGColor;
-    layer.shadowRadius = 1.0;
-    layer.shadowOffset = NSMakeSize(0, -1);
-
-    layer.cornerRadius = 5.0;
-
-    layer.borderColor = [NSColor lighten: self.cellBackgroundColor amount: 0.5].CGColor;
-    layer.borderWidth = 0.5;
     //    layer.masksToBounds = YES;
     //
     //    layer.shadowColor = [NSColor crayolaMummysTombColor].CGColor;

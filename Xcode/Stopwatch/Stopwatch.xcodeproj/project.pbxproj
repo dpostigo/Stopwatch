@@ -33,9 +33,13 @@
 		33B32D951898436F002E2FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B32D931898436F002E2FC2 /* InfoPlist.strings */; };
 		33B32D971898436F002E2FC2 /* StopwatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B32D961898436F002E2FC2 /* StopwatchTests.m */; };
 		33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */; };
+		33F44A2018AC1F8A00A978CD /* CounterWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F44A1F18AC1F8A00A978CD /* CounterWindow.xib */; };
+		33F44A2218AC490F00A978CD /* TableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F44A2118AC490F00A978CD /* TableWindow.xib */; };
 		BF8D13A20EE34D78A3AACE62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A482A3748F8D4846A1CEFE3B /* libPods.a */; };
+		F29B8156BACD9E1DB811541E /* DPTimeInputTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8BF982A3A6FAD8933999 /* DPTimeInputTextField.m */; };
 		F29B818EA97B95EDFD4F3205 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81F3AAB73EDDD629E0DC /* LoginController.m */; };
 		F29B81B7C48FCECC3A33F7A3 /* BOOutlineViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B865958179F7601217420 /* BOOutlineViewItem.m */; };
+		F29B833974631975FC673CDC /* TableWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B849410BB6ADDB63EA4BF /* TableWindowController.m */; };
 		F29B83B95027DE0ADA8C81B9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8E19A6E829AC78FDF076 /* Model.m */; };
 		F29B84E5DB6175A10604DA22 /* TextViewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8FC58B29B1D226969A95 /* TextViewWindowController.m */; };
 		F29B856CD1D4467A71F2B2C5 /* LogDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B800057A0AD7F88365E2C /* LogDetailsController.m */; };
@@ -44,6 +48,7 @@
 		F29B88B975ACD3FB86373D22 /* DPTimeControlTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81AF97C4B935D18B9FDF /* DPTimeControlTextField.m */; };
 		F29B8A37C54AF208576170A6 /* LogsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B88E457D441617CF4C34F /* LogsWindowController.m */; };
 		F29B8AE4A10A11806E76848B /* DPShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84D723A5FC80C06476E0 /* DPShadowView.m */; };
+		F29B8B2D55CD644C61487D22 /* CounterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B89F87E49F88070E5A27B /* CounterWindowController.m */; };
 		F29B8B31CCBA4AAC962E2716 /* StopwatchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84EDCA2AD2D9980C81C9 /* StopwatchWindowController.m */; };
 		F29B8BDE8E62C84FFB592C69 /* DPIntervalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8B377FC13EC53132673D /* DPIntervalTextField.m */; };
 		F29B8C0ECA5C2116B7FD880B /* NSView+TMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B856388B570778DC6D866 /* NSView+TMUtils.m */; };
@@ -106,6 +111,8 @@
 		33B32D941898436F002E2FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33B32D961898436F002E2FC2 /* StopwatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchTests.m; sourceTree = "<group>"; };
 		33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogDetailsController.xib; sourceTree = "<group>"; };
+		33F44A1F18AC1F8A00A978CD /* CounterWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterWindow.xib; sourceTree = "<group>"; };
+		33F44A2118AC490F00A978CD /* TableWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableWindow.xib; sourceTree = "<group>"; };
 		812DCD75301A43809FBC4726 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A482A3748F8D4846A1CEFE3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29B800057A0AD7F88365E2C /* LogDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDetailsController.m; sourceTree = "<group>"; };
@@ -117,10 +124,12 @@
 		F29B82282425F7BE56BFB76C /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		F29B82303777C883AAFFE7E5 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		F29B8264ADEEA211FD82429F /* LogDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDetailsController.h; sourceTree = "<group>"; };
+		F29B8283C91D58F55E6AC66E /* DPTimeInputTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimeInputTextField.h; sourceTree = "<group>"; };
 		F29B83138F270307C13ABA17 /* ProjectWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectWindowController.h; sourceTree = "<group>"; };
 		F29B8380EF194DB0173E060E /* TreeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeWindowController.m; sourceTree = "<group>"; };
 		F29B83DE00D1192223D3D417 /* LogsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsWindowController.h; sourceTree = "<group>"; };
 		F29B842EC72B2B672BAFE836 /* RedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedButton.h; sourceTree = "<group>"; };
+		F29B849410BB6ADDB63EA4BF /* TableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableWindowController.m; sourceTree = "<group>"; };
 		F29B84A48DE9AD0C8E3C0D8F /* StreamWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamWindowController.h; sourceTree = "<group>"; };
 		F29B84D723A5FC80C06476E0 /* DPShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPShadowView.m; sourceTree = "<group>"; };
 		F29B84EDB251F2EC63652621 /* StreamWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamWindowController.m; sourceTree = "<group>"; };
@@ -133,16 +142,20 @@
 		F29B882ECB3015BBBC5B1D88 /* LogDetailCardCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDetailCardCellView.m; sourceTree = "<group>"; };
 		F29B88E457D441617CF4C34F /* LogsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsWindowController.m; sourceTree = "<group>"; };
 		F29B88FC56416C0C7A26ECDC /* DPTimerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimerTextField.h; sourceTree = "<group>"; };
+		F29B89F87E49F88070E5A27B /* CounterWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterWindowController.m; sourceTree = "<group>"; };
 		F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLabeledTextField.m; sourceTree = "<group>"; };
 		F29B8A5860DD3057CAE318A0 /* DPIntervalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPIntervalTextField.h; sourceTree = "<group>"; };
 		F29B8A7F77C18D7D4A56ADED /* BOOutlineViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOOutlineViewItem.h; sourceTree = "<group>"; };
 		F29B8B377FC13EC53132673D /* DPIntervalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPIntervalTextField.m; sourceTree = "<group>"; };
 		F29B8BF168B1C4D65CF74829 /* DPTimeControlTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimeControlTextField.h; sourceTree = "<group>"; };
+		F29B8BF982A3A6FAD8933999 /* DPTimeInputTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTimeInputTextField.m; sourceTree = "<group>"; };
 		F29B8C2711FC33B3B624DE5B /* StopwatchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopwatchWindowController.h; sourceTree = "<group>"; };
 		F29B8C3B65403C92DBDD37E7 /* LogDetailCardCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDetailCardCellView.h; sourceTree = "<group>"; };
 		F29B8C7642A240036BB44F87 /* DPShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPShadowView.h; sourceTree = "<group>"; };
 		F29B8C83E002C5AD85029BA6 /* EmptyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyWindowController.h; sourceTree = "<group>"; };
 		F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
+		F29B8DD4E76A8D1A4859C3FE /* CounterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterWindowController.h; sourceTree = "<group>"; };
+		F29B8E11252518A51B323D21 /* TableWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWindowController.h; sourceTree = "<group>"; };
 		F29B8E19A6E829AC78FDF076 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyWindowController.m; sourceTree = "<group>"; };
 		F29B8F36F9C253B7825F0543 /* TextViewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewWindowController.h; sourceTree = "<group>"; };
@@ -205,6 +218,8 @@
 				33598C0418A56ED7007DEC73 /* TreeWindow.xib */,
 				33598C0A18A59A69007DEC73 /* TextViewWindow.xib */,
 				33598C0F18A6C4BA007DEC73 /* StreamWindow.xib */,
+				33F44A1F18AC1F8A00A978CD /* CounterWindow.xib */,
+				33F44A2118AC490F00A978CD /* TableWindow.xib */,
 			);
 			path = Windows;
 			sourceTree = "<group>";
@@ -246,6 +261,10 @@
 				F29B8F36F9C253B7825F0543 /* TextViewWindowController.h */,
 				F29B84EDB251F2EC63652621 /* StreamWindowController.m */,
 				F29B84A48DE9AD0C8E3C0D8F /* StreamWindowController.h */,
+				F29B89F87E49F88070E5A27B /* CounterWindowController.m */,
+				F29B8DD4E76A8D1A4859C3FE /* CounterWindowController.h */,
+				F29B849410BB6ADDB63EA4BF /* TableWindowController.m */,
+				F29B8E11252518A51B323D21 /* TableWindowController.h */,
 			);
 			path = Windows;
 			sourceTree = "<group>";
@@ -398,6 +417,8 @@
 				F29B8BF168B1C4D65CF74829 /* DPTimeControlTextField.h */,
 				F29B85B1763C7E61E9776A41 /* DPTimerTextField.m */,
 				F29B88FC56416C0C7A26ECDC /* DPTimerTextField.h */,
+				F29B8BF982A3A6FAD8933999 /* DPTimeInputTextField.m */,
+				F29B8283C91D58F55E6AC66E /* DPTimeInputTextField.h */,
 			);
 			name = DPTimeControls;
 			path = ../../../../LocalPods/Controls/DPTimeControls/DPTimeControls;
@@ -489,11 +510,13 @@
 				33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */,
 				33B32D851898436F002E2FC2 /* Images.xcassets in Resources */,
 				33598C0718A56ED7007DEC73 /* LogsWindow.xib in Resources */,
+				33F44A2018AC1F8A00A978CD /* CounterWindow.xib in Resources */,
 				33598C0518A56ED7007DEC73 /* EmptyWindow.xib in Resources */,
 				33598C1018A6C4BA007DEC73 /* StreamWindow.xib in Resources */,
 				33B32D7D1898436F002E2FC2 /* Credits.rtf in Resources */,
 				33B32D831898436F002E2FC2 /* MainMenu.xib in Resources */,
 				33598C0B18A59A69007DEC73 /* TextViewWindow.xib in Resources */,
+				33F44A2218AC490F00A978CD /* TableWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +595,9 @@
 				F29B84E5DB6175A10604DA22 /* TextViewWindowController.m in Sources */,
 				F29B8EAF04A65318F2C2D3F6 /* StreamWindowController.m in Sources */,
 				F29B8F5643E552EC385CE89E /* LogDetailCardCellView.m in Sources */,
+				F29B8B2D55CD644C61487D22 /* CounterWindowController.m in Sources */,
+				F29B833974631975FC673CDC /* TableWindowController.m in Sources */,
+				F29B8156BACD9E1DB811541E /* DPTimeInputTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
