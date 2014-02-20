@@ -7,12 +7,12 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="CounterWindowController">
             <connections>
-                <outlet property="window" destination="1" id="JyT-qJ-JNH"/>
+                <outlet property="window" destination="vyo-1J-IyI" id="0Uj-dQ-9aP"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application"/>
-        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" wantsToBeColor="NO" animationBehavior="default" id="1">
+        <window title="Original" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" wantsToBeColor="NO" visibleAtLaunch="NO" animationBehavior="default" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="461" height="270"/>
@@ -43,6 +43,32 @@
                     <constraint firstItem="AY4-Gu-DJY" firstAttribute="top" secondItem="2" secondAttribute="top" constant="15" id="s1c-VH-HNt"/>
                     <constraint firstItem="ebs-4a-xWh" firstAttribute="top" secondItem="2" secondAttribute="top" constant="15" id="thS-dv-YKf"/>
                     <constraint firstAttribute="trailing" secondItem="AY4-Gu-DJY" secondAttribute="trailing" constant="15" id="vXP-9r-z2v"/>
+                </constraints>
+            </view>
+        </window>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" wantsToBeColor="NO" animationBehavior="default" id="vyo-1J-IyI" customClass="SNRHUDWindow">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="461" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <view key="contentView" wantsLayer="YES" id="dpR-DA-uY8">
+                <rect key="frame" x="0.0" y="0.0" width="461" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="248" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qe7-Nu-Qmr" customClass="DPTimeControlTextField">
+                        <rect key="frame" x="286" y="229" width="160" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="00:01:20" drawsBackground="YES" id="sNg-mU-NAh">
+                            <customFormatter key="formatter" id="pkB-rZ-CSW" customClass="WDCountdownFormatter"/>
+                            <font key="font" size="15" name="HelveticaNeue"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Qe7-Nu-Qmr" secondAttribute="trailing" constant="15" id="W5b-ZM-rN4"/>
+                    <constraint firstItem="Qe7-Nu-Qmr" firstAttribute="top" secondItem="dpR-DA-uY8" secondAttribute="top" constant="15" id="qjv-ky-DWK"/>
                 </constraints>
             </view>
         </window>

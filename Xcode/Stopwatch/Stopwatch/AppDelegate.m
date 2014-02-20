@@ -26,6 +26,8 @@
 #import "TextViewWindowController.h"
 #import "CounterWindowController.h"
 #import "TableWindowController.h"
+#import "NSBundle+DPKit.h"
+#import "DPWindowManager.h"
 
 @implementation AppDelegate {
     Model *_model;
@@ -44,8 +46,21 @@
     //    _model.apiModel.loggingEnabled = NO;
 
 
+    [self testMainBundle];
     [self setupDeveloperItems];
     self.windowController = [[LoginWindowController alloc] init];
+}
+
+- (void) testMainBundle {
+
+    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
+
+
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex: 0];
+    NSError *error;
+    NSArray *directoryContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath: resourcePath error: &error];
+
 }
 
 - (void) testTextView {
@@ -79,6 +94,7 @@
 - (void) tasksDidUpdate {
     self.windowController = [[TableWindowController alloc] init];
     //    self.windowController = [[CounterWindowController alloc] init];
+    //    self.windowController = [[StopwatchWindowController alloc] init];
 
     //    testController = [[EmptyWindowController alloc] init];
     //    [testController.window makeKeyAndOrderFront: nil];
@@ -90,20 +106,39 @@
 
 
 - (void) setWindowController: (NSWindowController *) windowController1 {
-    if (windowController) {
-        [windowController.window orderOut: nil];
-    }
-    windowController = windowController1;
-    if (windowController) {
-        [windowController showWindow: nil];
-    }
-
+    [DPWindowManager manager].windowController = windowController1;
 }
 
 - (void) setupDeveloperItems {
     NSMenu *menu = [NSApplication sharedApplication].menu;
     NSMenuItem *developerItem = [menu itemWithTitle: @"Developer"];
-    NSLog(@"developerItem = %@", developerItem);
+
+    if ([developerItem hasSubmenu]) {
+        NSMenu *submenu = developerItem.submenu;
+        [submenu removeAllItems];
+        NSArray *windowNibs = [[NSBundle mainBundle] windowNibs];
+
+        for (int j = 0; j < [windowNibs count]; j++) {
+            NSString *string = [windowNibs objectAtIndex: j];
+            NSString *title = [string stringByReplacingOccurrencesOfString: @"Window.nib" withString: @" Window"];
+            [submenu addItemWithTitle: title action: @selector(handleWindowMenuItem:) keyEquivalent: [NSString stringWithFormat: @"%i", j + 1]];
+        }
+    }
+
+}
+
+
+- (void) handleWindowMenuItem: (id) sender {
+    int index = [[sender menu] indexOfItem: sender];
+
+    NSString *windowNib = [[[NSBundle mainBundle] windowNibs] objectAtIndex: index];
+    NSString *className = [windowNib stringByReplacingOccurrencesOfString: @".nib" withString: @"Controller"];
+    [self launchWindowWithClass: NSClassFromString(className)];
+}
+
+
+- (void) launchWindowWithClass: (Class) class {
+    [DPWindowManager toggleWindowOfClass: class];
 }
 
 

@@ -15,6 +15,5 @@
 }
 
 @property(assign) IBOutlet NSWindow *window;
-
 @property(nonatomic, strong) NSWindowController *windowController;
 @end

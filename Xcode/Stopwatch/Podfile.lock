@@ -147,83 +147,131 @@ PODS:
     - NSObject-UserDefaults
   - CALayer-DPUtils (0.1.5):
     - DPKit/Graphics
-  - DPKit (0.0.16):
+  - DPKit (0.0.19):
     - DPKit/Graphics
     - DPKit/iOS
     - DPKit/OS X
     - DPKit/Shared
-  - DPKit/Graphics (0.0.16)
-  - DPKit/OS X (0.0.16):
+  - DPKit/Graphics (0.0.19)
+  - DPKit/OS X (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
+    - DPKit/OS X/Cells
     - DPKit/OS X/Custom Views
+    - DPKit/OS X/DPBasicOutlineView
+    - DPKit/OS X/DPTimeInputTextField
     - DPKit/OS X/NSButton
-    - DPKit/OS X/NSCell
+    - DPKit/OS X/Utils
+    - DPKit/OS X/Utils
+    - DPKit/OS X/Value Transformers
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/Custom Views (0.0.16):
+  - DPKit/OS X/Cells (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
+    - DPKit/OS X/Cells/Cells-Core
+    - DPKit/OS X/Cells/NSButtonCell
+    - DPKit/OS X/Cells/NSComboBoxCell
+    - DPKit/OS X/Cells/NSTextFieldCell
+    - DPKit/OS X/Cells/NSTokenFieldCell
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSButton (0.0.16):
+  - DPKit/OS X/Cells/Cells-Core (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
-    - DPKit/OS X/NSCell/NSButtonCell
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSCell (0.0.16):
+  - DPKit/OS X/Cells/NSButtonCell (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
-    - DPKit/OS X/NSCell/NSButtonCell
-    - DPKit/OS X/NSCell/NSCell-Core
-    - DPKit/OS X/NSCell/NSComboBoxCell
-    - DPKit/OS X/NSCell/NSTextFieldCell
-    - DPKit/OS X/NSCell/NSTokenFieldCell
+    - DPKit/OS X/Cells/Cells-Core
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSCell/NSButtonCell (0.0.16):
+  - DPKit/OS X/Cells/NSComboBoxCell (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
-    - DPKit/OS X/NSCell/NSCell-Core
+    - DPKit/OS X/Cells/Cells-Core
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSCell/NSCell-Core (0.0.16):
+  - DPKit/OS X/Cells/NSTextFieldCell (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
+    - DPKit/OS X/Cells/Cells-Core
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSCell/NSComboBoxCell (0.0.16):
+  - DPKit/OS X/Cells/NSTokenFieldCell (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
-    - DPKit/OS X/NSCell/NSCell-Core
+    - DPKit/OS X/Cells/Cells-Core
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSCell/NSTextFieldCell (0.0.16):
+  - DPKit/OS X/Custom Views (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
-    - DPKit/OS X/NSCell/NSCell-Core
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/OS X/NSCell/NSTokenFieldCell (0.0.16):
+  - DPKit/OS X/DPBasicOutlineView (0.0.19):
     - CALayer-DPUtils
     - DPKit/Graphics
-    - DPKit/OS X/NSCell/NSCell-Core
+    - DPKit/OS X/Utils
     - DPKit/Shared
     - NSColor-BlendingUtils
     - NSView-DPFrameUtils
-  - DPKit/Shared (0.0.16):
+  - DPKit/OS X/DPTimeInputTextField (0.0.19):
+    - CALayer-DPUtils
+    - DPKit/Graphics
+    - DPKit/OS X/Utils
+    - DPKit/Shared
+    - DPKit/Shared/Formatters
+    - NSColor-BlendingUtils
+    - NSView-DPFrameUtils
+  - DPKit/OS X/NSButton (0.0.19):
+    - CALayer-DPUtils
+    - DPKit/Graphics
+    - DPKit/OS X/Cells/NSButtonCell
+    - DPKit/OS X/Utils
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+    - NSView-DPFrameUtils
+  - DPKit/OS X/Utils (0.0.19):
+    - CALayer-DPUtils
+    - DPKit/Graphics
+    - DPKit/OS X/Utils
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+    - NSView-DPFrameUtils
+  - DPKit/OS X/Value Transformers (0.0.19):
+    - CALayer-DPUtils
+    - DPKit/Graphics
+    - DPKit/OS X/Utils
+    - DPKit/Shared
+    - NSColor-BlendingUtils
+    - NSView-DPFrameUtils
+  - DPKit/Shared (0.0.19):
+    - DPKit/Shared/Formatters
     - JMSimpleDate
     - NSView-DPAutolayout
-  - DPObject (0.0.3):
+    - NSView-NewConstraints
+  - DPKit/Shared/Formatters (0.0.19):
+    - JMSimpleDate
+    - NSView-DPAutolayout
+    - NSView-NewConstraints
+  - DPObject (0.0.4):
     - DPKit
   - DPOutlineView (0.0.2):
     - DPKit
@@ -305,8 +353,8 @@ SPEC CHECKSUMS:
   AutoCoding: 1cb0f7373249cefc73aa22cc3a7cc62ba4b886a7
   BOAPI: 2575540074448f0c245bffa202e3d16065ebb7d7
   CALayer-DPUtils: a9ebf7cf1193a4fe512c78af1b708f2197f9c92c
-  DPKit: b345043ccf180000808c8869e664ba243af72ee1
-  DPObject: 0467a11bd1b899b91da9a48ed3eb3199dc5a72b0
+  DPKit: bf15f5091f6fddc18ed546eec73206f5d4587ed0
+  DPObject: 7a359a94197c4cc881e51ff2d6fee90b787150ac
   DPOutlineView: 4e813898eb97b36762190fe3c268bc6fb0e922ab
   DPStorage: 72cd5c486d636d14e2bb4cee9a8d4e0d43806e18
   DPWindow: c51dbd23470aa19f1660f96f931060260ae51729
