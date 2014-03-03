@@ -7,14 +7,14 @@
 #import "ProjectWindowController.h"
 
 @class TimeLog;
-@class DPTimeControlTextField;
+@class DPTimerTextField;
 
 @interface StopwatchWindowController : ProjectWindowController <NSDrawerDelegate> {
 
     IBOutlet NSObjectController *objectController;
     IBOutlet NSTextField *startField;
     IBOutlet NSTextField *stopField;
-    IBOutlet DPTimeControlTextField *counterField;
+    IBOutlet DPTimerTextField *counterField;
     TimeLog *currentLog;
 
     IBOutlet NSDrawer *drawer;

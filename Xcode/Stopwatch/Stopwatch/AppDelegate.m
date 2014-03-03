@@ -16,7 +16,7 @@
 #import "StopwatchWindowController.h"
 #import "Model.h"
 #import "TreeWindowController.h"
-#import "LogsWindowController.h"
+#import "LogPadWindowController.h"
 #import "LogDetailsController.h"
 #import "EmptyWindowController.h"
 #import "AutoCoding.h"

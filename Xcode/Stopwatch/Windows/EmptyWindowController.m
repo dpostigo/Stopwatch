@@ -7,13 +7,17 @@
 #import <DPWindow/DPHeaderedWindow.h>
 #import "EmptyWindowController.h"
 #import "LogDetailsController.h"
+#import "BOUILogPadController.h"
 
 @implementation EmptyWindowController
 
 - (void) windowDidLoad {
     [super windowDidLoad];
 
-  //  self.headeredWindow.contentContentView = [[LogDetailsController alloc] init].view;
+    //    BOUILogPadController *controller = [[BOUILogPadController alloc] init];
+    //    self.headeredWindow.contentContentView = controller.view;
+
+    //  self.headeredWindow.contentContentView = [[LogDetailsController alloc] init].view;
 
 }
 

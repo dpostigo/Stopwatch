@@ -1,5 +1,8 @@
 platform :osx, '10.8'
 
+
+pod 'NSDate-Extensions'
+
 pod 'BOAPI', :path => '~/Development/LocalPods/BOAPI'
 pod 'DPStorage'
 pod 'NSObject+AutoDescription'
@@ -11,6 +14,9 @@ pod 'DPKit', :path => '~/Development/LocalPods/DPKit'
 pod 'DPStorage', :path => '~/Development/LocalPods/DPStorage'
 pod 'DPOutlineView', :path => '~/Development/LocalPods/Controls/DPOutlineView'
 pod 'NSView-DPFrameUtils'
-pod 'NSView-NewConstraints'
+#pod 'NSView-NewConstraints'
+pod 'NSView-NewConstraints', :path => '~/Development/LocalPods/Utilities/NSView-NewConstraints'
 
 pod 'NSColor-BlendingUtils'
+pod 'DPTimer', :path => '~/Development/LocalPods/DPTimer'
+pod 'BOUI', :path => '~/Development/LocalPods/BOUI'

@@ -27,7 +27,7 @@
     NSRect bounds = self.bounds;
     bounds = NSInsetRect(bounds, 10, 10);
 
-    NSBezierPath *path = [NSBezierPath bezierPathWithRect: bounds];
+    // NSBezierPath *path = [NSBezierPath bezierPathWithRect: bounds];
 
 //    [NSGraphicsContext saveGraphicsState];
     //    [[NSColor blackColor] set];

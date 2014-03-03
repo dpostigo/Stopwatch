@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33598C0518A56ED7007DEC73 /* EmptyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0018A56ED7007DEC73 /* EmptyWindow.xib */; };
-		33598C0618A56ED7007DEC73 /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0118A56ED7007DEC73 /* LoginWindow.xib */; };
-		33598C0718A56ED7007DEC73 /* LogsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0218A56ED7007DEC73 /* LogsWindow.xib */; };
-		33598C0818A56ED7007DEC73 /* StopwatchWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0318A56ED7007DEC73 /* StopwatchWindow.xib */; };
-		33598C0918A56ED7007DEC73 /* TreeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0418A56ED7007DEC73 /* TreeWindow.xib */; };
-		33598C0B18A59A69007DEC73 /* TextViewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0A18A59A69007DEC73 /* TextViewWindow.xib */; };
-		33598C1018A6C4BA007DEC73 /* StreamWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33598C0F18A6C4BA007DEC73 /* StreamWindow.xib */; };
+		3352E93618C1187000BA3C86 /* ComponentsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E91818C1187000BA3C86 /* ComponentsWindow.xib */; };
+		3352E93718C1187000BA3C86 /* CounterWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E91918C1187000BA3C86 /* CounterWindow.xib */; };
+		3352E93818C1187000BA3C86 /* CounterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E91B18C1187000BA3C86 /* CounterWindowController.m */; };
+		3352E93918C1187000BA3C86 /* EmptyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E91C18C1187000BA3C86 /* EmptyWindow.xib */; };
+		3352E93A18C1187000BA3C86 /* EmptyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E91E18C1187000BA3C86 /* EmptyWindowController.m */; };
+		3352E93B18C1187000BA3C86 /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E91F18C1187000BA3C86 /* LoginWindow.xib */; };
+		3352E93C18C1187000BA3C86 /* LoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E92118C1187000BA3C86 /* LoginWindowController.m */; };
+		3352E93D18C1187000BA3C86 /* LogPadWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E92218C1187000BA3C86 /* LogPadWindow.xib */; };
+		3352E93E18C1187000BA3C86 /* LogPadWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E92418C1187000BA3C86 /* LogPadWindowController.m */; };
+		3352E93F18C1187000BA3C86 /* ProjectWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E92618C1187000BA3C86 /* ProjectWindowController.m */; };
+		3352E94018C1187000BA3C86 /* StopwatchWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E92718C1187000BA3C86 /* StopwatchWindow.xib */; };
+		3352E94118C1187000BA3C86 /* StopwatchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E92918C1187000BA3C86 /* StopwatchWindowController.m */; };
+		3352E94218C1187000BA3C86 /* StreamWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E92A18C1187000BA3C86 /* StreamWindow.xib */; };
+		3352E94318C1187000BA3C86 /* StreamWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E92C18C1187000BA3C86 /* StreamWindowController.m */; };
+		3352E94418C1187000BA3C86 /* TableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E92D18C1187000BA3C86 /* TableWindow.xib */; };
+		3352E94518C1187000BA3C86 /* TableWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E92F18C1187000BA3C86 /* TableWindowController.m */; };
+		3352E94618C1187000BA3C86 /* TextViewWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E93018C1187000BA3C86 /* TextViewWindow.xib */; };
+		3352E94718C1187000BA3C86 /* TextViewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E93218C1187000BA3C86 /* TextViewWindowController.m */; };
+		3352E94818C1187000BA3C86 /* TreeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E93318C1187000BA3C86 /* TreeWindow.xib */; };
+		3352E94918C1187000BA3C86 /* TreeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E93518C1187000BA3C86 /* TreeWindowController.m */; };
+		3352E94B18C1486400BA3C86 /* DataWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E94A18C1486400BA3C86 /* DataWindow.xib */; };
 		3366103B18A6E28A005D2FE8 /* LogDetailCardCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */; };
-		336A3C1E189A9A030098C979 /* LoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C1C189A9A020098C979 /* LoginWindowController.m */; };
 		336A3C3D189B03CD0098C979 /* LogsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C3C189B03CD0098C979 /* LogsController.m */; };
 		336A3C47189BE0D80098C979 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C44189BE0D80098C979 /* SPViewController.m */; };
 		336A3C48189BE0D80098C979 /* BaseWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C46189BE0D80098C979 /* BaseWindowController.m */; };
@@ -33,28 +46,17 @@
 		33B32D951898436F002E2FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B32D931898436F002E2FC2 /* InfoPlist.strings */; };
 		33B32D971898436F002E2FC2 /* StopwatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B32D961898436F002E2FC2 /* StopwatchTests.m */; };
 		33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */; };
-		33F44A2018AC1F8A00A978CD /* CounterWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F44A1F18AC1F8A00A978CD /* CounterWindow.xib */; };
-		33F44A2218AC490F00A978CD /* TableWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F44A2118AC490F00A978CD /* TableWindow.xib */; };
 		BF8D13A20EE34D78A3AACE62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A482A3748F8D4846A1CEFE3B /* libPods.a */; };
 		F29B818EA97B95EDFD4F3205 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81F3AAB73EDDD629E0DC /* LoginController.m */; };
 		F29B81B7C48FCECC3A33F7A3 /* BOOutlineViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B865958179F7601217420 /* BOOutlineViewItem.m */; };
-		F29B833974631975FC673CDC /* TableWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B849410BB6ADDB63EA4BF /* TableWindowController.m */; };
 		F29B83B95027DE0ADA8C81B9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8E19A6E829AC78FDF076 /* Model.m */; };
-		F29B84E5DB6175A10604DA22 /* TextViewWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8FC58B29B1D226969A95 /* TextViewWindowController.m */; };
 		F29B856CD1D4467A71F2B2C5 /* LogDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B800057A0AD7F88365E2C /* LogDetailsController.m */; };
+		F29B85DCF22FD7A38BEFE5A0 /* DataWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8E1874F931515475B302 /* DataWindowController.m */; };
 		F29B85EF320D28EBDA589FFB /* DPLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */; };
-		F29B87E5FCAFA2D423D10BD7 /* TreeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8380EF194DB0173E060E /* TreeWindowController.m */; };
-		F29B88B975ACD3FB86373D22 /* DPTimeControlTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81AF97C4B935D18B9FDF /* DPTimeControlTextField.m */; };
-		F29B8A37C54AF208576170A6 /* LogsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B88E457D441617CF4C34F /* LogsWindowController.m */; };
 		F29B8AE4A10A11806E76848B /* DPShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84D723A5FC80C06476E0 /* DPShadowView.m */; };
-		F29B8B2D55CD644C61487D22 /* CounterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B89F87E49F88070E5A27B /* CounterWindowController.m */; };
-		F29B8B31CCBA4AAC962E2716 /* StopwatchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84EDCA2AD2D9980C81C9 /* StopwatchWindowController.m */; };
 		F29B8BDE8E62C84FFB592C69 /* DPIntervalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8B377FC13EC53132673D /* DPIntervalTextField.m */; };
 		F29B8C0ECA5C2116B7FD880B /* NSView+TMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B856388B570778DC6D866 /* NSView+TMUtils.m */; };
-		F29B8C8ED574584A18C6CF6E /* ProjectWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81AC2CC58C89B2484BE2 /* ProjectWindowController.m */; };
-		F29B8CDA1971B8A3D2BBF3FD /* EmptyWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */; };
-		F29B8D05CBC822CAA449B692 /* DPTimerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B85B1763C7E61E9776A41 /* DPTimerTextField.m */; };
-		F29B8EAF04A65318F2C2D3F6 /* StreamWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84EDB251F2EC63652621 /* StreamWindowController.m */; };
+		F29B8F0C0F351B8AFABBE0A6 /* ComponentsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81EABF673848F8A403D6 /* ComponentsWindowController.m */; };
 		F29B8F5643E552EC385CE89E /* LogDetailCardCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B882ECB3015BBBC5B1D88 /* LogDetailCardCellView.m */; };
 		F29B8FEC286E82E098A1FCDB /* RedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */; };
 /* End PBXBuildFile section */
@@ -70,16 +72,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33598C0018A56ED7007DEC73 /* EmptyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyWindow.xib; sourceTree = "<group>"; };
-		33598C0118A56ED7007DEC73 /* LoginWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWindow.xib; sourceTree = "<group>"; };
-		33598C0218A56ED7007DEC73 /* LogsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogsWindow.xib; sourceTree = "<group>"; };
-		33598C0318A56ED7007DEC73 /* StopwatchWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopwatchWindow.xib; sourceTree = "<group>"; };
-		33598C0418A56ED7007DEC73 /* TreeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TreeWindow.xib; sourceTree = "<group>"; };
-		33598C0A18A59A69007DEC73 /* TextViewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewWindow.xib; sourceTree = "<group>"; };
-		33598C0F18A6C4BA007DEC73 /* StreamWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamWindow.xib; sourceTree = "<group>"; };
+		3352E91818C1187000BA3C86 /* ComponentsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponentsWindow.xib; sourceTree = "<group>"; };
+		3352E91918C1187000BA3C86 /* CounterWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterWindow.xib; sourceTree = "<group>"; };
+		3352E91A18C1187000BA3C86 /* CounterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterWindowController.h; sourceTree = "<group>"; };
+		3352E91B18C1187000BA3C86 /* CounterWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterWindowController.m; sourceTree = "<group>"; };
+		3352E91C18C1187000BA3C86 /* EmptyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyWindow.xib; sourceTree = "<group>"; };
+		3352E91D18C1187000BA3C86 /* EmptyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyWindowController.h; sourceTree = "<group>"; };
+		3352E91E18C1187000BA3C86 /* EmptyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyWindowController.m; sourceTree = "<group>"; };
+		3352E91F18C1187000BA3C86 /* LoginWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWindow.xib; sourceTree = "<group>"; };
+		3352E92018C1187000BA3C86 /* LoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindowController.h; sourceTree = "<group>"; };
+		3352E92118C1187000BA3C86 /* LoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindowController.m; sourceTree = "<group>"; };
+		3352E92218C1187000BA3C86 /* LogPadWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogPadWindow.xib; sourceTree = "<group>"; };
+		3352E92318C1187000BA3C86 /* LogPadWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogPadWindowController.h; sourceTree = "<group>"; };
+		3352E92418C1187000BA3C86 /* LogPadWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogPadWindowController.m; sourceTree = "<group>"; };
+		3352E92518C1187000BA3C86 /* ProjectWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectWindowController.h; sourceTree = "<group>"; };
+		3352E92618C1187000BA3C86 /* ProjectWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectWindowController.m; sourceTree = "<group>"; };
+		3352E92718C1187000BA3C86 /* StopwatchWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopwatchWindow.xib; sourceTree = "<group>"; };
+		3352E92818C1187000BA3C86 /* StopwatchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopwatchWindowController.h; sourceTree = "<group>"; };
+		3352E92918C1187000BA3C86 /* StopwatchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopwatchWindowController.m; sourceTree = "<group>"; };
+		3352E92A18C1187000BA3C86 /* StreamWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StreamWindow.xib; sourceTree = "<group>"; };
+		3352E92B18C1187000BA3C86 /* StreamWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamWindowController.h; sourceTree = "<group>"; };
+		3352E92C18C1187000BA3C86 /* StreamWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamWindowController.m; sourceTree = "<group>"; };
+		3352E92D18C1187000BA3C86 /* TableWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableWindow.xib; sourceTree = "<group>"; };
+		3352E92E18C1187000BA3C86 /* TableWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWindowController.h; sourceTree = "<group>"; };
+		3352E92F18C1187000BA3C86 /* TableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableWindowController.m; sourceTree = "<group>"; };
+		3352E93018C1187000BA3C86 /* TextViewWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewWindow.xib; sourceTree = "<group>"; };
+		3352E93118C1187000BA3C86 /* TextViewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewWindowController.h; sourceTree = "<group>"; };
+		3352E93218C1187000BA3C86 /* TextViewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewWindowController.m; sourceTree = "<group>"; };
+		3352E93318C1187000BA3C86 /* TreeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TreeWindow.xib; sourceTree = "<group>"; };
+		3352E93418C1187000BA3C86 /* TreeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeWindowController.h; sourceTree = "<group>"; };
+		3352E93518C1187000BA3C86 /* TreeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeWindowController.m; sourceTree = "<group>"; };
+		3352E94A18C1486400BA3C86 /* DataWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataWindow.xib; sourceTree = "<group>"; };
 		3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogDetailCardCellView.xib; sourceTree = "<group>"; };
-		336A3C1B189A9A020098C979 /* LoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindowController.h; sourceTree = "<group>"; };
-		336A3C1C189A9A020098C979 /* LoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindowController.m; sourceTree = "<group>"; };
 		336A3C3B189B03CD0098C979 /* LogsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogsController.h; path = Controllers/LogsController.h; sourceTree = SOURCE_ROOT; };
 		336A3C3C189B03CD0098C979 /* LogsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogsController.m; path = Controllers/LogsController.m; sourceTree = SOURCE_ROOT; };
 		336A3C43189BE0D80098C979 /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
@@ -110,53 +134,33 @@
 		33B32D941898436F002E2FC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33B32D961898436F002E2FC2 /* StopwatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopwatchTests.m; sourceTree = "<group>"; };
 		33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogDetailsController.xib; sourceTree = "<group>"; };
-		33F44A1F18AC1F8A00A978CD /* CounterWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterWindow.xib; sourceTree = "<group>"; };
-		33F44A2118AC490F00A978CD /* TableWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableWindow.xib; sourceTree = "<group>"; };
 		812DCD75301A43809FBC4726 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A482A3748F8D4846A1CEFE3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29B800057A0AD7F88365E2C /* LogDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDetailsController.m; sourceTree = "<group>"; };
 		F29B80573401D2508544DDA1 /* NSView+TMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+TMUtils.h"; sourceTree = "<group>"; };
-		F29B81581C191690DBD1A3C9 /* TreeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeWindowController.h; sourceTree = "<group>"; };
-		F29B81AC2CC58C89B2484BE2 /* ProjectWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectWindowController.m; sourceTree = "<group>"; };
-		F29B81AF97C4B935D18B9FDF /* DPTimeControlTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTimeControlTextField.m; sourceTree = "<group>"; };
+		F29B81EABF673848F8A403D6 /* ComponentsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentsWindowController.m; sourceTree = "<group>"; };
 		F29B81F3AAB73EDDD629E0DC /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		F29B82282425F7BE56BFB76C /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		F29B82303777C883AAFFE7E5 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		F29B8264ADEEA211FD82429F /* LogDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDetailsController.h; sourceTree = "<group>"; };
-		F29B83138F270307C13ABA17 /* ProjectWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectWindowController.h; sourceTree = "<group>"; };
-		F29B8380EF194DB0173E060E /* TreeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeWindowController.m; sourceTree = "<group>"; };
-		F29B83DE00D1192223D3D417 /* LogsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogsWindowController.h; sourceTree = "<group>"; };
 		F29B842EC72B2B672BAFE836 /* RedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedButton.h; sourceTree = "<group>"; };
-		F29B849410BB6ADDB63EA4BF /* TableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableWindowController.m; sourceTree = "<group>"; };
-		F29B84A48DE9AD0C8E3C0D8F /* StreamWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamWindowController.h; sourceTree = "<group>"; };
 		F29B84D723A5FC80C06476E0 /* DPShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPShadowView.m; sourceTree = "<group>"; };
-		F29B84EDB251F2EC63652621 /* StreamWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamWindowController.m; sourceTree = "<group>"; };
-		F29B84EDCA2AD2D9980C81C9 /* StopwatchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopwatchWindowController.m; sourceTree = "<group>"; };
 		F29B856388B570778DC6D866 /* NSView+TMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+TMUtils.m"; sourceTree = "<group>"; };
-		F29B85B1763C7E61E9776A41 /* DPTimerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTimerTextField.m; sourceTree = "<group>"; };
 		F29B864D30E0DD31CFB78EE9 /* ModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDelegate.h; sourceTree = "<group>"; };
 		F29B865958179F7601217420 /* BOOutlineViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOOutlineViewItem.m; sourceTree = "<group>"; };
 		F29B87A83D9239FA1CB7F927 /* DPLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLabeledTextField.h; sourceTree = "<group>"; };
 		F29B882ECB3015BBBC5B1D88 /* LogDetailCardCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDetailCardCellView.m; sourceTree = "<group>"; };
-		F29B88E457D441617CF4C34F /* LogsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogsWindowController.m; sourceTree = "<group>"; };
-		F29B88FC56416C0C7A26ECDC /* DPTimerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimerTextField.h; sourceTree = "<group>"; };
-		F29B89F87E49F88070E5A27B /* CounterWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterWindowController.m; sourceTree = "<group>"; };
+		F29B8A1219A7CD6B1C3790F8 /* DataWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataWindowController.h; sourceTree = "<group>"; };
 		F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLabeledTextField.m; sourceTree = "<group>"; };
 		F29B8A5860DD3057CAE318A0 /* DPIntervalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPIntervalTextField.h; sourceTree = "<group>"; };
 		F29B8A7F77C18D7D4A56ADED /* BOOutlineViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOOutlineViewItem.h; sourceTree = "<group>"; };
 		F29B8B377FC13EC53132673D /* DPIntervalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPIntervalTextField.m; sourceTree = "<group>"; };
-		F29B8BF168B1C4D65CF74829 /* DPTimeControlTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTimeControlTextField.h; sourceTree = "<group>"; };
-		F29B8C2711FC33B3B624DE5B /* StopwatchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopwatchWindowController.h; sourceTree = "<group>"; };
 		F29B8C3B65403C92DBDD37E7 /* LogDetailCardCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDetailCardCellView.h; sourceTree = "<group>"; };
 		F29B8C7642A240036BB44F87 /* DPShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPShadowView.h; sourceTree = "<group>"; };
-		F29B8C83E002C5AD85029BA6 /* EmptyWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyWindowController.h; sourceTree = "<group>"; };
 		F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
-		F29B8DD4E76A8D1A4859C3FE /* CounterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterWindowController.h; sourceTree = "<group>"; };
-		F29B8E11252518A51B323D21 /* TableWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWindowController.h; sourceTree = "<group>"; };
+		F29B8D96240CC6D036835831 /* ComponentsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentsWindowController.h; sourceTree = "<group>"; };
+		F29B8E1874F931515475B302 /* DataWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataWindowController.m; sourceTree = "<group>"; };
 		F29B8E19A6E829AC78FDF076 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyWindowController.m; sourceTree = "<group>"; };
-		F29B8F36F9C253B7825F0543 /* TextViewWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewWindowController.h; sourceTree = "<group>"; };
-		F29B8FC58B29B1D226969A95 /* TextViewWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +189,6 @@
 			isa = PBXGroup;
 			children = (
 				336A3C42189BE0D80098C979 /* Base */,
-				336A3C18189A9A020098C979 /* Windows */,
 				336A3C3B189B03CD0098C979 /* LogsController.h */,
 				336A3C3C189B03CD0098C979 /* LogsController.m */,
 				F29B81F3AAB73EDDD629E0DC /* LoginController.m */,
@@ -196,6 +199,48 @@
 			path = Controllers;
 			sourceTree = SOURCE_ROOT;
 		};
+		3352E91718C1187000BA3C86 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				3352E91818C1187000BA3C86 /* ComponentsWindow.xib */,
+				F29B8D96240CC6D036835831 /* ComponentsWindowController.h */,
+				F29B81EABF673848F8A403D6 /* ComponentsWindowController.m */,
+				3352E91918C1187000BA3C86 /* CounterWindow.xib */,
+				3352E91A18C1187000BA3C86 /* CounterWindowController.h */,
+				3352E91B18C1187000BA3C86 /* CounterWindowController.m */,
+				3352E91C18C1187000BA3C86 /* EmptyWindow.xib */,
+				3352E91D18C1187000BA3C86 /* EmptyWindowController.h */,
+				3352E91E18C1187000BA3C86 /* EmptyWindowController.m */,
+				3352E91F18C1187000BA3C86 /* LoginWindow.xib */,
+				3352E92018C1187000BA3C86 /* LoginWindowController.h */,
+				3352E92118C1187000BA3C86 /* LoginWindowController.m */,
+				3352E92218C1187000BA3C86 /* LogPadWindow.xib */,
+				3352E92318C1187000BA3C86 /* LogPadWindowController.h */,
+				3352E92418C1187000BA3C86 /* LogPadWindowController.m */,
+				3352E92518C1187000BA3C86 /* ProjectWindowController.h */,
+				3352E92618C1187000BA3C86 /* ProjectWindowController.m */,
+				3352E92718C1187000BA3C86 /* StopwatchWindow.xib */,
+				3352E92818C1187000BA3C86 /* StopwatchWindowController.h */,
+				3352E92918C1187000BA3C86 /* StopwatchWindowController.m */,
+				3352E92A18C1187000BA3C86 /* StreamWindow.xib */,
+				3352E92B18C1187000BA3C86 /* StreamWindowController.h */,
+				3352E92C18C1187000BA3C86 /* StreamWindowController.m */,
+				3352E92D18C1187000BA3C86 /* TableWindow.xib */,
+				3352E92E18C1187000BA3C86 /* TableWindowController.h */,
+				3352E92F18C1187000BA3C86 /* TableWindowController.m */,
+				3352E93018C1187000BA3C86 /* TextViewWindow.xib */,
+				3352E93118C1187000BA3C86 /* TextViewWindowController.h */,
+				3352E93218C1187000BA3C86 /* TextViewWindowController.m */,
+				3352E93318C1187000BA3C86 /* TreeWindow.xib */,
+				3352E93418C1187000BA3C86 /* TreeWindowController.h */,
+				3352E93518C1187000BA3C86 /* TreeWindowController.m */,
+				3352E94A18C1486400BA3C86 /* DataWindow.xib */,
+				F29B8E1874F931515475B302 /* DataWindowController.m */,
+				F29B8A1219A7CD6B1C3790F8 /* DataWindowController.h */,
+			);
+			path = Windows;
+			sourceTree = SOURCE_ROOT;
+		};
 		33579577189E1889007CDDAD /* BOOutlineView */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,22 +249,6 @@
 			);
 			path = BOOutlineView;
 			sourceTree = SOURCE_ROOT;
-		};
-		33598BFF18A56ED7007DEC73 /* Windows */ = {
-			isa = PBXGroup;
-			children = (
-				33F44A1F18AC1F8A00A978CD /* CounterWindow.xib */,
-				33598C0018A56ED7007DEC73 /* EmptyWindow.xib */,
-				33598C0118A56ED7007DEC73 /* LoginWindow.xib */,
-				33598C0218A56ED7007DEC73 /* LogsWindow.xib */,
-				33598C0318A56ED7007DEC73 /* StopwatchWindow.xib */,
-				33598C0F18A6C4BA007DEC73 /* StreamWindow.xib */,
-				33F44A2118AC490F00A978CD /* TableWindow.xib */,
-				33598C0A18A59A69007DEC73 /* TextViewWindow.xib */,
-				33598C0418A56ED7007DEC73 /* TreeWindow.xib */,
-			);
-			path = Windows;
-			sourceTree = "<group>";
 		};
 		3366103918A6E277005D2FE8 /* Controls */ = {
 			isa = PBXGroup;
@@ -233,38 +262,10 @@
 			isa = PBXGroup;
 			children = (
 				3366103918A6E277005D2FE8 /* Controls */,
-				33598BFF18A56ED7007DEC73 /* Windows */,
 				33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */,
 			);
 			path = UI;
 			sourceTree = SOURCE_ROOT;
-		};
-		336A3C18189A9A020098C979 /* Windows */ = {
-			isa = PBXGroup;
-			children = (
-				336A3C1B189A9A020098C979 /* LoginWindowController.h */,
-				336A3C1C189A9A020098C979 /* LoginWindowController.m */,
-				F29B84EDCA2AD2D9980C81C9 /* StopwatchWindowController.m */,
-				F29B8C2711FC33B3B624DE5B /* StopwatchWindowController.h */,
-				F29B88E457D441617CF4C34F /* LogsWindowController.m */,
-				F29B83DE00D1192223D3D417 /* LogsWindowController.h */,
-				F29B81AC2CC58C89B2484BE2 /* ProjectWindowController.m */,
-				F29B83138F270307C13ABA17 /* ProjectWindowController.h */,
-				F29B8380EF194DB0173E060E /* TreeWindowController.m */,
-				F29B81581C191690DBD1A3C9 /* TreeWindowController.h */,
-				F29B8F18A132A0F6C54E1885 /* EmptyWindowController.m */,
-				F29B8C83E002C5AD85029BA6 /* EmptyWindowController.h */,
-				F29B8FC58B29B1D226969A95 /* TextViewWindowController.m */,
-				F29B8F36F9C253B7825F0543 /* TextViewWindowController.h */,
-				F29B84EDB251F2EC63652621 /* StreamWindowController.m */,
-				F29B84A48DE9AD0C8E3C0D8F /* StreamWindowController.h */,
-				F29B89F87E49F88070E5A27B /* CounterWindowController.m */,
-				F29B8DD4E76A8D1A4859C3FE /* CounterWindowController.h */,
-				F29B849410BB6ADDB63EA4BF /* TableWindowController.m */,
-				F29B8E11252518A51B323D21 /* TableWindowController.h */,
-			);
-			path = Windows;
-			sourceTree = "<group>";
 		};
 		336A3C35189AD6240098C979 /* Controls */ = {
 			isa = PBXGroup;
@@ -361,6 +362,7 @@
 		33B32D721898436F002E2FC2 /* Stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				3352E91718C1187000BA3C86 /* Windows */,
 				33579577189E1889007CDDAD /* BOOutlineView */,
 				336A3C35189AD6240098C979 /* Controls */,
 				332110B1189A0FBD00A918A7 /* Controllers */,
@@ -410,10 +412,6 @@
 		33B32DA018984433002E2FC2 /* DPTimeControls */ = {
 			isa = PBXGroup;
 			children = (
-				F29B81AF97C4B935D18B9FDF /* DPTimeControlTextField.m */,
-				F29B8BF168B1C4D65CF74829 /* DPTimeControlTextField.h */,
-				F29B85B1763C7E61E9776A41 /* DPTimerTextField.m */,
-				F29B88FC56416C0C7A26ECDC /* DPTimerTextField.h */,
 			);
 			name = DPTimeControls;
 			path = ../../../../LocalPods/Controls/DPTimeControls/DPTimeControls;
@@ -498,20 +496,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3366103B18A6E28A005D2FE8 /* LogDetailCardCellView.xib in Resources */,
+				3352E93D18C1187000BA3C86 /* LogPadWindow.xib in Resources */,
+				3352E94418C1187000BA3C86 /* TableWindow.xib in Resources */,
+				3352E93B18C1187000BA3C86 /* LoginWindow.xib in Resources */,
 				33B32D771898436F002E2FC2 /* InfoPlist.strings in Resources */,
-				33598C0818A56ED7007DEC73 /* StopwatchWindow.xib in Resources */,
-				33598C0918A56ED7007DEC73 /* TreeWindow.xib in Resources */,
-				33598C0618A56ED7007DEC73 /* LoginWindow.xib in Resources */,
+				3352E93718C1187000BA3C86 /* CounterWindow.xib in Resources */,
 				33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */,
+				3352E94818C1187000BA3C86 /* TreeWindow.xib in Resources */,
 				33B32D851898436F002E2FC2 /* Images.xcassets in Resources */,
-				33598C0718A56ED7007DEC73 /* LogsWindow.xib in Resources */,
-				33F44A2018AC1F8A00A978CD /* CounterWindow.xib in Resources */,
-				33598C0518A56ED7007DEC73 /* EmptyWindow.xib in Resources */,
-				33598C1018A6C4BA007DEC73 /* StreamWindow.xib in Resources */,
 				33B32D7D1898436F002E2FC2 /* Credits.rtf in Resources */,
+				3352E93618C1187000BA3C86 /* ComponentsWindow.xib in Resources */,
+				3352E94B18C1486400BA3C86 /* DataWindow.xib in Resources */,
+				3352E94218C1187000BA3C86 /* StreamWindow.xib in Resources */,
+				3352E94018C1187000BA3C86 /* StopwatchWindow.xib in Resources */,
 				33B32D831898436F002E2FC2 /* MainMenu.xib in Resources */,
-				33598C0B18A59A69007DEC73 /* TextViewWindow.xib in Resources */,
-				33F44A2218AC490F00A978CD /* TableWindow.xib in Resources */,
+				3352E93918C1187000BA3C86 /* EmptyWindow.xib in Resources */,
+				3352E94618C1187000BA3C86 /* TextViewWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,35 +563,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3352E94518C1187000BA3C86 /* TableWindowController.m in Sources */,
+				3352E94918C1187000BA3C86 /* TreeWindowController.m in Sources */,
 				3376002718994CD300BE82F4 /* DPObject.m in Sources */,
 				3376002818994CD300BE82F4 /* TimeLog.m in Sources */,
 				33B32D801898436F002E2FC2 /* AppDelegate.m in Sources */,
 				33B32D791898436F002E2FC2 /* main.m in Sources */,
+				3352E94718C1187000BA3C86 /* TextViewWindowController.m in Sources */,
 				336A3C3D189B03CD0098C979 /* LogsController.m in Sources */,
+				3352E93A18C1187000BA3C86 /* EmptyWindowController.m in Sources */,
+				3352E93E18C1187000BA3C86 /* LogPadWindowController.m in Sources */,
+				3352E94318C1187000BA3C86 /* StreamWindowController.m in Sources */,
+				3352E94118C1187000BA3C86 /* StopwatchWindowController.m in Sources */,
 				F29B8BDE8E62C84FFB592C69 /* DPIntervalTextField.m in Sources */,
-				F29B88B975ACD3FB86373D22 /* DPTimeControlTextField.m in Sources */,
 				F29B818EA97B95EDFD4F3205 /* LoginController.m in Sources */,
 				336A3C48189BE0D80098C979 /* BaseWindowController.m in Sources */,
-				336A3C1E189A9A030098C979 /* LoginWindowController.m in Sources */,
 				F29B83B95027DE0ADA8C81B9 /* Model.m in Sources */,
-				F29B8B31CCBA4AAC962E2716 /* StopwatchWindowController.m in Sources */,
-				F29B8D05CBC822CAA449B692 /* DPTimerTextField.m in Sources */,
 				F29B8AE4A10A11806E76848B /* DPShadowView.m in Sources */,
+				3352E93818C1187000BA3C86 /* CounterWindowController.m in Sources */,
 				336A3C47189BE0D80098C979 /* SPViewController.m in Sources */,
 				F29B8FEC286E82E098A1FCDB /* RedButton.m in Sources */,
-				F29B8A37C54AF208576170A6 /* LogsWindowController.m in Sources */,
-				F29B8C8ED574584A18C6CF6E /* ProjectWindowController.m in Sources */,
-				F29B87E5FCAFA2D423D10BD7 /* TreeWindowController.m in Sources */,
 				F29B856CD1D4467A71F2B2C5 /* LogDetailsController.m in Sources */,
-				F29B8CDA1971B8A3D2BBF3FD /* EmptyWindowController.m in Sources */,
 				F29B85EF320D28EBDA589FFB /* DPLabeledTextField.m in Sources */,
 				F29B81B7C48FCECC3A33F7A3 /* BOOutlineViewItem.m in Sources */,
 				F29B8C0ECA5C2116B7FD880B /* NSView+TMUtils.m in Sources */,
-				F29B84E5DB6175A10604DA22 /* TextViewWindowController.m in Sources */,
-				F29B8EAF04A65318F2C2D3F6 /* StreamWindowController.m in Sources */,
+				3352E93C18C1187000BA3C86 /* LoginWindowController.m in Sources */,
 				F29B8F5643E552EC385CE89E /* LogDetailCardCellView.m in Sources */,
-				F29B8B2D55CD644C61487D22 /* CounterWindowController.m in Sources */,
-				F29B833974631975FC673CDC /* TableWindowController.m in Sources */,
+				3352E93F18C1187000BA3C86 /* ProjectWindowController.m in Sources */,
+				F29B8F0C0F351B8AFABBE0A6 /* ComponentsWindowController.m in Sources */,
+				F29B85DCF22FD7A38BEFE5A0 /* DataWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

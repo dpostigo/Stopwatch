@@ -13,7 +13,7 @@
 - (void) windowDidLoad {
     [super windowDidLoad];
 
-    userField.stringValue = _model.apiModel.lastSuccessfulUsername == nil ? @"" : _model.apiModel.lastSuccessfulUsername;
+    userField.stringValue = _model.apiModel.lastSuccessfulUsername == nil ? @"" : [_model.apiModel.lastSuccessfulUsername lowercaseString];
     passwordField.stringValue = _model.apiModel.lastPassword == nil ? @"" : _model.apiModel.lastPassword;
 }
 

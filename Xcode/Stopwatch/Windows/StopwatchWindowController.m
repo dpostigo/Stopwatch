@@ -6,16 +6,17 @@
 #import <BOAPI/Task.h>
 #import "StopwatchWindowController.h"
 #import "TimeLog.h"
-#import "DPTimeControlTextField.h"
 #import "DPHeaderedWindow.h"
 #import "LogsController.h"
-#import "LogsWindowController.h"
+#import "LogPadWindowController.h"
 #import "NSWindowController+DPWindow.h"
 #import "NSView+NewConstraint.h"
 #import "Log.h"
 #import "Model.h"
 #import "NSView+TMUtils.h"
 #import "StreamWindowController.h"
+#import "DPTimerTextField.h"
+#import "LogDetailsController.h"
 
 @implementation StopwatchWindowController
 
@@ -33,14 +34,14 @@
 
     [self showLogPad: nil];
     [self showLogStream: nil];
-
-    counterField.stopBlock = ^(DPTimerTextField *textField) {
-        NSLog(@"%s", __PRETTY_FUNCTION__);
-        Log *log = [[Log alloc] initWithTitle: @""];
-        log.startDate = textField.startDate;
-        log.endDate = textField.stopDate;
-        [[Model sharedModel].selectedTask.logs addObject: log];
-    };
+//
+    //    counterField.stopBlock = ^(DPTimerTextField *textField) {
+    //        NSLog(@"%s", __PRETTY_FUNCTION__);
+    //        Log *log = [[Log alloc] initWithTitle: @""];
+    //        log.startDate = textField.startDate;
+    //        log.endDate = textField.stopDate;
+    //        [[Model sharedModel].selectedTask.logs addObject: log];
+    //    };
 
 }
 
@@ -59,13 +60,13 @@
 }
 
 - (void) setupLogDetailsView {
-    //    LogDetailsController *controller = [[LogDetailsController alloc] init];
-    //    controller.view.frame = logsView.bounds;
-    //    [logsView addSubview: controller.view];
-    //    [controller.view superConstrainCenterX];
-    //    [controller.view superConstrainCenterY];
-    //    [controller.view superConstrainWidth];
-    //    [controller.view superConstrainHeight];
+    LogDetailsController *controller = [[LogDetailsController alloc] init];
+    controller.view.frame = logsView.bounds;
+    [logsView addSubview: controller.view];
+    [controller.view superConstrainCenterX];
+    [controller.view superConstrainCenterY];
+    [controller.view superConstrainWidth];
+    [controller.view superConstrainHeight];
 }
 
 - (void) setupBackground {
@@ -80,7 +81,7 @@
 }
 
 - (IBAction) showLogPad: (id) sender {
-    LogsWindowController *controller = [[LogsWindowController alloc] init];
+    LogPadWindowController *controller = [[LogPadWindowController alloc] init];
     NSWindow *window = controller.window;
 
     NSRect frame = window.frame;
@@ -125,7 +126,7 @@
         currentLog.startDate = [NSDate date];
     }
 
-    counterField.startDate = currentLog.startDate;
+    //    counterField.startDate = currentLog.startDate;
 
 }
 
@@ -133,7 +134,7 @@
 - (IBAction) stop: (id) sender {
 
     currentLog.endDate = [NSDate date];
-    [counterField stop];
+    //    [counterField pause];
 
 }
 
