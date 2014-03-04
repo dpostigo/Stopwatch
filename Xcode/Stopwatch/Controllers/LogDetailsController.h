@@ -9,6 +9,7 @@
 #import "BOAPIDelegate.h"
 
 @class DPOutlineView;
+@class LogDetailCardCellView;
 
 @interface LogDetailsController : SPViewController <DPOutlineViewDelegate, BOAPIDelegate> {
     IBOutlet DPOutlineView *outline;

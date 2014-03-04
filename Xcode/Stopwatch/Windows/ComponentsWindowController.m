@@ -9,6 +9,7 @@
 #import "DPTimeInputTextFieldCell.h"
 #import "DPDateTimeInputTextView.h"
 #import "NSTextField+DPTimeInputTextView.h"
+#import "NSControl+DPKit.h"
 
 @implementation ComponentsWindowController
 
@@ -19,5 +20,14 @@
     dateTimeInputField.timeInputCell.customFieldEditor = [[DPDateTimeInputTextView alloc] init];
 }
 
+
+- (IBAction) handleComboBox: (id) sender {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    NSArrayController *arrayController = comboBox.contentValuesObservedObject;
+
+    NSLog(@"comboBox.contentValuesBindingInfo = %@", comboBox.contentValuesBindingInfo);
+    //    NSLog(@"comboBox.objectValueOfSelectedItem = %@", comboBox.objectValueOfSelectedItem);
+
+}
 
 @end

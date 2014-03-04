@@ -6,9 +6,12 @@
 #import <Foundation/Foundation.h>
 #import "ProjectWindowController.h"
 
+@class BOUILoginController;
+
 @interface LoginWindowController : ProjectWindowController {
 
     IBOutlet NSTextField *userField;
     IBOutlet NSTextField *passwordField;
+    BOUILoginController *controller;
 }
 @end

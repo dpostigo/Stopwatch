@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ComponentsWindowController">
             <connections>
+                <outlet property="comboBox" destination="W7T-nb-8fQ" id="kcv-V8-wGb"/>
                 <outlet property="dateTimeInputField" destination="8uF-Kk-6s6" id="cff-zP-KwZ"/>
                 <outlet property="timeInputField" destination="byW-Qc-3X4" id="eq8-8v-uuI"/>
                 <outlet property="timerTextField" destination="vXr-qP-Q24" id="tnb-df-807"/>
@@ -19,108 +20,176 @@
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" wantsToBeColor="NO" animationBehavior="default" id="1">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="196" y="240" width="480" height="428"/>
+            <rect key="contentRect" x="196" y="240" width="798" height="543"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <view key="contentView" id="2">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="428"/>
+                <rect key="frame" x="0.0" y="0.0" width="798" height="543"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField horizontalHuggingPriority="248" verticalHuggingPriority="750" id="vXr-qP-Q24" customClass="DPTimerTextField">
-                        <rect key="frame" x="30" y="352" width="67" height="21"/>
+                    <box autoresizesSubviews="NO" title="DPTimerTextFieldNew" borderType="line" id="tlE-OW-3wl">
+                        <rect key="frame" x="12" y="463" width="383" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="center" placeholderString="00:01:20" id="MAo-7h-0m7">
-                            <font key="font" size="15" name="HelveticaNeue"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="CL8-bb-Hii">
-                        <rect key="frame" x="18" y="391" width="141" height="17"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="381" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="248" verticalHuggingPriority="750" id="vXr-qP-Q24" customClass="DPTimerTextField">
+                                    <rect key="frame" x="157" y="14" width="67" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="center" placeholderString="00:01:20" id="MAo-7h-0m7">
+                                        <font key="font" size="15" name="HelveticaNeue"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" title="DPTimerTextFieldNew (with controls)" borderType="line" id="q5o-4m-IBa">
+                        <rect key="frame" x="12" y="388" width="383" height="61"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="DPTimerTextFieldNew" id="iLd-H4-AIz">
-                            <font key="font" size="11" name="LucidaGrande"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="248" verticalHuggingPriority="750" id="Rc3-Te-ps4" customClass="DPTimerTextField">
-                        <rect key="frame" x="30" y="283" width="67" height="21"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="381" height="45"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="248" verticalHuggingPriority="750" id="Rc3-Te-ps4" customClass="DPTimerTextField">
+                                    <rect key="frame" x="16" y="14" width="67" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="center" placeholderString="00:01:20" id="rmh-Ti-vxo">
+                                        <font key="font" size="15" name="HelveticaNeue"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button verticalHuggingPriority="750" id="7di-au-DfO">
+                                    <rect key="frame" x="205" y="6" width="82" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <buttonCell key="cell" type="push" title="START" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4mY-Uk-2kr">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" size="10" name="LucidaGrande-Bold"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="timerStart:" target="Rc3-Te-ps4" id="6NA-fd-YlX"/>
+                                    </connections>
+                                </button>
+                                <button verticalHuggingPriority="750" id="o60-N9-pWQ">
+                                    <rect key="frame" x="287" y="6" width="82" height="32"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <buttonCell key="cell" type="push" title="STOP" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nYT-XT-JCs">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" size="10" name="LucidaGrande-Bold"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="timerPause:" target="Rc3-Te-ps4" id="O0w-wS-h2c"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" title="DPTimeInputTextField" borderType="line" id="rXI-jD-zeI">
+                        <rect key="frame" x="12" y="306" width="388" height="62"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" alignment="center" placeholderString="00:01:20" id="rmh-Ti-vxo">
-                            <font key="font" size="15" name="HelveticaNeue"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="dMi-Qd-orQ">
-                        <rect key="frame" x="18" y="312" width="208" height="17"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="386" height="46"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" id="byW-Qc-3X4" customClass="DPTimeInputTextField">
+                                    <rect key="frame" x="18" y="14" width="161" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Qo9-Pr-hDf" customClass="DPTimeInputTextFieldCell">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" title="DPTimeInputTextField with DPDateTimeInputTextView field editor" borderType="line" id="EBK-7j-dUN">
+                        <rect key="frame" x="12" y="229" width="388" height="62"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="DPTimerTextFieldNew (with controls)" id="h3b-AR-taw">
-                            <font key="font" size="11" name="LucidaGrande"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="7kT-bP-jT6">
-                        <rect key="frame" x="18" y="239" width="208" height="17"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="386" height="46"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" id="8uF-Kk-6s6">
+                                    <rect key="frame" x="18" y="14" width="161" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="HLw-sT-YTu" customClass="DPTimeInputTextFieldCell">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" title="DPControllerComboBox" borderType="line" id="XZn-2M-3sP">
+                        <rect key="frame" x="12" y="157" width="388" height="60"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="DPTimeInputTextField" id="eEK-2p-kh8">
-                            <font key="font" size="11" name="LucidaGrande"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <button verticalHuggingPriority="750" id="7di-au-DfO">
-                        <rect key="frame" x="141" y="276" width="82" height="32"/>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="386" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <comboBox focusRingType="none" verticalHuggingPriority="750" id="W7T-nb-8fQ" customClass="DPControllerComboBox">
+                                    <rect key="frame" x="18" y="10" width="265" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" placeholderString="Service Item" buttonBordered="NO" numberOfVisibleItems="5" id="do6-an-wNl">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </comboBoxCell>
+                                    <connections>
+                                        <action selector="handleComboBox:" target="-2" id="dic-k2-h3H"/>
+                                        <binding destination="jBK-yZ-dcP" name="content" keyPath="arrangedObjects" id="nWR-mu-BdR"/>
+                                        <binding destination="jBK-yZ-dcP" name="contentValues" keyPath="arrangedObjects.title" previousBinding="nWR-mu-BdR" id="2Pu-3j-5cn">
+                                            <dictionary key="options">
+                                                <string key="NSNullPlaceholder">Etc</string>
+                                            </dictionary>
+                                        </binding>
+                                    </connections>
+                                </comboBox>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" title="Box" borderType="line" id="GRs-Xb-evx">
+                        <rect key="frame" x="417" y="246" width="353" height="277"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="START" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4mY-Uk-2kr">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" size="10" name="LucidaGrande-Bold"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="timerStart:" target="Rc3-Te-ps4" id="6NA-fd-YlX"/>
-                        </connections>
-                    </button>
-                    <button verticalHuggingPriority="750" id="o60-N9-pWQ">
-                        <rect key="frame" x="223" y="276" width="82" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="STOP" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nYT-XT-JCs">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" size="10" name="LucidaGrande-Bold"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="timerPause:" target="Rc3-Te-ps4" id="O0w-wS-h2c"/>
-                        </connections>
-                    </button>
-                    <textField verticalHuggingPriority="750" id="byW-Qc-3X4" customClass="DPTimeInputTextField">
-                        <rect key="frame" x="20" y="209" width="161" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Qo9-Pr-hDf" customClass="DPTimeInputTextFieldCell">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="PxA-7O-uEk">
-                        <rect key="frame" x="18" y="179" width="356" height="14"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="DPTimeInputTextField with DPDateTimeInputTextView field editor" id="GDD-gw-xYW">
-                            <font key="font" size="11" name="LucidaGrande"/>
-                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" id="8uF-Kk-6s6">
-                        <rect key="frame" x="20" y="146" width="161" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="HLw-sT-YTu" customClass="DPTimeInputTextFieldCell">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
+                        <view key="contentView">
+                            <rect key="frame" x="1" y="1" width="351" height="261"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <customView id="eSn-ez-TPq">
+                                    <rect key="frame" x="18" y="14" width="315" height="237"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                </customView>
+                            </subviews>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
                 </subviews>
             </view>
         </window>
+        <arrayController objectClassName="ServiceItem" id="jBK-yZ-dcP">
+            <connections>
+                <binding destination="-2" name="contentArray" keyPath="self.apiModel.serviceItems" id="GVY-7a-jhN">
+                    <dictionary key="options">
+                        <bool key="NSValidatesImmediately" value="YES"/>
+                    </dictionary>
+                </binding>
+            </connections>
+        </arrayController>
+        <viewController nibName="BOUITasksOutlineController" id="3Qv-rj-xAL" customClass="BOUITasksOutlineController"/>
     </objects>
 </document>

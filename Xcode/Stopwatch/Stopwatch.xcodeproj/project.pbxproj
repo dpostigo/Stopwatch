@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330F2CA118C4D0D400DD6424 /* Counter2Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330F2CA018C4D0D400DD6424 /* Counter2Window.xib */; };
 		3352E93618C1187000BA3C86 /* ComponentsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E91818C1187000BA3C86 /* ComponentsWindow.xib */; };
 		3352E93718C1187000BA3C86 /* CounterWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E91918C1187000BA3C86 /* CounterWindow.xib */; };
 		3352E93818C1187000BA3C86 /* CounterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E91B18C1187000BA3C86 /* CounterWindowController.m */; };
@@ -28,12 +29,12 @@
 		3352E94818C1187000BA3C86 /* TreeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E93318C1187000BA3C86 /* TreeWindow.xib */; };
 		3352E94918C1187000BA3C86 /* TreeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3352E93518C1187000BA3C86 /* TreeWindowController.m */; };
 		3352E94B18C1486400BA3C86 /* DataWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3352E94A18C1486400BA3C86 /* DataWindow.xib */; };
-		3366103B18A6E28A005D2FE8 /* LogDetailCardCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */; };
 		336A3C3D189B03CD0098C979 /* LogsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C3C189B03CD0098C979 /* LogsController.m */; };
 		336A3C47189BE0D80098C979 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C44189BE0D80098C979 /* SPViewController.m */; };
 		336A3C48189BE0D80098C979 /* BaseWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336A3C46189BE0D80098C979 /* BaseWindowController.m */; };
 		3376002718994CD300BE82F4 /* DPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376002418994CD300BE82F4 /* DPObject.m */; };
 		3376002818994CD300BE82F4 /* TimeLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376002618994CD300BE82F4 /* TimeLog.m */; };
+		3386354518C5022A0059AB65 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3386354418C5022A0059AB65 /* MainWindow.xib */; };
 		33B32D6D1898436F002E2FC2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B32D6C1898436F002E2FC2 /* Cocoa.framework */; };
 		33B32D771898436F002E2FC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B32D751898436F002E2FC2 /* InfoPlist.strings */; };
 		33B32D791898436F002E2FC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B32D781898436F002E2FC2 /* main.m */; };
@@ -47,17 +48,18 @@
 		33B32D971898436F002E2FC2 /* StopwatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B32D961898436F002E2FC2 /* StopwatchTests.m */; };
 		33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B8AAB3189C7A8000786C7A /* LogDetailsController.xib */; };
 		BF8D13A20EE34D78A3AACE62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A482A3748F8D4846A1CEFE3B /* libPods.a */; };
+		F29B80D38BF58870062344B7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8849D1536BE6F26E129B /* MainWindowController.m */; };
 		F29B818EA97B95EDFD4F3205 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81F3AAB73EDDD629E0DC /* LoginController.m */; };
 		F29B81B7C48FCECC3A33F7A3 /* BOOutlineViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B865958179F7601217420 /* BOOutlineViewItem.m */; };
 		F29B83B95027DE0ADA8C81B9 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8E19A6E829AC78FDF076 /* Model.m */; };
 		F29B856CD1D4467A71F2B2C5 /* LogDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B800057A0AD7F88365E2C /* LogDetailsController.m */; };
 		F29B85DCF22FD7A38BEFE5A0 /* DataWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8E1874F931515475B302 /* DataWindowController.m */; };
 		F29B85EF320D28EBDA589FFB /* DPLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */; };
+		F29B89989C5A5DB1ED614A49 /* Counter2WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B85AEAFF11267FA7F042D /* Counter2WindowController.m */; };
 		F29B8AE4A10A11806E76848B /* DPShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B84D723A5FC80C06476E0 /* DPShadowView.m */; };
 		F29B8BDE8E62C84FFB592C69 /* DPIntervalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8B377FC13EC53132673D /* DPIntervalTextField.m */; };
 		F29B8C0ECA5C2116B7FD880B /* NSView+TMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B856388B570778DC6D866 /* NSView+TMUtils.m */; };
 		F29B8F0C0F351B8AFABBE0A6 /* ComponentsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B81EABF673848F8A403D6 /* ComponentsWindowController.m */; };
-		F29B8F5643E552EC385CE89E /* LogDetailCardCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B882ECB3015BBBC5B1D88 /* LogDetailCardCellView.m */; };
 		F29B8FEC286E82E098A1FCDB /* RedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		330F2CA018C4D0D400DD6424 /* Counter2Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Counter2Window.xib; sourceTree = "<group>"; };
 		3352E91818C1187000BA3C86 /* ComponentsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComponentsWindow.xib; sourceTree = "<group>"; };
 		3352E91918C1187000BA3C86 /* CounterWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterWindow.xib; sourceTree = "<group>"; };
 		3352E91A18C1187000BA3C86 /* CounterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterWindowController.h; sourceTree = "<group>"; };
@@ -103,7 +106,6 @@
 		3352E93418C1187000BA3C86 /* TreeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeWindowController.h; sourceTree = "<group>"; };
 		3352E93518C1187000BA3C86 /* TreeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeWindowController.m; sourceTree = "<group>"; };
 		3352E94A18C1486400BA3C86 /* DataWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataWindow.xib; sourceTree = "<group>"; };
-		3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogDetailCardCellView.xib; sourceTree = "<group>"; };
 		336A3C3B189B03CD0098C979 /* LogsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogsController.h; path = Controllers/LogsController.h; sourceTree = SOURCE_ROOT; };
 		336A3C3C189B03CD0098C979 /* LogsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogsController.m; path = Controllers/LogsController.m; sourceTree = SOURCE_ROOT; };
 		336A3C43189BE0D80098C979 /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		3376002418994CD300BE82F4 /* DPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPObject.m; sourceTree = "<group>"; };
 		3376002518994CD300BE82F4 /* TimeLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLog.h; sourceTree = "<group>"; };
 		3376002618994CD300BE82F4 /* TimeLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLog.m; sourceTree = "<group>"; };
+		3386354418C5022A0059AB65 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		33B32D691898436F002E2FC2 /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B32D6C1898436F002E2FC2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		33B32D6F1898436F002E2FC2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -146,18 +149,20 @@
 		F29B842EC72B2B672BAFE836 /* RedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedButton.h; sourceTree = "<group>"; };
 		F29B84D723A5FC80C06476E0 /* DPShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPShadowView.m; sourceTree = "<group>"; };
 		F29B856388B570778DC6D866 /* NSView+TMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+TMUtils.m"; sourceTree = "<group>"; };
+		F29B85AEAFF11267FA7F042D /* Counter2WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Counter2WindowController.m; sourceTree = "<group>"; };
 		F29B864D30E0DD31CFB78EE9 /* ModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelDelegate.h; sourceTree = "<group>"; };
 		F29B865958179F7601217420 /* BOOutlineViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOOutlineViewItem.m; sourceTree = "<group>"; };
 		F29B87A83D9239FA1CB7F927 /* DPLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLabeledTextField.h; sourceTree = "<group>"; };
-		F29B882ECB3015BBBC5B1D88 /* LogDetailCardCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDetailCardCellView.m; sourceTree = "<group>"; };
+		F29B87B89901DB43C7504241 /* Counter2WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counter2WindowController.h; sourceTree = "<group>"; };
+		F29B8849D1536BE6F26E129B /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		F29B8A1219A7CD6B1C3790F8 /* DataWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataWindowController.h; sourceTree = "<group>"; };
 		F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLabeledTextField.m; sourceTree = "<group>"; };
 		F29B8A5860DD3057CAE318A0 /* DPIntervalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPIntervalTextField.h; sourceTree = "<group>"; };
 		F29B8A7F77C18D7D4A56ADED /* BOOutlineViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOOutlineViewItem.h; sourceTree = "<group>"; };
 		F29B8B377FC13EC53132673D /* DPIntervalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPIntervalTextField.m; sourceTree = "<group>"; };
-		F29B8C3B65403C92DBDD37E7 /* LogDetailCardCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDetailCardCellView.h; sourceTree = "<group>"; };
 		F29B8C7642A240036BB44F87 /* DPShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPShadowView.h; sourceTree = "<group>"; };
 		F29B8CC33C9BBC60A70CA4A7 /* RedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedButton.m; sourceTree = "<group>"; };
+		F29B8D87D7CFE708D4AA2DDE /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
 		F29B8D96240CC6D036835831 /* ComponentsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentsWindowController.h; sourceTree = "<group>"; };
 		F29B8E1874F931515475B302 /* DataWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataWindowController.m; sourceTree = "<group>"; };
 		F29B8E19A6E829AC78FDF076 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
@@ -205,9 +210,15 @@
 				3352E91818C1187000BA3C86 /* ComponentsWindow.xib */,
 				F29B8D96240CC6D036835831 /* ComponentsWindowController.h */,
 				F29B81EABF673848F8A403D6 /* ComponentsWindowController.m */,
+				330F2CA018C4D0D400DD6424 /* Counter2Window.xib */,
+				F29B87B89901DB43C7504241 /* Counter2WindowController.h */,
+				F29B85AEAFF11267FA7F042D /* Counter2WindowController.m */,
 				3352E91918C1187000BA3C86 /* CounterWindow.xib */,
 				3352E91A18C1187000BA3C86 /* CounterWindowController.h */,
 				3352E91B18C1187000BA3C86 /* CounterWindowController.m */,
+				3352E94A18C1486400BA3C86 /* DataWindow.xib */,
+				F29B8A1219A7CD6B1C3790F8 /* DataWindowController.h */,
+				F29B8E1874F931515475B302 /* DataWindowController.m */,
 				3352E91C18C1187000BA3C86 /* EmptyWindow.xib */,
 				3352E91D18C1187000BA3C86 /* EmptyWindowController.h */,
 				3352E91E18C1187000BA3C86 /* EmptyWindowController.m */,
@@ -217,6 +228,9 @@
 				3352E92218C1187000BA3C86 /* LogPadWindow.xib */,
 				3352E92318C1187000BA3C86 /* LogPadWindowController.h */,
 				3352E92418C1187000BA3C86 /* LogPadWindowController.m */,
+				3386354418C5022A0059AB65 /* MainWindow.xib */,
+				F29B8D87D7CFE708D4AA2DDE /* MainWindowController.h */,
+				F29B8849D1536BE6F26E129B /* MainWindowController.m */,
 				3352E92518C1187000BA3C86 /* ProjectWindowController.h */,
 				3352E92618C1187000BA3C86 /* ProjectWindowController.m */,
 				3352E92718C1187000BA3C86 /* StopwatchWindow.xib */,
@@ -234,9 +248,6 @@
 				3352E93318C1187000BA3C86 /* TreeWindow.xib */,
 				3352E93418C1187000BA3C86 /* TreeWindowController.h */,
 				3352E93518C1187000BA3C86 /* TreeWindowController.m */,
-				3352E94A18C1486400BA3C86 /* DataWindow.xib */,
-				F29B8E1874F931515475B302 /* DataWindowController.m */,
-				F29B8A1219A7CD6B1C3790F8 /* DataWindowController.h */,
 			);
 			path = Windows;
 			sourceTree = SOURCE_ROOT;
@@ -253,7 +264,6 @@
 		3366103918A6E277005D2FE8 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				3366103A18A6E28A005D2FE8 /* LogDetailCardCellView.xib */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -274,8 +284,6 @@
 				F29B842EC72B2B672BAFE836 /* RedButton.h */,
 				F29B8A246CF81701762D77A0 /* DPLabeledTextField.m */,
 				F29B87A83D9239FA1CB7F927 /* DPLabeledTextField.h */,
-				F29B882ECB3015BBBC5B1D88 /* LogDetailCardCellView.m */,
-				F29B8C3B65403C92DBDD37E7 /* LogDetailCardCellView.h */,
 			);
 			path = Controls;
 			sourceTree = SOURCE_ROOT;
@@ -495,7 +503,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3366103B18A6E28A005D2FE8 /* LogDetailCardCellView.xib in Resources */,
 				3352E93D18C1187000BA3C86 /* LogPadWindow.xib in Resources */,
 				3352E94418C1187000BA3C86 /* TableWindow.xib in Resources */,
 				3352E93B18C1187000BA3C86 /* LoginWindow.xib in Resources */,
@@ -504,12 +511,14 @@
 				33B8AAB4189C7A8000786C7A /* LogDetailsController.xib in Resources */,
 				3352E94818C1187000BA3C86 /* TreeWindow.xib in Resources */,
 				33B32D851898436F002E2FC2 /* Images.xcassets in Resources */,
+				3386354518C5022A0059AB65 /* MainWindow.xib in Resources */,
 				33B32D7D1898436F002E2FC2 /* Credits.rtf in Resources */,
 				3352E93618C1187000BA3C86 /* ComponentsWindow.xib in Resources */,
 				3352E94B18C1486400BA3C86 /* DataWindow.xib in Resources */,
 				3352E94218C1187000BA3C86 /* StreamWindow.xib in Resources */,
 				3352E94018C1187000BA3C86 /* StopwatchWindow.xib in Resources */,
 				33B32D831898436F002E2FC2 /* MainMenu.xib in Resources */,
+				330F2CA118C4D0D400DD6424 /* Counter2Window.xib in Resources */,
 				3352E93918C1187000BA3C86 /* EmptyWindow.xib in Resources */,
 				3352E94618C1187000BA3C86 /* TextViewWindow.xib in Resources */,
 			);
@@ -588,10 +597,11 @@
 				F29B81B7C48FCECC3A33F7A3 /* BOOutlineViewItem.m in Sources */,
 				F29B8C0ECA5C2116B7FD880B /* NSView+TMUtils.m in Sources */,
 				3352E93C18C1187000BA3C86 /* LoginWindowController.m in Sources */,
-				F29B8F5643E552EC385CE89E /* LogDetailCardCellView.m in Sources */,
 				3352E93F18C1187000BA3C86 /* ProjectWindowController.m in Sources */,
 				F29B8F0C0F351B8AFABBE0A6 /* ComponentsWindowController.m in Sources */,
 				F29B85DCF22FD7A38BEFE5A0 /* DataWindowController.m in Sources */,
+				F29B89989C5A5DB1ED614A49 /* Counter2WindowController.m in Sources */,
+				F29B80D38BF58870062344B7 /* MainWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

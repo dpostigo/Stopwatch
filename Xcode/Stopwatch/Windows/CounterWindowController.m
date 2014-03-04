@@ -43,7 +43,10 @@
 - (void) setupStartField {
     DPDateTimeInputTextView *fieldEditor = [[DPDateTimeInputTextView alloc] init];
     fieldEditor.timeInputDelegate = self;
+
     startField.timeInputCell.customFieldEditor = fieldEditor;
+    startField.dateInputValue = nil;
+    NSLog(@"startField.stringValue = %@", startField.stringValue);
 }
 
 - (void) setupEndTimeField {
@@ -55,7 +58,7 @@
 }
 
 - (void) setupAutocompleteField {
-//    autocompleteField.intervalInputFieldEditor.intervalFormatter.showsSeconds = YES;
+    //    autocompleteField.intervalInputFieldEditor.intervalFormatter.showsSeconds = YES;
 }
 
 #pragma mark IBActions
@@ -99,7 +102,6 @@
 - (void) timerTextFieldDidPause: (DPTimerTextField *) textField {
     [autocompleteField setEnabled: !timerField.isRunning];
     autocompleteField.minimumIntervalValue = timerField.totalTime;
-    NSLog(@"autocompleteField.minimumIntervalValue = %f", autocompleteField.minimumIntervalValue);
 }
 
 

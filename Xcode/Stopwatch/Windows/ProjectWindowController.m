@@ -7,9 +7,20 @@
 #import <DPWindow/DPHeaderedWindow.h>
 #import "ProjectWindowController.h"
 #import "NSColor+Crayola.h"
+#import "BOAPIModel.h"
 #import "NSWindowController+DPWindow.h"
 
 @implementation ProjectWindowController
+
+@synthesize apiModel;
+
+- (BOAPIModel *) apiModel {
+    if (apiModel == nil) {
+        apiModel = [BOAPIModel sharedModel];
+    }
+    return apiModel;
+}
+
 
 - (void) loadWindow {
     [super loadWindow];
@@ -29,7 +40,6 @@
 }
 
 - (void) stylizeFooter {
-
 
 }
 

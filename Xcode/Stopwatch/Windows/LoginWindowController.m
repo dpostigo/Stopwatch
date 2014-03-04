@@ -5,16 +5,26 @@
 
 #import <BOAPI/BOLoginOperation.h>
 #import <BOAPI/BOAPIModel.h>
+#import <DPWindow/DPHeaderedWindow.h>
 #import "LoginWindowController.h"
 #import "Model.h"
+#import "NSWindowController+DPWindow.h"
+#import "DPWindow.h"
+#import "BOUILoginController.h"
+#import "BOUILoginController.h"
 
 @implementation LoginWindowController
 
 - (void) windowDidLoad {
     [super windowDidLoad];
 
-    userField.stringValue = _model.apiModel.lastSuccessfulUsername == nil ? @"" : [_model.apiModel.lastSuccessfulUsername lowercaseString];
-    passwordField.stringValue = _model.apiModel.lastPassword == nil ? @"" : _model.apiModel.lastPassword;
+    if (self.headeredWindow) {
+        controller = [[BOUILoginController alloc] init];
+        self.headeredWindow.contentContentView = controller.view;
+    }
+
+    //    userField.stringValue = _model.apiModel.lastSuccessfulUsername == nil ? @"" : [_model.apiModel.lastSuccessfulUsername lowercaseString];
+    //    passwordField.stringValue = _model.apiModel.lastPassword == nil ? @"" : _model.apiModel.lastPassword;
 }
 
 

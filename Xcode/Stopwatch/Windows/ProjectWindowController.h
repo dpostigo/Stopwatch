@@ -6,7 +6,12 @@
 #import <Foundation/Foundation.h>
 #import "BaseWindowController.h"
 
+@class BOAPIModel;
+
 @interface ProjectWindowController : BaseWindowController {
 
+    BOAPIModel *apiModel;
 }
+
+@property(nonatomic, strong) BOAPIModel *apiModel;
 @end

@@ -8,7 +8,6 @@
 @class Model;
 
 @interface BaseWindowController : NSWindowController {
-
     Model *_model;
 }
 

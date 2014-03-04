@@ -6,7 +6,11 @@
 #import <Foundation/Foundation.h>
 #import "ProjectWindowController.h"
 
+@class LogDetailCardCellView;
+
 @interface StreamWindowController : ProjectWindowController {
+
+    IBOutlet LogDetailCardCellView *cardView;
 
 }
 @end

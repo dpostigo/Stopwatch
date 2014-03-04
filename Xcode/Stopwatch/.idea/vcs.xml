@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/BOAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../LocalPods/BOUI" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/Controls/DPOutlineView" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/DPKit" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../../../LocalPods/DPObject" vcs="Git" />

@@ -19,6 +19,9 @@
     <content url="file://$MODULE_DIR$/../../../LocalPods/DPObject">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPObject" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../../LocalPods/DPStatusItemView">
+      <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPStatusItemView" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../LocalPods/DPStorage">
       <sourceFolder url="file://$MODULE_DIR$/../../../LocalPods/DPStorage" isTestSource="false" />
     </content>

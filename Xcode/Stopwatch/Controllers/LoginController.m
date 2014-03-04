@@ -10,8 +10,6 @@
 
 @implementation LoginController
 
-
-
 - (IBAction) submit: (id) sender {
     [_model.queue addOperation: [[BOLoginOperation alloc] initWithUsername: self.userValue password: self.passwordValue]];
 }

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Counter2WindowController">
+            <connections>
+                <outlet property="endField" destination="2r2-ME-mR1" id="80K-df-a3O"/>
+                <outlet property="startField" destination="DrH-R5-GeP" id="8ht-E6-jyF"/>
+                <outlet property="tabTimeView" destination="P68-J5-jAx" id="pek-V6-Bfh"/>
+                <outlet property="timerField" destination="zeQ-eT-AO5" id="mXG-J6-wcB"/>
+                <outlet property="window" destination="7Yw-AG-0Mb" id="J5H-Qe-ox0"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="Counter2Window" animationBehavior="default" id="7Yw-AG-0Mb" customClass="SNRHUDWindow">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="131" y="159" width="397" height="429"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <view key="contentView" id="C7D-gB-ffV">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="429"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <tabView drawsBackground="NO" type="noTabsLineBorder" translatesAutoresizingMaskIntoConstraints="NO" id="P68-J5-jAx" customClass="DPTabView">
+                        <rect key="frame" x="15" y="294" width="367" height="115"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <tabViewItems>
+                            <tabViewItem label="Tab" identifier="1" id="pcx-aP-NFG">
+                                <view key="view" id="OAF-cF-a0h">
+                                    <rect key="frame" x="1" y="1" width="365" height="113"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rbi-RJ-J0J">
+                                            <rect key="frame" x="8" y="87" width="50" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="LOG TIME" placeholderString="" id="3aI-oq-PHT">
+                                                <font key="font" metaFont="miniSystemBold"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField focusRingType="none" horizontalHuggingPriority="1000" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="DrH-R5-GeP">
+                                            <rect key="frame" x="10" y="20" width="90" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="90" id="eHg-mA-Z4a"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" alignment="center" placeholderString="07:25 PM" id="AWb-Ke-24K" customClass="DPTimeInputTextFieldCell">
+                                                <font key="font" size="15" name="HelveticaNeue"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bfI-q4-PeZ">
+                                            <rect key="frame" x="8" y="51" width="58" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="START TIME" id="1hw-J5-ewP">
+                                                <font key="font" size="8" name="LucidaGrande-Bold"/>
+                                                <color key="textColor" white="0.40000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField focusRingType="none" horizontalHuggingPriority="1000" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="2r2-ME-mR1">
+                                            <rect key="frame" x="110" y="20" width="90" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" alignment="center" placeholderString="07:25 PM" id="gwI-aN-wUJ" customClass="DPTimeInputTextFieldCell">
+                                                <font key="font" size="15" name="HelveticaNeue"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JmW-gX-QaZ">
+                                            <rect key="frame" x="108" y="51" width="49" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="END TIME" id="XGX-vv-31u">
+                                                <font key="font" size="8" name="LucidaGrande-Bold"/>
+                                                <color key="textColor" white="0.40000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="1000" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zeQ-eT-AO5" customClass="DPTimerTextField">
+                                            <rect key="frame" x="238" y="20" width="80" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="80" id="5p8-ib-D8X"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" alignment="center" placeholderString="00:01:20" id="0jM-bh-xko" customClass="DPKitTextFieldCell">
+                                                <font key="font" size="15" name="HelveticaNeue"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CiX-lB-Kdo">
+                                            <rect key="frame" x="236" y="53" width="67" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="TIME ELAPSED" id="k4T-5e-UeU">
+                                                <font key="font" size="8" name="LucidaGrande-Bold"/>
+                                                <color key="textColor" white="0.40000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button horizontalHuggingPriority="1000" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="I64-KS-Rnh">
+                                            <rect key="frame" x="328" y="20" width="22" height="25"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="stopwatch2-icon" imagePosition="only" alignment="center" alternateImage="stopwatch2-on-icon" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="nxq-tx-QUf" customClass="DPButtonCell">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="handleToggle:" target="-2" id="XqY-d0-gPE"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="DrH-R5-GeP" firstAttribute="top" secondItem="2r2-ME-mR1" secondAttribute="top" id="2tf-Mo-XOs"/>
+                                        <constraint firstItem="rbi-RJ-J0J" firstAttribute="top" secondItem="OAF-cF-a0h" secondAttribute="top" constant="15" id="48J-RH-MVX"/>
+                                        <constraint firstItem="DrH-R5-GeP" firstAttribute="top" secondItem="rbi-RJ-J0J" secondAttribute="bottom" constant="42" id="5ze-ih-S0b"/>
+                                        <constraint firstItem="2r2-ME-mR1" firstAttribute="leading" secondItem="JmW-gX-QaZ" secondAttribute="leading" id="DPj-54-fe0"/>
+                                        <constraint firstAttribute="bottom" secondItem="DrH-R5-GeP" secondAttribute="bottom" constant="20" id="HVu-Eb-aW7"/>
+                                        <constraint firstItem="2r2-ME-mR1" firstAttribute="width" secondItem="DrH-R5-GeP" secondAttribute="width" id="Hu7-uX-VqW"/>
+                                        <constraint firstItem="2r2-ME-mR1" firstAttribute="leading" secondItem="DrH-R5-GeP" secondAttribute="trailing" constant="10" id="IFR-Ks-nW3"/>
+                                        <constraint firstItem="zeQ-eT-AO5" firstAttribute="top" secondItem="CiX-lB-Kdo" secondAttribute="bottom" constant="8" id="J7r-y4-Ow3"/>
+                                        <constraint firstItem="2r2-ME-mR1" firstAttribute="top" secondItem="JmW-gX-QaZ" secondAttribute="bottom" constant="6" id="OQe-yA-mX4"/>
+                                        <constraint firstAttribute="trailing" secondItem="I64-KS-Rnh" secondAttribute="trailing" constant="15" id="Prk-c5-7yW"/>
+                                        <constraint firstItem="I64-KS-Rnh" firstAttribute="leading" secondItem="zeQ-eT-AO5" secondAttribute="trailing" constant="10" id="R3N-LK-ZEZ"/>
+                                        <constraint firstItem="DrH-R5-GeP" firstAttribute="leading" secondItem="OAF-cF-a0h" secondAttribute="leading" constant="10" id="Wnk-ZI-Udy"/>
+                                        <constraint firstItem="zeQ-eT-AO5" firstAttribute="leading" secondItem="2r2-ME-mR1" secondAttribute="trailing" constant="38" id="XUY-PT-9ff"/>
+                                        <constraint firstItem="CiX-lB-Kdo" firstAttribute="leading" secondItem="zeQ-eT-AO5" secondAttribute="leading" id="eVX-eh-EKU"/>
+                                        <constraint firstItem="rbi-RJ-J0J" firstAttribute="leading" secondItem="OAF-cF-a0h" secondAttribute="leading" constant="10" id="oz8-fd-ALq"/>
+                                        <constraint firstItem="DrH-R5-GeP" firstAttribute="leading" secondItem="bfI-q4-PeZ" secondAttribute="leading" id="s8t-Ii-YNC"/>
+                                        <constraint firstItem="DrH-R5-GeP" firstAttribute="top" secondItem="bfI-q4-PeZ" secondAttribute="bottom" constant="6" id="urH-fe-eBv"/>
+                                        <constraint firstItem="I64-KS-Rnh" firstAttribute="centerY" secondItem="zeQ-eT-AO5" secondAttribute="centerY" id="vVx-Nn-IvL"/>
+                                        <constraint firstItem="zeQ-eT-AO5" firstAttribute="top" secondItem="2r2-ME-mR1" secondAttribute="top" id="x90-Xv-T97"/>
+                                    </constraints>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="View" identifier="2" id="npH-2M-1Tv">
+                                <view key="view" id="vk8-no-OOZ">
+                                    <rect key="frame" x="10" y="7" width="420" height="191"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                            </tabViewItem>
+                        </tabViewItems>
+                    </tabView>
+                    <tabView type="noTabsLineBorder" translatesAutoresizingMaskIntoConstraints="NO" id="gPv-fK-4A1">
+                        <rect key="frame" x="15" y="61" width="367" height="115"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <tabViewItems>
+                            <tabViewItem label="Tab" identifier="1" id="buv-uv-cmW">
+                                <view key="view" id="Wbq-R9-TYw">
+                                    <rect key="frame" x="1" y="1" width="365" height="113"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bfs-oK-L34">
+                                            <rect key="frame" x="12" y="87" width="93" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="LOG INFORMATION" placeholderString="" id="fcI-GN-ucr">
+                                                <font key="font" metaFont="miniSystemBold"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ni8-uA-3sp">
+                                            <rect key="frame" x="14" y="45" width="332" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" placeholderString="Log note" drawsBackground="YES" usesSingleLineMode="YES" id="Lb6-Zs-phw">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Bfs-oK-L34" firstAttribute="top" secondItem="Wbq-R9-TYw" secondAttribute="top" constant="15" id="FfU-uf-7D4"/>
+                                        <constraint firstItem="Ni8-uA-3sp" firstAttribute="top" secondItem="Bfs-oK-L34" secondAttribute="bottom" constant="20" id="ILg-22-8Qh"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ni8-uA-3sp" secondAttribute="trailing" constant="19" id="Wvn-GN-iR4"/>
+                                        <constraint firstItem="Ni8-uA-3sp" firstAttribute="leading" secondItem="Wbq-R9-TYw" secondAttribute="leading" constant="14" id="cRJ-47-Sc6"/>
+                                        <constraint firstItem="Bfs-oK-L34" firstAttribute="leading" secondItem="Wbq-R9-TYw" secondAttribute="leading" constant="14" id="zwn-co-N5R"/>
+                                    </constraints>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="View" identifier="2" id="Tw2-mc-qyN">
+                                <view key="view" id="mPv-h1-u1c">
+                                    <rect key="frame" x="10" y="33" width="157" height="78"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </tabViewItem>
+                        </tabViewItems>
+                    </tabView>
+                    <tabView type="noTabsLineBorder" translatesAutoresizingMaskIntoConstraints="NO" id="Wou-Kn-N9r">
+                        <rect key="frame" x="15" y="195" width="367" height="79"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <tabViewItems>
+                            <tabViewItem label="Tab" identifier="1" id="dQ4-rB-MNQ">
+                                <view key="view" id="zFm-VS-NcC">
+                                    <rect key="frame" x="1" y="1" width="365" height="77"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="nZa-Ul-d5Y">
+                                            <rect key="frame" x="13" y="51" width="93" height="11"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="AUTOCOMPLETION" placeholderString="" id="AzC-hK-VdI">
+                                                <font key="font" metaFont="miniSystemBold"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="prn-lw-UkH">
+                                            <rect key="frame" x="13" y="25" width="101" height="13"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Autocomplete after:" id="VXp-yJ-dA2">
+                                                <font key="font" size="10" name="LucidaGrande"/>
+                                                <color key="textColor" white="0.40000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField focusRingType="none" horizontalHuggingPriority="1000" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="tDI-XM-RHd">
+                                            <rect key="frame" x="130" y="22" width="104" height="19"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" focusRingType="none" alignment="center" placeholderString="00:00" usesSingleLineMode="YES" id="Dg9-aZ-sde" customClass="DPTimeInputTextFieldCell">
+                                                <font key="font" size="13" name="HelveticaNeue"/>
+                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tDI-XM-RHd" firstAttribute="centerY" secondItem="prn-lw-UkH" secondAttribute="centerY" id="1aB-Ji-fi2"/>
+                                        <constraint firstAttribute="trailing" secondItem="tDI-XM-RHd" secondAttribute="trailing" constant="133" id="5Wj-S1-faA"/>
+                                        <constraint firstItem="nZa-Ul-d5Y" firstAttribute="top" secondItem="zFm-VS-NcC" secondAttribute="top" constant="15" id="F9Y-jQ-ag4"/>
+                                        <constraint firstItem="nZa-Ul-d5Y" firstAttribute="leading" secondItem="zFm-VS-NcC" secondAttribute="leading" constant="15" id="VS4-9M-Wlr"/>
+                                        <constraint firstItem="tDI-XM-RHd" firstAttribute="leading" secondItem="prn-lw-UkH" secondAttribute="trailing" constant="20" id="dWE-aW-LrW"/>
+                                        <constraint firstItem="prn-lw-UkH" firstAttribute="top" secondItem="nZa-Ul-d5Y" secondAttribute="bottom" constant="13" id="jgy-mC-8q8"/>
+                                        <constraint firstItem="prn-lw-UkH" firstAttribute="leading" secondItem="zFm-VS-NcC" secondAttribute="leading" constant="15" id="vWd-wc-nog"/>
+                                    </constraints>
+                                </view>
+                            </tabViewItem>
+                            <tabViewItem label="View" identifier="2" id="IW1-sv-nmJ">
+                                <view key="view" id="DNn-Jj-351">
+                                    <rect key="frame" x="1" y="1" width="345" height="75"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                            </tabViewItem>
+                        </tabViewItems>
+                    </tabView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cn8-gM-kHB">
+                        <rect key="frame" x="270" y="13" width="113" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="COMPLETE LOG" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cUs-Gy-E0t">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="miniSystemBold"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="handleComplete:" target="-2" id="kU2-Ij-W24"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P68-J5-jAx" firstAttribute="trailing" secondItem="Wou-Kn-N9r" secondAttribute="trailing" id="0RZ-RN-Acm"/>
+                    <constraint firstItem="gPv-fK-4A1" firstAttribute="trailing" secondItem="P68-J5-jAx" secondAttribute="trailing" id="ERK-og-NPq"/>
+                    <constraint firstItem="gPv-fK-4A1" firstAttribute="height" secondItem="P68-J5-jAx" secondAttribute="height" id="RKb-ZU-8Qz"/>
+                    <constraint firstItem="P68-J5-jAx" firstAttribute="leading" secondItem="Wou-Kn-N9r" secondAttribute="leading" id="UAa-be-DBm"/>
+                    <constraint firstItem="P68-J5-jAx" firstAttribute="top" secondItem="C7D-gB-ffV" secondAttribute="top" constant="20" id="WFM-6a-67f"/>
+                    <constraint firstAttribute="trailing" secondItem="cn8-gM-kHB" secondAttribute="trailing" constant="20" id="YXd-9W-8V9"/>
+                    <constraint firstItem="gPv-fK-4A1" firstAttribute="top" secondItem="Wou-Kn-N9r" secondAttribute="bottom" constant="19" id="amJ-aD-LJJ"/>
+                    <constraint firstItem="cn8-gM-kHB" firstAttribute="top" secondItem="gPv-fK-4A1" secondAttribute="bottom" constant="20" id="db0-8E-an5"/>
+                    <constraint firstAttribute="bottom" secondItem="cn8-gM-kHB" secondAttribute="bottom" constant="20" id="ep4-XK-tDb"/>
+                    <constraint firstAttribute="trailing" secondItem="P68-J5-jAx" secondAttribute="trailing" constant="15" id="fTg-0D-Dlw"/>
+                    <constraint firstItem="P68-J5-jAx" firstAttribute="leading" secondItem="C7D-gB-ffV" secondAttribute="leading" constant="15" id="sUk-fE-C2t"/>
+                    <constraint firstItem="Wou-Kn-N9r" firstAttribute="top" secondItem="P68-J5-jAx" secondAttribute="bottom" constant="20" id="vli-vs-ob0"/>
+                    <constraint firstItem="gPv-fK-4A1" firstAttribute="leading" secondItem="P68-J5-jAx" secondAttribute="leading" id="zWs-VX-Mn0"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+    <resources>
+        <image name="stopwatch2-icon" width="12" height="12"/>
+        <image name="stopwatch2-on-icon" width="12" height="12"/>
+    </resources>
+</document>

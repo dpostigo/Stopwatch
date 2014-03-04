@@ -9,13 +9,16 @@
 #import <BOAPI/GetTasksOperation.h>
 #import <BOAPI/Task.h>
 #import <BOAPI/Log.h>
+#import <BOUI/BOUILogPadController.h>
 #import "AppDelegate.h"
 #import "User.h"
 #import "BOAPIModel.h"
 #import "LoginWindowController.h"
+#import "AXStatusItemPopup.h"
 #import "StopwatchWindowController.h"
 #import "Model.h"
 #import "TreeWindowController.h"
+#import "DPStatusItemView.h"
 #import "LogPadWindowController.h"
 #import "LogDetailsController.h"
 #import "EmptyWindowController.h"
@@ -28,40 +31,66 @@
 #import "TableWindowController.h"
 #import "NSBundle+DPKit.h"
 #import "DPWindowManager.h"
+#import "AXStatusItemPopup.h"
+#import "NSWindow+DPKit.h"
+#import "DPNavigationController.h"
+#import "BOUILoginController.h"
+#import "DPStatusItemView.h"
+#import "Counter2WindowController.h"
 
 @implementation AppDelegate {
     Model *_model;
     EmptyWindowController *testController;
+    BOAPIModel *_apiModel;
 }
 
 @synthesize windowController;
+@synthesize popupController;
+@synthesize windowNibs;
 
 - (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
 
     _model = [Model sharedModel];
-    [_model.apiModel cleanApplicationSupportFolder];
+    _apiModel = [BOAPIModel sharedModel];
+    //    [_model.apiModel cleanApplicationSupportFolder];
     //    [_model.apiModel cleanCache];
     [_model.apiModel subscribeDelegate: self];
     _model.apiModel.restrictLogsFetching = NO;
     //    _model.apiModel.loggingEnabled = NO;
 
 
-    [self testMainBundle];
     [self setupDeveloperItems];
-    self.windowController = [[LoginWindowController alloc] init];
+    [self testStatusItem];
+
+
+    //    self.windowController = [[LoginWindowController alloc] init];
 }
 
-- (void) testMainBundle {
+- (void) testStatusItem {
 
-    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
+    NSLog(@"_apiModel.isLoggedIn = %d", _apiModel.isLoggedIn);
+
+    NSImage *image = [NSImage imageNamed: @"stopwatch2-icon"];
+    LoginWindowController *loginController = [[LoginWindowController alloc] init];
+    statusItemView = [[DPStatusItemView alloc] initWithWindowController: loginController image: image];
 
 
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *documentsDirectory = [paths objectAtIndex: 0];
-    NSError *error;
-    NSArray *directoryContents = [[NSFileManager defaultManager] contentsOfDirectoryAtPath: resourcePath error: &error];
-
+    //    statusItemView.off
+    //
+    //    BOUILoginController *loginController = [[BOUILoginController alloc] init];
+    //
+    //    DPNavigationController *navigationController = [[DPNavigationController alloc] initWithRootViewController: loginController];
+    //    //    popupController = [[NSViewController alloc] init];
+    //    //    popupController.view = loginController.view;
+    //    popupController = navigationController;
+    //
+    //
+    //    // create icon images shown in statusbar
+    //    NSImage *alternateImage = [NSImage imageNamed: @"stopwatch2-on-icon"];
+    //
+    //    statusItemPopup = [[AXStatusItemPopup alloc] initWithViewController: popupController image: image alternateImage: alternateImage];
 }
+
 
 - (void) testTextView {
     self.windowController = [[TextViewWindowController alloc] init];
@@ -88,11 +117,13 @@
 #pragma mark BOAPIDelegate
 
 - (void) userDidLogin: (User *) user {
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    statusItemView.windowController = [[Counter2WindowController alloc] init];
     [_model.queue addOperation: [[GetTasksOperation alloc] init]];
 }
 
 - (void) tasksDidUpdate {
-    self.windowController = [[TableWindowController alloc] init];
+    //    self.windowController = [[TableWindowController alloc] init];
     //    self.windowController = [[CounterWindowController alloc] init];
     //    self.windowController = [[StopwatchWindowController alloc] init];
 
@@ -116,7 +147,10 @@
     if ([developerItem hasSubmenu]) {
         NSMenu *submenu = developerItem.submenu;
         [submenu removeAllItems];
-        NSArray *windowNibs = [[NSBundle mainBundle] windowNibs];
+
+        windowNibs = [[[NSBundle mainBundle] windowNibs] mutableCopy];
+        [windowNibs removeObject: @"CounterWindow.nib"];
+        [windowNibs removeObject: @"EmptyWindow.nib"];
 
         for (int j = 0; j < [windowNibs count]; j++) {
             NSString *string = [windowNibs objectAtIndex: j];
@@ -131,7 +165,7 @@
 - (void) handleWindowMenuItem: (id) sender {
     int index = [[sender menu] indexOfItem: sender];
 
-    NSString *windowNib = [[[NSBundle mainBundle] windowNibs] objectAtIndex: index];
+    NSString *windowNib = [windowNibs objectAtIndex: index];
     NSString *className = [windowNib stringByReplacingOccurrencesOfString: @".nib" withString: @"Controller"];
     [self launchWindowWithClass: NSClassFromString(className)];
 }

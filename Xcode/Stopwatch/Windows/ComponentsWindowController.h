@@ -15,5 +15,7 @@
     IBOutlet NSTextField *timeInputField;
 
     IBOutlet NSTextField *dateTimeInputField;
+
+    IBOutlet NSComboBox *comboBox;
 }
 @end

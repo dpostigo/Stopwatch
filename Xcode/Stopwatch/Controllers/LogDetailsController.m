@@ -10,6 +10,7 @@
 #import <DPOutlineView/DPTableCellView.h>
 #import <NSColor-BlendingUtils/NSColor+BlendingUtils.h>
 #import <DPOutlineView/DPTableRowView.h>
+#import "LogDetailCardCellView.h"
 #import "LogDetailsController.h"
 #import "Model.h"
 #import "BOAPIModel.h"

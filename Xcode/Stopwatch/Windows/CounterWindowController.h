@@ -26,4 +26,7 @@
 }
 
 @property(nonatomic, strong) NSButton *doneButton;
+- (void) setupStartField;
+- (IBAction) handleToggle: (id) sender;
+- (IBAction) handleComplete: (id) sender;
 @end
